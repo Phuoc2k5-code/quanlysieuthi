@@ -47,30 +47,30 @@ namespace Project_QliSieuThi
         {
 
             fManager fManager = new fManager();
-            //string tentk = txt_lg_TaiKhoan.Text;
-            //string mk = txt_lg_MatKhau.Text;
+            string tentk = txt_lg_TaiKhoan.Text;
+            string mk = txt_lg_MatKhau.Text;
 
-            //if(tentk == "" && mk == "")
-            //{
-            //    MessageBox.Show("Nhap lai");
-            //}
-            //else
-            //{
-            //    bll.loginn loginn = new bll.loginn();
-            //    string kt = loginn.checklogin(tentk, mk);
-            //    if (kt == "tồn tại")
-            //    {
-            //        MessageBox.Show("đăng nhập thành công");
-            //        this.Hide();
-            //        fManager.ShowDialog();
-            //    }
+            if (tentk == "" && mk == "")
+            {
+                MessageBox.Show("Nhap lai");
+            }
+            else
+            {
+                bll.loginn loginn = new bll.loginn();
+                string kt = loginn.checklogin(tentk, mk);
+                if (kt == "tồn tại")
+                {
+                    MessageBox.Show("đăng nhập thành công");
+                    this.Hide();
+                    fManager.ShowDialog();
+                }
 
-            //    else
-            //        MessageBox.Show("đăng nhập thất bại");
+                else
+                    MessageBox.Show("đăng nhập thất bại");
 
-            //}
-            this.Hide();
-            fManager.ShowDialog();
+            }
+            //this.Hide();
+            //fManager.ShowDialog();
             this.Show();
         }
     }

@@ -54,44 +54,33 @@ namespace Project_QliSieuThi.data_provider
             return listLSP;
         }
 
-        public void them(string tenlsp)
+        public int them(string tenlsp)
         {
-            string connectionStr = "Data Source=LAPTOP-LKVH2QD8\\SQLEXPRESS;Initial Catalog=QliSieuThi_db;Integrated Security=True;";
-            SqlConnection connection = new SqlConnection(connectionStr);
-            connection.Open();
+            
             List<object> parameters = new List<object>();
-            string query = "insert into loaisanpham values (@tenlsp)";
-            SqlCommand cmd = new SqlCommand(query, connection);
-            cmd.Parameters.AddWithValue("@tenlsp", tenlsp);
+            string query = "insert into loaisanpham values ( @tenlsp )";
+            parameters.Add((tenlsp));
+            return data_provider.dataprovider.Instance.capnhat(query, parameters);
 
-            cmd.ExecuteNonQuery();
         }
 
-        public void xoa(int malsp)
+        public int xoa(int malsp)
         {
-            string connectionStr = "Data Source=LAPTOP-LKVH2QD8\\SQLEXPRESS;Initial Catalog=QliSieuThi_db;Integrated Security=True;";
-            SqlConnection connection = new SqlConnection(connectionStr);
-            connection.Open();
+            
             List<object> parameters = new List<object>();
             string query = "delete from loaisanpham where malsp = @malsp";
-            SqlCommand cmd = new SqlCommand(query, connection);
-            cmd.Parameters.AddWithValue("@malsp", malsp);
-
-            cmd.ExecuteNonQuery();
+            parameters.Add(malsp);
+            return data_provider.dataprovider.Instance.capnhat(query, parameters);
         }
 
-        public void sua(int malsp, string tenlsp)
+        public int sua(string tenlsp, int malsp)
         {
-            string connectionStr = "Data Source=LAPTOP-LKVH2QD8\\SQLEXPRESS;Initial Catalog=QliSieuThi_db;Integrated Security=True;";
-            SqlConnection connection = new SqlConnection(connectionStr);
-            connection.Open();
+            
             List<object> parameters = new List<object>();
             string query = "update loaisanpham set tenlsp = @tenlsp where malsp = @malsp";
-            SqlCommand cmd = new SqlCommand(query, connection);
-            cmd.Parameters.AddWithValue("@malsp", malsp);
-            cmd.Parameters.AddWithValue("@tenlsp", tenlsp);
-            
-            cmd.ExecuteNonQuery();
+            parameters.Add(tenlsp);
+            parameters.Add(malsp);
+            return data_provider.dataprovider.Instance.capnhat(query, parameters);
         }
 
     }

@@ -1,4 +1,5 @@
-﻿using Project_QliSieuThi.data_provider;
+﻿using Project_QliSieuThi.data_object;
+using Project_QliSieuThi.data_provider;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,14 +19,14 @@ namespace Project_QliSieuThi.Views
            
             InitializeComponent();
             hienthisp();
-
-            foreach (DataGridViewRow row in dgv_nhaphang_qlsp.Rows)
+            int i = 0;
+            List<data_object.loaisanpham> listLSP = data_provider.loaisp.Instance.layds();
+            List<string> malsp = new List<string>();
+            foreach (loaisanpham lsp in listLSP)
             {
-                // Kiểm tra để tránh thêm hàng trống
-                if (row.Cells["malsp"].Value != null)
-                {
-                    cbb_mal.Items.Add((row.Cells["malsp"].Value.ToString()));
-                }
+                malsp.Add(lsp.Malsp.ToString());
+                cbb_mal.Items.Add(malsp[i]);                   
+                i++;                
             }
             // Đăng ký sự kiện SelectionChanged
             this.dgv_nhaphang_dshoadon.CellClick += new DataGridViewCellEventHandler(this.dgv_nhaphang_dshoadon_CellContentClick);
@@ -40,7 +41,6 @@ namespace Project_QliSieuThi.Views
         {
             List<data_object.sanpham> listSP = data_provider.qlsanpham.Instance.layds();
             dgv_nhaphang_qlsp.DataSource = listSP;
-
         }
 
         private void button5_Click(object sender, EventArgs e)

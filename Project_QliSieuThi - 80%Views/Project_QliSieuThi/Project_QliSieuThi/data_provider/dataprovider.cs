@@ -34,13 +34,11 @@ namespace Project_QliSieuThi.data_provider
 
             connection.Open();
 
-            //query = "select * from quanli where tentk = @tentk and mk = @mk";
-
             SqlCommand cmd = new SqlCommand(query, connection);
 
             if (parameters != null)
             {
-                string[] lam = query.Split(' ');//Split: được sử dụng để tách một chuỗi thành các phần tử con,
+                string[] lam = query.Split(' ');//Split: được sử dụng để tách một chuỗi thành các phần tử con
                 int i = 0;
                 foreach (string s in lam)// vòng lặp qua mảng "lam"
                 {
@@ -50,7 +48,6 @@ namespace Project_QliSieuThi.data_provider
                         i++;
                     }
                 }
-
             }
 
             SqlDataAdapter adapter = new SqlDataAdapter(cmd);// cầu nối giữa db và code (datatable
@@ -59,45 +56,14 @@ namespace Project_QliSieuThi.data_provider
             connection.Close();
 
             return table;
-        }
-
-        public object truyvan(string query, List<object> parameters = null)
-        {
-            SqlConnection connection = new SqlConnection(connectionStr);
-
-            connection.Open();
-
-            //query = "select * from quanli where tentk = @tentk and mk = @mk";
-
-            SqlCommand cmd = new SqlCommand(query, connection);
-
-            if (parameters != null)
-            {
-                string[] lam = query.Split(' ');//Split: được sử dụng để tách một chuỗi thành các phần tử con,
-                int i = 0;
-                foreach (string s in lam)// vòng lặp qua mảng "lam"
-                {
-                    if (s.Contains("@"))// contains: kt giá trị có chứa (...)
-                    {
-                        cmd.Parameters.AddWithValue(s, parameters[i]);// thêm mảng s vào list 
-                        i++;
-                    }
-                }
-
-            }
-
-            return cmd.ExecuteReader();
-        }
+        }    
 
         public int capnhat(string query, List<object> parameters = null)
-        {
-            //int result = 0;
+        {            
             SqlConnection connection = new SqlConnection(connectionStr);
 
             connection.Open();
-
-            //query = "select * from quanli where tentk = @tentk and mk = @mk";
-
+            
             SqlCommand cmd = new SqlCommand(query, connection);
 
             if (parameters != null)
@@ -114,10 +80,10 @@ namespace Project_QliSieuThi.data_provider
                 }
 
             }
-            //cmd.ExecuteNonQuery();
             return cmd.ExecuteNonQuery();
         }
 
+        
       
     }
 }

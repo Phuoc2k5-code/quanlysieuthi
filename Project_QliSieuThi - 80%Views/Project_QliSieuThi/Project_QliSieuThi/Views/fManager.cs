@@ -1,4 +1,5 @@
 ﻿using Project_QliSieuThi.bll;
+using Project_QliSieuThi.data_object;
 using Project_QliSieuThi.Views;
 using System;
 using System.Collections.Generic;
@@ -19,15 +20,16 @@ namespace Project_QliSieuThi
             InitializeComponent();
             fTypeGoods fTypeGoods = new fTypeGoods();
             hienthisp();
-            foreach (DataGridViewRow row in dataView_qlsp.Rows)
-            {
-                // Kiểm tra để tránh thêm hàng trống
-                if (row.Cells["malsp"].Value != null)
-                {
-                    cbb_qlsp_LoaiNhanVien.Items.Add((row.Cells["malsp"].Value.ToString()));
-                }
+            int i = 0;
+            List<data_object.loaisanpham> listLSP = data_provider.loaisp.Instance.layds();
+            List<string> malsp = new List<string>();
+            foreach (loaisanpham lsp in listLSP)
+            {                
+                    malsp.Add(lsp.Malsp.ToString());
+                    cbb_qlsp_LoaiNhanVien.Items.Add(malsp[i]);
+                    i++;                
             }
-            
+
         }
 
         public void hienthisp()

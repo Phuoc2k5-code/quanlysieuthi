@@ -55,25 +55,12 @@ namespace Project_QliSieuThi.data_provider
             }
 
             return listSP;
-        }
-
-        //public object laydsbangtensp(string tensp)
-        //{
-        //    List<object> parameters = new List<object>();
-        //    string query = "select * from sanpham where tensp = @tensp ";
-        //    parameters.Add(tensp);
-        //    return data_provider.dataprovider.Instance.truyvan(query);
-        //}
+        }        
         public List<data_object.sanpham> laydsbangtensp(string tensp)
-        {
-            //string connectionStr = "Data Source=LAPTOP-LKVH2QD8\\SQLEXPRESS;Initial Catalog=QliSieuThi_db;Integrated Security=True;";
-            SqlConnection connection = new SqlConnection(connectionStr);
-            connection.Open();
+        {            
             List<data_object.sanpham> listSP = new List<data_object.sanpham>();
             List<object> parameters = new List<object>();
-            string query = "select * from sanpham where tensp = @tensp ";
-            SqlCommand cmd = new SqlCommand(query, connection);
-            cmd.Parameters.AddWithValue("@tensp", tensp);
+            string query = "select * from sanpham where tensp = @tensp ";           
             parameters.Add(tensp);
             DataTable table = dataprovider.Instance.ketnoi(query, parameters);
             foreach (DataRow row in table.Rows)
@@ -81,20 +68,14 @@ namespace Project_QliSieuThi.data_provider
                 data_object.sanpham sp = new data_object.sanpham(row);
                 listSP.Add(sp);
             }
-
             return listSP;
         }
 
         public List<data_object.sanpham> laydsbanglsp(int malsp)
         {
-            //string connectionStr = "Data Source=LAPTOP-LKVH2QD8\\SQLEXPRESS;Initial Catalog=QliSieuThi_db;Integrated Security=True;";
-            SqlConnection connection = new SqlConnection(connectionStr);
-            connection.Open();
             List<data_object.sanpham> listSP = new List<data_object.sanpham>();
             List<object> parameters = new List<object>();
-            string query = "select * from sanpham  where malsp = @malsp";
-            SqlCommand cmd = new SqlCommand(query, connection);
-            cmd.Parameters.AddWithValue("@malsp", malsp);
+            string query = "select * from sanpham  where malsp = @malsp ";            
             parameters.Add(malsp);
             DataTable table = dataprovider.Instance.ketnoi(query, parameters);
             foreach (DataRow row in table.Rows)
@@ -102,7 +83,6 @@ namespace Project_QliSieuThi.data_provider
                 data_object.sanpham sp = new data_object.sanpham(row);
                 listSP.Add(sp);
             }
-
             return listSP;
         }
 

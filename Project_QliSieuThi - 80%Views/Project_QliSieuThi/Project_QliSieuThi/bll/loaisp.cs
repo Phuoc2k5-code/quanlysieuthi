@@ -14,9 +14,9 @@ namespace Project_QliSieuThi.bll
             return 1;
         }
 
-        public int sua(int malsp, string tenlsp)
+        public int sua(string tenlsp, int malsp)
         {
-            data_provider.loaisp.Instance.sua(malsp, tenlsp);
+            data_provider.loaisp.Instance.sua(tenlsp,malsp);
             return 1;
         }
 

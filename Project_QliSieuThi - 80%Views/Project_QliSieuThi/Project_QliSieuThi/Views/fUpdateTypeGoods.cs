@@ -31,7 +31,7 @@ namespace Project_QliSieuThi.Views
             string tenlsp = txt_tenlsp.Text;
 
             bll.loaisp loaisp = new bll.loaisp();
-            int kt = loaisp.sua(malsp,tenlsp);
+            int kt = loaisp.sua(tenlsp,malsp);
             if(kt == 1)
             {
                 fTypeGoods fTypeGoods = new fTypeGoods();

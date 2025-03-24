@@ -16,6 +16,7 @@ GO
 --quanli(maqli,tenql,tentk,mk,ngaysinh,diachi,sdt)
 CREATE TABLE quanli
 (
+	--an
 	maql INT IDENTITY(1,1) NOT NULL,
 	tenql NVARCHAR(100) NOT NULL,
 	tentk NVARCHAR(100) NOT NULL,
@@ -23,7 +24,10 @@ CREATE TABLE quanli
 	ngaysinh DATEtime, --‘YYYY-MM-DD’
 	sdt CHAR(10)
 )
+
 GO
+alter table quanli
+add anh varchar(100) default 'anh trong'
 
 alter table quanli
 add constraint pk_quanli
