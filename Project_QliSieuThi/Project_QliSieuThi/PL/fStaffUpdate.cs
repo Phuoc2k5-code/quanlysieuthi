@@ -17,9 +17,5 @@ namespace Project_QliSieuThi.PL
             InitializeComponent();
         }
 
-        private void fStaffUpdate_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

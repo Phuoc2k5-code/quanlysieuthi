@@ -228,7 +228,6 @@
             this.Controls.Add(this.ptb_AnhNV);
             this.Name = "fStaffUpdate";
             this.Text = "Staff Update";
-            this.Load += new System.EventHandler(this.fStaffUpdate_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ptb_AnhNV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

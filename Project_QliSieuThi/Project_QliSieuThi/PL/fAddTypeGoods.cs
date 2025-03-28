@@ -18,11 +18,5 @@ namespace Project_QliSieuThi.PL
             InitializeComponent();
         }
 
-
-
-        private void fAddTypeGoods_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

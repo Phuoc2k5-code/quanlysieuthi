@@ -43,7 +43,6 @@
             this.btn_Ok.TabIndex = 76;
             this.btn_Ok.Text = "Ok";
             this.btn_Ok.UseVisualStyleBackColor = true;
-            this.btn_Ok.Click += new System.EventHandler(this.btn_Ok_Click);
             // 
             // txt_LoaiMoi
             // 
@@ -75,7 +74,6 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "fAddTypeGoods";
             this.Text = "Add Type Goods";
-            this.Load += new System.EventHandler(this.fAddTypeGoods_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

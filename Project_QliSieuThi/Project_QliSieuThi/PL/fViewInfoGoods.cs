@@ -17,24 +17,5 @@ namespace Project_QliSieuThi.PL
             InitializeComponent();
         }
 
-        private void fViewInfoGoods_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        public void tt (string masp, string tensp, string malsp, string soluong, string dongiaban, string dongianhap)
-        {
-
-            //DataTable listSP = data_provider.qlsanpham.Instance.layds();
-            
-            lbl_tt_MaSP.Text = masp;
-            lbl_tt_TenSP.Text = tensp;
-            lbl_tt_MaLSP.Text = malsp;
-            lbl_tt_SoLuong.Text = soluong;
-            lbl_tt_DonGiaBan.Text = dongiaban;
-            lbl_tt_DonGiaNhap.Text = dongianhap;
-
-
-        }
     }
 }

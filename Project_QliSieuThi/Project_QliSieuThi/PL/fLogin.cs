@@ -44,25 +44,6 @@ namespace Project_QliSieuThi
             }
         }
 
-        private void btnLogin_Click(object sender, EventArgs e)
-        {
 
-            fManager fManager = new fManager();
-            ManagementLogic logic = new ManagementLogic();
-            string taiKhoan = txt_lg_TaiKhoan.Text;
-            string matKhau = txt_lg_MatKhau.Text;
-
-            if (logic.)
-            {
-                //this.Hide();
-                fManager.ShowDialog();
-                //this.Show();
-            }
-            else
-            {
-                MessageBox.Show("Đăng nhập thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-
-        }
     }
 }

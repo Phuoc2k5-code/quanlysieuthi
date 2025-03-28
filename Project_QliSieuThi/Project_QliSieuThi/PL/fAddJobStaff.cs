@@ -16,10 +16,5 @@ namespace Project_QliSieuThi.PL
         {
             InitializeComponent();
         }
-
-        private void fAddJobStaff_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -91,20 +91,9 @@ D:\học về c#\Project_QliSieuThi - sua\Project_QliSieuThi\Project_QliSieuThi\
 D:\học về c#\Project_QliSieuThi - sua\Project_QliSieuThi\Project_QliSieuThi\bin\Debug\Project_QliSieuThi.exe
 D:\học về c#\Project_QliSieuThi - sua\Project_QliSieuThi\Project_QliSieuThi\bin\Debug\Project_QliSieuThi.pdb
 D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.csproj.AssemblyReference.cache
-D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.Views.fAddJobStaff.resources
-D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.Views.fAddStaff.resources
-D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.Views.fAddTypeGoods.resources
-D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.Views.fGoodsUpdate.resources
-D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.Views.fImportGoods.resources
-D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.Views.fJobStaff.resources
 D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.fLogin.resources
 D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.fManager.resources
-D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.Views.fStaffUpdate.resources
-D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.Views.fTypeGoods.resources
-D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.Views.fUpdateJobStaff.resources
-D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.Views.fUpdateTypeGoods.resources
 D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.Properties.Resources.resources
-D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.Views.fViewInfoGoods.resources
 D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.fViewInfoNhanVien.resources
 D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.csproj.GenerateResource.cache
 D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.csproj.CoreCompileInputs.cache
@@ -121,3 +110,6 @@ D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\
 D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fUpdateJobStaff.resources
 D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fUpdateTypeGoods.resources
 D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fViewInfoGoods.resources
+D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\bin\Debug\Project_QliSieuThi.exe.config
+D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\bin\Debug\Project_QliSieuThi.exe
+D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\bin\Debug\Project_QliSieuThi.pdb

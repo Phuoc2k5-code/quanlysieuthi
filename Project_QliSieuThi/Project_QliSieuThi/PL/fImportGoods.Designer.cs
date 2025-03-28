@@ -121,7 +121,6 @@
             this.btn_nhaphang_timkiem.TabIndex = 14;
             this.btn_nhaphang_timkiem.Text = "Tìm kiếm";
             this.btn_nhaphang_timkiem.UseVisualStyleBackColor = true;
-            this.btn_nhaphang_timkiem.Click += new System.EventHandler(this.button3_Click);
             // 
             // btn_nhaphang_them
             // 
@@ -133,7 +132,6 @@
             this.btn_nhaphang_them.TabIndex = 11;
             this.btn_nhaphang_them.Text = "Thêm";
             this.btn_nhaphang_them.UseVisualStyleBackColor = true;
-            this.btn_nhaphang_them.Click += new System.EventHandler(this.btn_nhaphang_them_Click);
             // 
             // textBox2
             // 
@@ -193,7 +191,6 @@
             this.lv_nhaphang_qlsp.TabIndex = 0;
             this.lv_nhaphang_qlsp.UseCompatibleStateImageBehavior = false;
             this.lv_nhaphang_qlsp.View = System.Windows.Forms.View.Details;
-            this.lv_nhaphang_qlsp.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             // 
             // columnHeader1
             // 
@@ -272,7 +269,6 @@
             this.cbb_mal.Name = "cbb_mal";
             this.cbb_mal.Size = new System.Drawing.Size(210, 33);
             this.cbb_mal.TabIndex = 43;
-            this.cbb_mal.SelectedIndexChanged += new System.EventHandler(this.cbb_mal_SelectedIndexChanged);
             // 
             // num_soluong
             // 
@@ -317,7 +313,6 @@
             this.button6.TabIndex = 36;
             this.button6.Text = "Tải ảnh lên";
             this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -329,7 +324,6 @@
             this.button5.TabIndex = 15;
             this.button5.Text = "Thêm";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // lbl_vinv_GioiTinh
             // 
@@ -444,7 +438,6 @@
             this.btn_nhaphang_dathang.TabIndex = 15;
             this.btn_nhaphang_dathang.Text = "Đặt hàng";
             this.btn_nhaphang_dathang.UseVisualStyleBackColor = true;
-            this.btn_nhaphang_dathang.Click += new System.EventHandler(this.btn_nhaphang_dathang_Click);
             // 
             // panel6
             // 
@@ -469,7 +462,6 @@
             this.lv_nhaphang_dssp.TabIndex = 0;
             this.lv_nhaphang_dssp.UseCompatibleStateImageBehavior = false;
             this.lv_nhaphang_dssp.View = System.Windows.Forms.View.Details;
-            this.lv_nhaphang_dssp.SelectedIndexChanged += new System.EventHandler(this.lv_nhaphang_dssp_SelectedIndexChanged);
             // 
             // columnHeader5
             // 
@@ -508,7 +500,6 @@
             this.btn_nhaphang_xoa.TabIndex = 13;
             this.btn_nhaphang_xoa.Text = "Xóa";
             this.btn_nhaphang_xoa.UseVisualStyleBackColor = true;
-            this.btn_nhaphang_xoa.Click += new System.EventHandler(this.btn_nhaphang_xoa_Click);
             // 
             // txt_tonghd
             // 
@@ -538,7 +529,6 @@
             this.btn_nhaphang_suasl.TabIndex = 12;
             this.btn_nhaphang_suasl.Text = "Sửa số lượng";
             this.btn_nhaphang_suasl.UseVisualStyleBackColor = true;
-            this.btn_nhaphang_suasl.Click += new System.EventHandler(this.btn_nhaphang_suasl_Click);
             // 
             // label4
             // 
@@ -562,7 +552,6 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "fImportGoods";
             this.Text = "Import Goods";
-            this.Load += new System.EventHandler(this.fImportGoods_Load);
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();

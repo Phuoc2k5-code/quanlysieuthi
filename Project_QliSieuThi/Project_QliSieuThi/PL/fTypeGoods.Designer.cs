@@ -46,7 +46,6 @@
             this.btn_SuaLoai.TabIndex = 11;
             this.btn_SuaLoai.Text = "Sửa loại";
             this.btn_SuaLoai.UseVisualStyleBackColor = true;
-            this.btn_SuaLoai.Click += new System.EventHandler(this.btn_SuaLoai_Click);
             // 
             // btn_XoaLoai
             // 
@@ -58,7 +57,6 @@
             this.btn_XoaLoai.TabIndex = 12;
             this.btn_XoaLoai.Text = "Xóa loại";
             this.btn_XoaLoai.UseVisualStyleBackColor = true;
-            this.btn_XoaLoai.Click += new System.EventHandler(this.btn_XoaLoai_Click);
             // 
             // btn_ThemLoai
             // 
@@ -70,7 +68,6 @@
             this.btn_ThemLoai.TabIndex = 13;
             this.btn_ThemLoai.Text = "Thêm loại";
             this.btn_ThemLoai.UseVisualStyleBackColor = true;
-            this.btn_ThemLoai.Click += new System.EventHandler(this.btn_ThemLoai_Click);
             // 
             // lv_lsp
             // 
@@ -84,7 +81,6 @@
             this.lv_lsp.TabIndex = 14;
             this.lv_lsp.UseCompatibleStateImageBehavior = false;
             this.lv_lsp.View = System.Windows.Forms.View.Details;
-            this.lv_lsp.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             // 
             // columnHeader1
             // 
@@ -108,7 +104,6 @@
             this.Name = "fTypeGoods";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Type Goods";
-            this.Load += new System.EventHandler(this.fTypeGoods_Load);
             this.ResumeLayout(false);
 
         }

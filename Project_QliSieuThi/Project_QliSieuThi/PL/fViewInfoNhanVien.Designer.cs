@@ -66,7 +66,6 @@
             this.lbl_vinv_MaNV.TabIndex = 1;
             this.lbl_vinv_MaNV.Tag = "";
             this.lbl_vinv_MaNV.Text = "Mã nhân viên:";
-            this.lbl_vinv_MaNV.Click += new System.EventHandler(this.lbl_vinv_MaNV_Click);
             // 
             // lbl_vinv_TenNhanVien
             // 

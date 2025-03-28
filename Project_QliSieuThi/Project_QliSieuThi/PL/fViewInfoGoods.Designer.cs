@@ -208,7 +208,6 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "fViewInfoGoods";
             this.Text = "View Infomation Goods";
-            this.Load += new System.EventHandler(this.fViewInfoGoods_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ptb_AnhSP)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -28,5 +28,10 @@ namespace Project_QliSieuThi.PL
             fUpdateJobStaff fUpdateJobStaff = new fUpdateJobStaff();
             fUpdateJobStaff.Show();
         }
+
+        private void fJobStaff_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -89,6 +89,7 @@
             this.Name = "fJobStaff";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Job Staff";
+            this.Load += new System.EventHandler(this.fJobStaff_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_LoaiCongViec)).EndInit();
             this.ResumeLayout(false);
 

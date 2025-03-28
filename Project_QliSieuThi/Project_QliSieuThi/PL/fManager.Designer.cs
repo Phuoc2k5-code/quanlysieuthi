@@ -179,7 +179,6 @@
             this.btn_qlsp_TimKiem.TabIndex = 5;
             this.btn_qlsp_TimKiem.Text = "Tìm kiếm";
             this.btn_qlsp_TimKiem.UseVisualStyleBackColor = true;
-            this.btn_qlsp_TimKiem.Click += new System.EventHandler(this.btn_qlsp_TimKiem_Click);
             // 
             // txt_qlsp_TenSanPham
             // 
@@ -195,7 +194,6 @@
             this.cbb_qlsp_LoaiNhanVien.Name = "cbb_qlsp_LoaiNhanVien";
             this.cbb_qlsp_LoaiNhanVien.Size = new System.Drawing.Size(233, 33);
             this.cbb_qlsp_LoaiNhanVien.TabIndex = 3;
-            this.cbb_qlsp_LoaiNhanVien.SelectedIndexChanged += new System.EventHandler(this.cbb_qlsp_LoaiNhanVien_SelectedIndexChanged);
             // 
             // rdb_qlsp_LoaiSanPham
             // 
@@ -255,7 +253,6 @@
             this.btn_qlsp_SuaSanPham.TabIndex = 12;
             this.btn_qlsp_SuaSanPham.Text = "Sửa hàng";
             this.btn_qlsp_SuaSanPham.UseVisualStyleBackColor = true;
-            this.btn_qlsp_SuaSanPham.Click += new System.EventHandler(this.btn_qlsp_SuaSanPham_Click);
             // 
             // btn_qlsp_LoaiSanPham
             // 
@@ -266,7 +263,6 @@
             this.btn_qlsp_LoaiSanPham.TabIndex = 11;
             this.btn_qlsp_LoaiSanPham.Text = "Loại sản phẩm";
             this.btn_qlsp_LoaiSanPham.UseVisualStyleBackColor = true;
-            this.btn_qlsp_LoaiSanPham.Click += new System.EventHandler(this.btn_qlsp_LoaiSanPham_Click);
             // 
             // btn_qlsp_XoaHang
             // 
@@ -277,7 +273,6 @@
             this.btn_qlsp_XoaHang.TabIndex = 10;
             this.btn_qlsp_XoaHang.Text = "Xóa hàng";
             this.btn_qlsp_XoaHang.UseVisualStyleBackColor = true;
-            this.btn_qlsp_XoaHang.Click += new System.EventHandler(this.btn_qlsp_XoaHang_Click);
             // 
             // btn_qlsp_NhapHang
             // 
@@ -288,7 +283,6 @@
             this.btn_qlsp_NhapHang.TabIndex = 8;
             this.btn_qlsp_NhapHang.Text = "Nhập hàng";
             this.btn_qlsp_NhapHang.UseVisualStyleBackColor = true;
-            this.btn_qlsp_NhapHang.Click += new System.EventHandler(this.btn_qlsp_NhapHang_Click);
             // 
             // btn_qlsp_XemChiTiet
             // 
@@ -299,7 +293,6 @@
             this.btn_qlsp_XemChiTiet.TabIndex = 9;
             this.btn_qlsp_XemChiTiet.Text = "Xem chi tiết";
             this.btn_qlsp_XemChiTiet.UseVisualStyleBackColor = true;
-            this.btn_qlsp_XemChiTiet.Click += new System.EventHandler(this.btn_qlsp_XemChiTiet_Click);
             // 
             // panel1
             // 
@@ -398,7 +391,6 @@
             this.btn_qlnv_SuaNhanVien.TabIndex = 12;
             this.btn_qlnv_SuaNhanVien.Text = "Sửa nhân viên";
             this.btn_qlnv_SuaNhanVien.UseVisualStyleBackColor = true;
-            this.btn_qlnv_SuaNhanVien.Click += new System.EventHandler(this.btn_qlnv_SuaNhanVien_Click);
             // 
             // btn_qlnv_PhanCong
             // 
@@ -409,7 +401,6 @@
             this.btn_qlnv_PhanCong.TabIndex = 11;
             this.btn_qlnv_PhanCong.Text = "Phân công";
             this.btn_qlnv_PhanCong.UseVisualStyleBackColor = true;
-            this.btn_qlnv_PhanCong.Click += new System.EventHandler(this.btn_qlnv_LoaiNhanVien_Click);
             // 
             // btn_qlnv_XoaNhanVien
             // 
@@ -420,7 +411,6 @@
             this.btn_qlnv_XoaNhanVien.TabIndex = 10;
             this.btn_qlnv_XoaNhanVien.Text = "Xóa nhân viên";
             this.btn_qlnv_XoaNhanVien.UseVisualStyleBackColor = true;
-            this.btn_qlnv_XoaNhanVien.Click += new System.EventHandler(this.btn_qlnv_XoaNhanVien_Click);
             // 
             // btn_qlnv_ThemNhanVien
             // 
@@ -431,7 +421,6 @@
             this.btn_qlnv_ThemNhanVien.TabIndex = 8;
             this.btn_qlnv_ThemNhanVien.Text = "Thêm nhân viên";
             this.btn_qlnv_ThemNhanVien.UseVisualStyleBackColor = true;
-            this.btn_qlnv_ThemNhanVien.Click += new System.EventHandler(this.btn_qlnv_ThemNhanVien_Click);
             // 
             // btn_qlnv_XemChiTiet
             // 
@@ -442,7 +431,6 @@
             this.btn_qlnv_XemChiTiet.TabIndex = 9;
             this.btn_qlnv_XemChiTiet.Text = "Xem chi tiết";
             this.btn_qlnv_XemChiTiet.UseVisualStyleBackColor = true;
-            this.btn_qlnv_XemChiTiet.Click += new System.EventHandler(this.btn_qlnv_XemChiTiet_Click);
             // 
             // groupBox3
             // 
@@ -625,7 +613,6 @@
             this.txt_bctk_TongChi.ReadOnly = true;
             this.txt_bctk_TongChi.Size = new System.Drawing.Size(181, 30);
             this.txt_bctk_TongChi.TabIndex = 4;
-            this.txt_bctk_TongChi.TextChanged += new System.EventHandler(this.txt_bctk_TongChi_TextChanged);
             // 
             // lsv_bctk_DsBanChay
             // 
@@ -988,7 +975,6 @@
             this.Name = "fManager";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Manager";
-            this.Load += new System.EventHandler(this.fManager_Load);
             this.tabControl1.ResumeLayout(false);
             this.tbpQuanLySanPham.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);

@@ -71,7 +71,6 @@
             this.Controls.Add(this.lbl_vinv_MaNV);
             this.Name = "fAddJobStaff";
             this.Text = "Add Job Staff";
-            this.Load += new System.EventHandler(this.fAddJobStaff_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

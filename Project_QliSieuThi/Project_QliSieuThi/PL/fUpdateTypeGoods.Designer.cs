@@ -45,7 +45,6 @@
             this.btn_Ok.TabIndex = 79;
             this.btn_Ok.Text = "Ok";
             this.btn_Ok.UseVisualStyleBackColor = true;
-            this.btn_Ok.Click += new System.EventHandler(this.btn_Ok_Click);
             // 
             // lbl_vinv_MaNV
             // 
@@ -96,7 +95,6 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "fUpdateTypeGoods";
             this.Text = "Update Type Goods";
-            this.Load += new System.EventHandler(this.fUpdateTypeGoods_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

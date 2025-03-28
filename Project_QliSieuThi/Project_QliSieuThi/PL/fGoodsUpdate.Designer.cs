@@ -56,7 +56,6 @@
             this.lbl_vinv_GioiTinh.TabIndex = 36;
             this.lbl_vinv_GioiTinh.Tag = "";
             this.lbl_vinv_GioiTinh.Text = "Đơn giá bán:";
-            this.lbl_vinv_GioiTinh.Click += new System.EventHandler(this.lbl_vinv_GioiTinh_Click);
             // 
             // lbl_vinv_DiaChi
             // 
@@ -68,7 +67,6 @@
             this.lbl_vinv_DiaChi.TabIndex = 35;
             this.lbl_vinv_DiaChi.Tag = "";
             this.lbl_vinv_DiaChi.Text = "Đơn giá nhập:";
-            this.lbl_vinv_DiaChi.Click += new System.EventHandler(this.lbl_vinv_DiaChi_Click);
             // 
             // lbl_vinv_NgaySinh
             // 
@@ -80,7 +78,6 @@
             this.lbl_vinv_NgaySinh.TabIndex = 34;
             this.lbl_vinv_NgaySinh.Tag = "";
             this.lbl_vinv_NgaySinh.Text = "Số luọng:";
-            this.lbl_vinv_NgaySinh.Click += new System.EventHandler(this.lbl_vinv_NgaySinh_Click);
             // 
             // lbl_vinv_MaCV
             // 
@@ -92,7 +89,6 @@
             this.lbl_vinv_MaCV.TabIndex = 33;
             this.lbl_vinv_MaCV.Tag = "";
             this.lbl_vinv_MaCV.Text = "Mã loại sản phẩm:";
-            this.lbl_vinv_MaCV.Click += new System.EventHandler(this.lbl_vinv_MaCV_Click);
             // 
             // lbl_vinv_TenNhanVien
             // 
@@ -104,7 +100,6 @@
             this.lbl_vinv_TenNhanVien.TabIndex = 32;
             this.lbl_vinv_TenNhanVien.Tag = "";
             this.lbl_vinv_TenNhanVien.Text = "Tên Sản phẩm:";
-            this.lbl_vinv_TenNhanVien.Click += new System.EventHandler(this.lbl_vinv_TenNhanVien_Click);
             // 
             // lbl
             // 
@@ -127,7 +122,6 @@
             this.ptb_AnhSP.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ptb_AnhSP.TabIndex = 30;
             this.ptb_AnhSP.TabStop = false;
-            this.ptb_AnhSP.Click += new System.EventHandler(this.ptb__Click);
             // 
             // txt_MaSP
             // 
@@ -136,7 +130,6 @@
             this.txt_MaSP.Name = "txt_MaSP";
             this.txt_MaSP.Size = new System.Drawing.Size(204, 26);
             this.txt_MaSP.TabIndex = 37;
-            this.txt_MaSP.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // txt_SoLuong
             // 
@@ -145,7 +138,6 @@
             this.txt_SoLuong.Name = "txt_SoLuong";
             this.txt_SoLuong.Size = new System.Drawing.Size(204, 26);
             this.txt_SoLuong.TabIndex = 38;
-            this.txt_SoLuong.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // txt_DonGiaBan
             // 
@@ -154,7 +146,6 @@
             this.txt_DonGiaBan.Name = "txt_DonGiaBan";
             this.txt_DonGiaBan.Size = new System.Drawing.Size(204, 26);
             this.txt_DonGiaBan.TabIndex = 39;
-            this.txt_DonGiaBan.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // txt_MaLoai
             // 
@@ -163,7 +154,6 @@
             this.txt_MaLoai.Name = "txt_MaLoai";
             this.txt_MaLoai.Size = new System.Drawing.Size(204, 26);
             this.txt_MaLoai.TabIndex = 40;
-            this.txt_MaLoai.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // txt_TenSP
             // 
@@ -172,7 +162,6 @@
             this.txt_TenSP.Name = "txt_TenSP";
             this.txt_TenSP.Size = new System.Drawing.Size(204, 26);
             this.txt_TenSP.TabIndex = 41;
-            this.txt_TenSP.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // txt_DonGiaNhap
             // 
@@ -181,7 +170,6 @@
             this.txt_DonGiaNhap.Name = "txt_DonGiaNhap";
             this.txt_DonGiaNhap.Size = new System.Drawing.Size(204, 26);
             this.txt_DonGiaNhap.TabIndex = 42;
-            this.txt_DonGiaNhap.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // btn_TaiAnh
             // 
@@ -193,7 +181,6 @@
             this.btn_TaiAnh.TabIndex = 43;
             this.btn_TaiAnh.Text = "Tải ảnh lên";
             this.btn_TaiAnh.UseVisualStyleBackColor = true;
-            this.btn_TaiAnh.Click += new System.EventHandler(this.button6_Click);
             // 
             // btn_Ok
             // 
@@ -205,7 +192,6 @@
             this.btn_Ok.TabIndex = 45;
             this.btn_Ok.Text = "Ok";
             this.btn_Ok.UseVisualStyleBackColor = true;
-            this.btn_Ok.Click += new System.EventHandler(this.btn_Ok_Click);
             // 
             // fGoodsUpdate
             // 
@@ -230,7 +216,6 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "fGoodsUpdate";
             this.Text = "Goods Update";
-            this.Load += new System.EventHandler(this.fGoodsUpdate_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ptb_AnhSP)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

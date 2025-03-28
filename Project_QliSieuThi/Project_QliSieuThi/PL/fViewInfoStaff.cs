@@ -16,10 +16,5 @@ namespace Project_QliSieuThi
         {
             InitializeComponent();
         }
-
-        private void lbl_vinv_MaNV_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
