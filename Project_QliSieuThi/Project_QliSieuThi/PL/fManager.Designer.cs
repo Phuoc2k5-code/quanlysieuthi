@@ -44,14 +44,14 @@
             this.btn_qlsp_NhapHang = new System.Windows.Forms.Button();
             this.btn_qlsp_XemChiTiet = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lv_qlsp = new System.Windows.Forms.ListView();
+            this.lsv_listSanPham = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tbpQuanLyNhanVien = new System.Windows.Forms.TabPage();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.lst_qlnv_DsNhanVien = new System.Windows.Forms.ListView();
+            this.lsv_listNhanVien = new System.Windows.Forms.ListView();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.btn_qlnv_SuaNhanVien = new System.Windows.Forms.Button();
             this.btn_qlnv_PhanCong = new System.Windows.Forms.Button();
@@ -149,7 +149,7 @@
             this.tbpQuanLySanPham.Controls.Add(this.panel1);
             this.tbpQuanLySanPham.Location = new System.Drawing.Point(4, 34);
             this.tbpQuanLySanPham.Name = "tbpQuanLySanPham";
-            this.tbpQuanLySanPham.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tbpQuanLySanPham.Padding = new System.Windows.Forms.Padding(3);
             this.tbpQuanLySanPham.Size = new System.Drawing.Size(1077, 571);
             this.tbpQuanLySanPham.TabIndex = 0;
             this.tbpQuanLySanPham.Text = "Quản lý sản phẩm";
@@ -296,37 +296,37 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.lv_qlsp);
+            this.panel1.Controls.Add(this.lsv_listSanPham);
             this.panel1.Location = new System.Drawing.Point(6, 6);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(792, 402);
             this.panel1.TabIndex = 0;
             // 
-            // lv_qlsp
+            // lsv_listSanPham
             // 
-            this.lv_qlsp.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.lsv_listSanPham.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2,
             this.columnHeader3,
             this.columnHeader4});
-            this.lv_qlsp.HideSelection = false;
-            this.lv_qlsp.Location = new System.Drawing.Point(4, 3);
-            this.lv_qlsp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.lv_qlsp.Name = "lv_qlsp";
-            this.lv_qlsp.Size = new System.Drawing.Size(786, 397);
-            this.lv_qlsp.TabIndex = 0;
-            this.lv_qlsp.UseCompatibleStateImageBehavior = false;
-            this.lv_qlsp.View = System.Windows.Forms.View.Details;
+            this.lsv_listSanPham.HideSelection = false;
+            this.lsv_listSanPham.Location = new System.Drawing.Point(4, 3);
+            this.lsv_listSanPham.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.lsv_listSanPham.Name = "lsv_listSanPham";
+            this.lsv_listSanPham.Size = new System.Drawing.Size(786, 397);
+            this.lsv_listSanPham.TabIndex = 0;
+            this.lsv_listSanPham.UseCompatibleStateImageBehavior = false;
+            this.lsv_listSanPham.View = System.Windows.Forms.View.Details;
             // 
             // columnHeader1
             // 
             this.columnHeader1.Text = "masp";
-            this.columnHeader1.Width = 118;
+            this.columnHeader1.Width = 112;
             // 
             // columnHeader2
             // 
             this.columnHeader2.Text = "tensp";
-            this.columnHeader2.Width = 206;
+            this.columnHeader2.Width = 185;
             // 
             // columnHeader3
             // 
@@ -345,7 +345,7 @@
             this.tbpQuanLyNhanVien.Controls.Add(this.groupBox3);
             this.tbpQuanLyNhanVien.Location = new System.Drawing.Point(4, 34);
             this.tbpQuanLyNhanVien.Name = "tbpQuanLyNhanVien";
-            this.tbpQuanLyNhanVien.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tbpQuanLyNhanVien.Padding = new System.Windows.Forms.Padding(3);
             this.tbpQuanLyNhanVien.Size = new System.Drawing.Size(1077, 571);
             this.tbpQuanLyNhanVien.TabIndex = 1;
             this.tbpQuanLyNhanVien.Text = "Quản lý nhân viên";
@@ -353,20 +353,20 @@
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.lst_qlnv_DsNhanVien);
+            this.panel2.Controls.Add(this.lsv_listNhanVien);
             this.panel2.Location = new System.Drawing.Point(6, 6);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(792, 402);
             this.panel2.TabIndex = 5;
             // 
-            // lst_qlnv_DsNhanVien
+            // lsv_listNhanVien
             // 
-            this.lst_qlnv_DsNhanVien.HideSelection = false;
-            this.lst_qlnv_DsNhanVien.Location = new System.Drawing.Point(4, 3);
-            this.lst_qlnv_DsNhanVien.Name = "lst_qlnv_DsNhanVien";
-            this.lst_qlnv_DsNhanVien.Size = new System.Drawing.Size(785, 395);
-            this.lst_qlnv_DsNhanVien.TabIndex = 5;
-            this.lst_qlnv_DsNhanVien.UseCompatibleStateImageBehavior = false;
+            this.lsv_listNhanVien.HideSelection = false;
+            this.lsv_listNhanVien.Location = new System.Drawing.Point(4, 3);
+            this.lsv_listNhanVien.Name = "lsv_listNhanVien";
+            this.lsv_listNhanVien.Size = new System.Drawing.Size(785, 395);
+            this.lsv_listNhanVien.TabIndex = 5;
+            this.lsv_listNhanVien.UseCompatibleStateImageBehavior = false;
             // 
             // groupBox4
             // 
@@ -975,6 +975,7 @@
             this.Name = "fManager";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Manager";
+            this.Load += new System.EventHandler(this.fManager_Load);
             this.tabControl1.ResumeLayout(false);
             this.tbpQuanLySanPham.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
@@ -1045,7 +1046,7 @@
         private System.Windows.Forms.Button btn_qlnv_ThemNhanVien;
         private System.Windows.Forms.Button btn_qlnv_XemChiTiet;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.ListView lst_qlnv_DsNhanVien;
+        private System.Windows.Forms.ListView lsv_listNhanVien;
         private System.Windows.Forms.Button btn_qlnv_TimKiem;
         private System.Windows.Forms.TextBox txt_qlnv_TenNhanVien;
         private System.Windows.Forms.ComboBox cbb_qlnh_LoaiNhanVien;
@@ -1080,7 +1081,7 @@
         private System.Windows.Forms.TextBox btn_bctk_DoanhThu;
         private System.Windows.Forms.TextBox btn_bctk_TongChi;
         private System.Windows.Forms.Button btn_qlsp_SuaSanPham;
-        private System.Windows.Forms.ListView lv_qlsp;
+        private System.Windows.Forms.ListView lsv_listSanPham;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;

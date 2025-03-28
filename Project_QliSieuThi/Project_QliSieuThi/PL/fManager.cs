@@ -1,5 +1,8 @@
 ﻿//using Project_QliSieuThi.bll;
 //using Project_QliSieuThi.data_object;
+using Project_QliSieuThi.DTO;
+using Project_QliSieuThi.BLL;
+using Project_QliSieuThi.DAL;
 using Project_QliSieuThi.PL;
 using System;
 using System.Collections.Generic;
@@ -16,6 +19,7 @@ namespace Project_QliSieuThi
 {
     public partial class fManager : Form
     {
+
         public fManager()
         {
             InitializeComponent();
@@ -32,6 +36,86 @@ namespace Project_QliSieuThi
 
             //}
         }
+
+        private void fManager_Load(object sender, EventArgs e)
+        {
+            loadListSanPham();
+            loadListNhanVien();
+            loadTTQuanLy();
+        }
+
+        private void loadListSanPham()
+        {
+            //lấy danh sách sản phẩm từ database
+            ManagementLogic logic = new ManagementLogic();
+            ListView list = new ListView();
+            List<object> cot = new List<object> {"masp","tensp","tenlsp","soluong" };
+            list = logic.fillListView("sanpham, loaisanpham", cot,"WHERE sanpham.malsp = loaisanpham.malsp");
+            
+            //lam sach listview
+            lsv_listSanPham.Columns.Clear();
+            lsv_listSanPham.Items.Clear();
+            lsv_listSanPham.View = View.Details;
+
+
+            //add column
+            foreach (ColumnHeader column in list.Columns)
+            {
+                lsv_listSanPham.Columns.Add(column.Text);
+            }
+
+            //add item
+            foreach (ListViewItem item in list.Items)
+            {
+                lsv_listSanPham.Items.Add((ListViewItem)item.Clone());
+            }
+
+            //auto size column
+            lsv_listSanPham.AutoResizeColumns(ColumnHeaderAutoResizeStyle.ColumnContent);
+            lsv_listSanPham.AutoResizeColumns(ColumnHeaderAutoResizeStyle.HeaderSize);
+        }
+        private void loadListNhanVien()
+        {
+            //lấy danh sách nhân viên từ database
+            ManagementLogic logic = new ManagementLogic();
+            ListView list = new ListView();
+            List<object> cot = new List<object> { "manv", "tennv", "tencv"};
+            list = logic.fillListView("nhanvien, congviec", cot,"WHERE nhanvien.macv = congviec.macv ");
+            Console.WriteLine(list.Items.Count);
+            //lam sach listview
+            lsv_listNhanVien.Columns.Clear();
+            lsv_listNhanVien.Items.Clear();
+            lsv_listNhanVien.View = View.Details;
+
+            //add column
+            foreach (ColumnHeader column in list.Columns)
+            {
+                lsv_listNhanVien.Columns.Add(column.Text);
+            }
+
+            //add item
+            foreach (ListViewItem item in list.Items)
+            {
+                lsv_listNhanVien.Items.Add((ListViewItem)item.Clone());
+            }
+
+            //auto size column
+            lsv_listNhanVien.AutoResizeColumns(ColumnHeaderAutoResizeStyle.ColumnContent);
+            lsv_listNhanVien.AutoResizeColumns(ColumnHeaderAutoResizeStyle.HeaderSize);
+        }
+        private void loadTTQuanLy()
+        {
+            ManagementLogic logic = new ManagementLogic();
+            QuanLi quanLi = logic.getInfoQuanLi();
+            lbl_tttk_MaNqLi.Text = quanLi.MaQL.ToString();
+            lbl_tttk_TenNqLi.Text = quanLi.TenQL;
+            lbl_tttk_TenTK.Text = quanLi.TenTK;
+            lbl_tttk_Mk.Text = quanLi.MatKhau;
+            lbl_tttk_NgaySinh.Text = quanLi.NgaySinh;
+            lbl_tttk_Sdt.Text = quanLi.Sdt;
+
+        }
+
 
         //public void clean()
         //{
@@ -78,7 +162,7 @@ namespace Project_QliSieuThi
         //    }
         //    else
         //        MessageBox.Show("Chưa chọn hàng cần xem");
-            
+
         //}
 
         //private void btn_qlsp_NhapHang_Click(object sender, EventArgs e)
@@ -93,11 +177,11 @@ namespace Project_QliSieuThi
         //private void btn_qlsp_SuaSanPham_Click(object sender, EventArgs e)
         //{
         //    string masp, tensp, malsp, soluong, dongiaban, dongianhap;
-           
+
         //    fGoodsUpdate fGoodsUpdate = new fGoodsUpdate();
         //    if (lv_qlsp.SelectedItems.Count > 0)
         //    {
-               
+
         //        ListViewItem item = lv_qlsp.SelectedItems[0];
         //        int tim = Convert.ToInt32(item.SubItems[0].Text);
 
@@ -188,7 +272,7 @@ namespace Project_QliSieuThi
 
         //}
 
-        
+
         //private void btn_qlsp_TimKiem_Click(object sender, EventArgs e)
         //{
         //    bll.qlsp qlsp = new bll.qlsp();
@@ -197,7 +281,7 @@ namespace Project_QliSieuThi
         //        string tensp = txt_qlsp_TenSanPham.Text;
         //        if (tensp != "")
         //        {
-                    
+
         //            int kt = qlsp.layttbangten(tensp);
         //            if (kt == 1)
         //            {
@@ -254,8 +338,8 @@ namespace Project_QliSieuThi
 
         //private void cbb_qlsp_LoaiNhanVien_SelectedIndexChanged(object sender, EventArgs e)
         //{                
-                    
-                
+
+
         //}
 
         //private void txt_bctk_TongChi_TextChanged(object sender, EventArgs e)

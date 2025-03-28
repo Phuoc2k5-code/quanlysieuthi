@@ -44,6 +44,36 @@ namespace Project_QliSieuThi
             }
         }
 
+        private void btn_lg_Login_Click(object sender, EventArgs e)
+        {
+            string taiKhoan = txt_lg_TaiKhoan.Text;
+            string matKhau = txt_lg_MatKhau.Text;
 
+            //Console.WriteLine(taiKhoan);
+            //Console.WriteLine(matKhau);
+
+            ManagementLogic logic = new ManagementLogic();
+
+            if (taiKhoan == "" || matKhau == "")
+            {
+                MessageBox.Show("Vui lòng nhập đủ thông tin!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                if (/*true*/logic.checkLogin(taiKhoan, matKhau))
+                {
+                    fManager f = new fManager();
+                    this.Hide();
+                    f.ShowDialog();
+                    this.Show();
+                }
+                else
+                {
+                    MessageBox.Show("Sai tên tài khoản hoặc mật khẩu!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+           
+
+        }
     }
 }
