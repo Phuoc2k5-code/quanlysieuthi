@@ -1,34 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\h\u1ECDc v\u1EC1 c#\\Project_QliSieuThi - sua\\Project_QliSieuThi\\",
+  "WorkspaceRootPath": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|d:\\h\u1ECDc v\u1EC1 c#\\project_qlisieuthi - sua\\project_qlisieuthi\\project_qlisieuthi\\views\\fimportgoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\views\\fimportgoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|d:\\github\\quanlysieuthi\\quanlysieuthi\\project_qlisieuthi\\project_qlisieuthi\\bll\\managementlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\bll\\managementlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|d:\\h\u1ECDc v\u1EC1 c#\\project_qlisieuthi - sua\\project_qlisieuthi\\project_qlisieuthi\\views\\fimportgoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\views\\fimportgoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|d:\\github\\quanlysieuthi\\quanlysieuthi\\project_qlisieuthi\\project_qlisieuthi\\pl\\fimportgoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\fimportgoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|D:\\h\u1ECDc v\u1EC1 c#\\Project_QliSieuThi - sua\\Project_QliSieuThi\\project_qlisieuthi\\views\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\views\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|d:\\github\\quanlysieuthi\\quanlysieuthi\\project_qlisieuthi\\project_qlisieuthi\\dal\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\dal\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|D:\\h\u1ECDc v\u1EC1 c#\\Project_QliSieuThi - sua\\Project_QliSieuThi\\project_qlisieuthi\\views\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\views\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|d:\\github\\quanlysieuthi\\quanlysieuthi\\project_qlisieuthi\\project_qlisieuthi\\pl\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|D:\\h\u1ECDc v\u1EC1 c#\\Project_QliSieuThi - sua\\Project_QliSieuThi\\project_qlisieuthi\\bll\\qlsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\bll\\qlsp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|d:\\github\\quanlysieuthi\\quanlysieuthi\\project_qlisieuthi\\project_qlisieuthi\\pl\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|D:\\h\u1ECDc v\u1EC1 c#\\Project_QliSieuThi - sua\\Project_QliSieuThi\\project_qlisieuthi\\data_provider\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\data_provider\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|d:\\github\\quanlysieuthi\\quanlysieuthi\\project_qlisieuthi\\project_qlisieuthi\\pl\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|D:\\h\u1ECDc v\u1EC1 c#\\Project_QliSieuThi - sua\\Project_QliSieuThi\\project_qlisieuthi\\data_provider\\qlsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\data_provider\\qlsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|d:\\github\\quanlysieuthi\\quanlysieuthi\\project_qlisieuthi\\project_qlisieuthi\\pl\\flogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\flogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|d:\\github\\quanlysieuthi\\quanlysieuthi\\project_qlisieuthi\\project_qlisieuthi\\pl\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,35 +41,16 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "DockedWidth": 209,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "fManager.cs [Design]",
-              "DocumentMoniker": "D:\\h\u1ECDc v\u1EC1 c#\\Project_QliSieuThi - sua\\Project_QliSieuThi\\Project_QliSieuThi\\Views\\fManager.cs",
-              "RelativeDocumentMoniker": "Project_QliSieuThi\\Views\\fManager.cs",
-              "ToolTip": "D:\\h\u1ECDc v\u1EC1 c#\\Project_QliSieuThi - sua\\Project_QliSieuThi\\Project_QliSieuThi\\Views\\fManager.cs [Design]",
-              "RelativeToolTip": "Project_QliSieuThi\\Views\\fManager.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T01:47:13.777Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "fManager.cs",
-              "DocumentMoniker": "D:\\h\u1ECDc v\u1EC1 c#\\Project_QliSieuThi - sua\\Project_QliSieuThi\\Project_QliSieuThi\\Views\\fManager.cs",
-              "RelativeDocumentMoniker": "Project_QliSieuThi\\Views\\fManager.cs",
-              "ToolTip": "D:\\h\u1ECDc v\u1EC1 c#\\Project_QliSieuThi - sua\\Project_QliSieuThi\\Project_QliSieuThi\\Views\\fManager.cs",
-              "RelativeToolTip": "Project_QliSieuThi\\Views\\fManager.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAACoAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-19T01:47:20.3Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
@@ -73,67 +58,105 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "fImportGoods.cs [Design]",
-              "DocumentMoniker": "D:\\h\u1ECDc v\u1EC1 c#\\Project_QliSieuThi - sua\\Project_QliSieuThi\\Project_QliSieuThi\\Views\\fImportGoods.cs",
-              "RelativeDocumentMoniker": "Project_QliSieuThi\\Views\\fImportGoods.cs",
-              "ToolTip": "D:\\h\u1ECDc v\u1EC1 c#\\Project_QliSieuThi - sua\\Project_QliSieuThi\\Project_QliSieuThi\\Views\\fImportGoods.cs [Design]",
-              "RelativeToolTip": "Project_QliSieuThi\\Views\\fImportGoods.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "DataProvider.cs",
+              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\DAL\\DataProvider.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\DAL\\DataProvider.cs",
+              "ToolTip": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\DAL\\DataProvider.cs",
+              "RelativeToolTip": "Project_QliSieuThi\\DAL\\DataProvider.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAYwGQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T15:39:51.165Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "qlsp.cs",
-              "DocumentMoniker": "D:\\h\u1ECDc v\u1EC1 c#\\Project_QliSieuThi - sua\\Project_QliSieuThi\\Project_QliSieuThi\\bll\\qlsp.cs",
-              "RelativeDocumentMoniker": "Project_QliSieuThi\\bll\\qlsp.cs",
-              "ToolTip": "D:\\h\u1ECDc v\u1EC1 c#\\Project_QliSieuThi - sua\\Project_QliSieuThi\\Project_QliSieuThi\\bll\\qlsp.cs",
-              "RelativeToolTip": "Project_QliSieuThi\\bll\\qlsp.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAqwBYAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T02:10:43.341Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "qlsanpham.cs",
-              "DocumentMoniker": "D:\\h\u1ECDc v\u1EC1 c#\\Project_QliSieuThi - sua\\Project_QliSieuThi\\Project_QliSieuThi\\data_provider\\qlsanpham.cs",
-              "RelativeDocumentMoniker": "Project_QliSieuThi\\data_provider\\qlsanpham.cs",
-              "ToolTip": "D:\\h\u1ECDc v\u1EC1 c#\\Project_QliSieuThi - sua\\Project_QliSieuThi\\Project_QliSieuThi\\data_provider\\qlsanpham.cs",
-              "RelativeToolTip": "Project_QliSieuThi\\data_provider\\qlsanpham.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAYwD8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T02:10:37.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "dataprovider.cs",
-              "DocumentMoniker": "D:\\h\u1ECDc v\u1EC1 c#\\Project_QliSieuThi - sua\\Project_QliSieuThi\\Project_QliSieuThi\\data_provider\\dataprovider.cs",
-              "RelativeDocumentMoniker": "Project_QliSieuThi\\data_provider\\dataprovider.cs",
-              "ToolTip": "D:\\h\u1ECDc v\u1EC1 c#\\Project_QliSieuThi - sua\\Project_QliSieuThi\\Project_QliSieuThi\\data_provider\\dataprovider.cs",
-              "RelativeToolTip": "Project_QliSieuThi\\data_provider\\dataprovider.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAAAFUAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T12:51:49.109Z",
+              "WhenOpened": "2025-03-28T08:10:40.265Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "fImportGoods.cs",
-              "DocumentMoniker": "D:\\h\u1ECDc v\u1EC1 c#\\Project_QliSieuThi - sua\\Project_QliSieuThi\\Project_QliSieuThi\\Views\\fImportGoods.cs",
-              "RelativeDocumentMoniker": "Project_QliSieuThi\\Views\\fImportGoods.cs",
-              "ToolTip": "D:\\h\u1ECDc v\u1EC1 c#\\Project_QliSieuThi - sua\\Project_QliSieuThi\\Project_QliSieuThi\\Views\\fImportGoods.cs",
-              "RelativeToolTip": "Project_QliSieuThi\\Views\\fImportGoods.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAAFwAAABFAAAA",
+              "Title": "ManagementLogic.cs",
+              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\BLL\\ManagementLogic.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\BLL\\ManagementLogic.cs",
+              "ToolTip": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\BLL\\ManagementLogic.cs",
+              "RelativeToolTip": "Project_QliSieuThi\\BLL\\ManagementLogic.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwC0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T10:13:40.135Z",
+              "WhenOpened": "2025-03-28T08:06:09.555Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fImportGoods.cs",
+              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fImportGoods.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fImportGoods.cs",
+              "ToolTip": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fImportGoods.cs",
+              "RelativeToolTip": "Project_QliSieuThi\\PL\\fImportGoods.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T08:01:19.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "fManager.cs",
+              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fManager.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fManager.cs",
+              "ToolTip": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fManager.cs",
+              "RelativeToolTip": "Project_QliSieuThi\\PL\\fManager.cs",
+              "ViewState": "AgIAAOQAAAAAAAAAAAAAAAwBAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T08:00:32.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "fManager.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fManager.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fManager.cs",
+              "ToolTip": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fManager.cs [Design]",
+              "RelativeToolTip": "Project_QliSieuThi\\PL\\fManager.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T08:00:30.557Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "fLogin.Designer.cs",
+              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fLogin.Designer.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fLogin.Designer.cs",
+              "ToolTip": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fLogin.Designer.cs",
+              "RelativeToolTip": "Project_QliSieuThi\\PL\\fLogin.Designer.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAgwJgAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T08:00:08.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "fLogin.cs",
+              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fLogin.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fLogin.cs",
+              "ToolTip": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fLogin.cs",
+              "RelativeToolTip": "Project_QliSieuThi\\PL\\fLogin.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T08:00:00.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "fLogin.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fLogin.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fLogin.cs",
+              "ToolTip": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fLogin.cs [Design]",
+              "RelativeToolTip": "Project_QliSieuThi\\PL\\fLogin.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T07:59:50.62Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

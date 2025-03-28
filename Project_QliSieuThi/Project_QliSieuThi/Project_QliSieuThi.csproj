@@ -46,136 +46,135 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="bll\loaisp.cs" />
-    <Compile Include="bll\loginn.cs" />
-    <Compile Include="bll\qlsp.cs" />
-    <Compile Include="data_object\loaisanpham.cs" />
-    <Compile Include="data_object\quanli.cs" />
-    <Compile Include="data_object\sanpham.cs" />
-    <Compile Include="data_provider\dataprovider.cs" />
-    <Compile Include="data_provider\loaisp.cs" />
-    <Compile Include="data_provider\qlsanpham.cs" />
-    <Compile Include="data_provider\quanli_pro.cs" />
-    <Compile Include="Views\fAddJobStaff.cs">
+    <Compile Include="BLL\ManagementLogic.cs" />
+    <Compile Include="DAL\DataProvider.cs" />
+    <Compile Include="DTO\CongViec.cs" />
+    <Compile Include="DTO\CTHoaDon.cs" />
+    <Compile Include="DTO\HoaDon.cs" />
+    <Compile Include="DTO\LoaiSanPham.cs" />
+    <Compile Include="DTO\NhanVien.cs" />
+    <Compile Include="DTO\QuanLi.cs" />
+    <Compile Include="DTO\SanPham.cs" />
+    <Compile Include="PL\fAddJobStaff.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\fAddJobStaff.Designer.cs">
+    <Compile Include="PL\fAddJobStaff.Designer.cs">
       <DependentUpon>fAddJobStaff.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\fAddStaff.cs">
+    <Compile Include="PL\fAddStaff.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\fAddStaff.Designer.cs">
+    <Compile Include="PL\fAddStaff.Designer.cs">
       <DependentUpon>fAddStaff.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\fAddTypeGoods.cs">
+    <Compile Include="PL\fAddTypeGoods.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\fAddTypeGoods.Designer.cs">
+    <Compile Include="PL\fAddTypeGoods.Designer.cs">
       <DependentUpon>fAddTypeGoods.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\fGoodsUpdate.cs">
+    <Compile Include="PL\fGoodsUpdate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\fGoodsUpdate.Designer.cs">
+    <Compile Include="PL\fGoodsUpdate.Designer.cs">
       <DependentUpon>fGoodsUpdate.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\fImportGoods.cs">
+    <Compile Include="PL\fImportGoods.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\fImportGoods.Designer.cs">
+    <Compile Include="PL\fImportGoods.Designer.cs">
       <DependentUpon>fImportGoods.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\fJobStaff.cs">
+    <Compile Include="PL\fJobStaff.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\fJobStaff.Designer.cs">
+    <Compile Include="PL\fJobStaff.Designer.cs">
       <DependentUpon>fJobStaff.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\fLogin.cs">
+    <Compile Include="PL\fLogin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\fLogin.Designer.cs">
+    <Compile Include="PL\fLogin.Designer.cs">
       <DependentUpon>fLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\fManager.cs">
+    <Compile Include="PL\fManager.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\fManager.Designer.cs">
+    <Compile Include="PL\fManager.Designer.cs">
       <DependentUpon>fManager.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Views\fStaffUpdate.cs">
+    <Compile Include="PL\fStaffUpdate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\fStaffUpdate.Designer.cs">
+    <Compile Include="PL\fStaffUpdate.Designer.cs">
       <DependentUpon>fStaffUpdate.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\fTypeGoods.cs">
+    <Compile Include="PL\fTypeGoods.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\fTypeGoods.Designer.cs">
+    <Compile Include="PL\fTypeGoods.Designer.cs">
       <DependentUpon>fTypeGoods.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\fUpdateJobStaff.cs">
+    <Compile Include="PL\fUpdateJobStaff.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\fUpdateJobStaff.Designer.cs">
+    <Compile Include="PL\fUpdateJobStaff.Designer.cs">
       <DependentUpon>fUpdateJobStaff.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\fUpdateTypeGoods.cs">
+    <Compile Include="PL\fUpdateTypeGoods.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\fUpdateTypeGoods.Designer.cs">
+    <Compile Include="PL\fUpdateTypeGoods.Designer.cs">
       <DependentUpon>fUpdateTypeGoods.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\fViewInfoStaff.cs">
+    <Compile Include="PL\fViewInfoStaff.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\fViewInfoNhanVien.Designer.cs">
+    <Compile Include="PL\fViewInfoNhanVien.Designer.cs">
       <DependentUpon>fViewInfoStaff.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\fViewInfoGoods.cs">
+    <Compile Include="PL\fViewInfoGoods.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Views\fViewInfoGoods.Designer.cs">
+    <Compile Include="PL\fViewInfoGoods.Designer.cs">
       <DependentUpon>fViewInfoGoods.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Views\fAddJobStaff.resx">
+    <EmbeddedResource Include="PL\fAddJobStaff.resx">
       <DependentUpon>fAddJobStaff.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\fAddStaff.resx">
+    <EmbeddedResource Include="PL\fAddStaff.resx">
       <DependentUpon>fAddStaff.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\fAddTypeGoods.resx">
+    <EmbeddedResource Include="PL\fAddTypeGoods.resx">
       <DependentUpon>fAddTypeGoods.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\fGoodsUpdate.resx">
+    <EmbeddedResource Include="PL\fGoodsUpdate.resx">
       <DependentUpon>fGoodsUpdate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\fImportGoods.resx">
+    <EmbeddedResource Include="PL\fImportGoods.resx">
       <DependentUpon>fImportGoods.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\fJobStaff.resx">
+    <EmbeddedResource Include="PL\fJobStaff.resx">
       <DependentUpon>fJobStaff.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\fLogin.resx">
+    <EmbeddedResource Include="PL\fLogin.resx">
       <DependentUpon>fLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\fManager.resx">
+    <EmbeddedResource Include="PL\fManager.resx">
       <DependentUpon>fManager.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\fStaffUpdate.resx">
+    <EmbeddedResource Include="PL\fStaffUpdate.resx">
       <DependentUpon>fStaffUpdate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\fTypeGoods.resx">
+    <EmbeddedResource Include="PL\fTypeGoods.resx">
       <DependentUpon>fTypeGoods.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\fUpdateJobStaff.resx">
+    <EmbeddedResource Include="PL\fUpdateJobStaff.resx">
       <DependentUpon>fUpdateJobStaff.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\fUpdateTypeGoods.resx">
+    <EmbeddedResource Include="PL\fUpdateTypeGoods.resx">
       <DependentUpon>fUpdateTypeGoods.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -187,10 +186,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Views\fViewInfoGoods.resx">
+    <EmbeddedResource Include="PL\fViewInfoGoods.resx">
       <DependentUpon>fViewInfoGoods.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\fViewInfoStaff.resx">
+    <EmbeddedResource Include="PL\fViewInfoStaff.resx">
       <DependentUpon>fViewInfoStaff.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">

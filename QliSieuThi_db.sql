@@ -1,5 +1,5 @@
 ﻿CREATE DATABASE QliSieuThi_db
---GO
+GO
 
 USE QliSieuThi_db
 GO
@@ -158,10 +158,11 @@ insert into loaisanpham(tenlsp) values (N'Nước giải khát')
 insert into loaisanpham(tenlsp) values (N'Đồ ăn vặt')
 insert into loaisanpham(tenlsp) values (N'Đồ dùng cá nhân')
 
+
 insert into sanpham (tensp, malsp, soluong, dongiaban, dongianhap) values (N'Pessi', 1, 100, 7000, 5000)
 insert into sanpham (tensp, malsp, soluong, dongiaban, dongianhap) values (N'bimbim', 2, 100, 10000, 5000)
 insert into sanpham (tensp, malsp, soluong, dongiaban, dongianhap) values (N'kem đánh răng', 3, 100, 50000, 30000)
-insert into sanpham (tensp, malsp, soluong, dongiaban, dongianhap) values (N'bàn chải đánh răng', 4, 100, 30000, 20000)
+insert into sanpham (tensp, malsp, soluong, dongiaban, dongianhap) values (N'bàn chải đánh răng', 3, 100, 30000, 20000)
 
 insert into hoadon(manv, ngaylap, tongtien) values (1, '1/5/2025',44000)
 insert into hoadon(manv, ngaylap, tongtien) values (1, '1/5/2025',80000)

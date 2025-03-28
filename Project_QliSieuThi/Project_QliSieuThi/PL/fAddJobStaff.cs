@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Project_QliSieuThi.PL
+{
+    public partial class fAddJobStaff : Form
+    {
+        public fAddJobStaff()
+        {
+            InitializeComponent();
+        }
+
+        private void fAddJobStaff_Load(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
