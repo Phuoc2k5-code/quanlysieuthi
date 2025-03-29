@@ -104,6 +104,7 @@
             this.txt_lg_MatKhau.Size = new System.Drawing.Size(258, 22);
             this.txt_lg_MatKhau.TabIndex = 2;
             this.txt_lg_MatKhau.UseSystemPasswordChar = true;
+            this.txt_lg_MatKhau.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_lg_MatKhau_KeyDown);
             // 
             // label2
             // 

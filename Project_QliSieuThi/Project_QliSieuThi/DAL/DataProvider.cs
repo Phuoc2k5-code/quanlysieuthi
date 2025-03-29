@@ -7,6 +7,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System;
 using System.Data.Common;
+using Project_QliSieuThi.DTO;
+using Project_QliSieuThi.BLL;
 
 namespace Project_QliSieuThi.DAL
 {
@@ -64,6 +66,7 @@ namespace Project_QliSieuThi.DAL
                         //        i++;
                         //    }
                         //}
+
                         //Hàm này dùng khi câu select có Where
                         for (int i = 0; i < parameters.Count; i++)
                         {
@@ -74,6 +77,7 @@ namespace Project_QliSieuThi.DAL
 
 
                     }
+                    Console.WriteLine(cmd.CommandText);
                     using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))
                     {
                         adapter.Fill(table);
@@ -84,7 +88,14 @@ namespace Project_QliSieuThi.DAL
             }
         }
 
-        private int excuteNonQueryCommand(string query, List<object> parameters = null)
+
+        /// <summary>
+        /// Hàm excuteNonQueryCommand trả về số dòng bị thay đổi
+        /// </summary>
+        /// <param name="query"></param>
+        /// <param name="parameters"></param>
+        /// <returns></returns>
+        public int excuteNonQueryCommand(string query, List<object> parameters = null)
         {
             int lineChanged = 0;
             string connectionStr = null;
@@ -120,6 +131,33 @@ namespace Project_QliSieuThi.DAL
             }
 
             return lineChanged;
+
+        }
+
+        /// <summary>
+        /// Hàm thực thi câu lệnh truy vấn trả về một danh sách sản phẩm
+        /// </summary>
+        /// <returns></returns>
+        public List<SanPham> executeListSanPham()
+        {
+            //Tạo câu select
+            string query = $"SELECT masp, tensp, tenlsp, soluong, dongiaban, dongianhap FROM sanpham, loaisanpham WHERE sanpham.malsp = loaisanpham.malsp";
+
+            DataTable data = executeSelect(query);
+            List<SanPham> result = new List<SanPham>();
+            foreach (DataRow row in data.Rows)
+            {
+                SanPham sp = new SanPham();
+                sp.MaSP = Convert.ToInt32(row[0].ToString());
+                sp.TenSP = row[1].ToString();
+                sp.MaSP= Convert.ToInt32(row[2].ToString());
+                sp.SoLuong = Convert.ToInt32(row[3].ToString());
+                sp.DonGiaNhap = float.Parse(row[4].ToString());
+                sp.DonGiaBan = float.Parse(row[5].ToString());
+                result.Add(sp);
+            }
+
+            return result;
 
         }
     }

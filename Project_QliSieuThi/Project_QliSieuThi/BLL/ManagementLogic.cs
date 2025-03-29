@@ -133,6 +133,11 @@ namespace Project_QliSieuThi.BLL
             }
             return result;
         }
+
+        /// <summary>
+        /// Hàm lấy thông tin quản lý
+        /// </summary>
+        /// <returns></returns>
         public QuanLi getInfoQuanLi()
         {
             //Lấy thông tin quản lý từ database
@@ -153,5 +158,13 @@ namespace Project_QliSieuThi.BLL
 
             return quanLi;
         }
+
+        /// <summary>
+        /// Hàm lấy 1 datarow bằng id và table
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="table"></param>
+        /// <returns></returns>
+        
     }
 }

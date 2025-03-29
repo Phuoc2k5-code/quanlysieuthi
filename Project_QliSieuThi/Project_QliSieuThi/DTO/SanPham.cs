@@ -7,13 +7,14 @@ using Project_QliSieuThi.DTO;
 using Project_QliSieuThi.DAL;
 using System.Data;
 
+
 namespace Project_QliSieuThi.DTO
 {
-    internal class SanPham
+    public class SanPham
     {
         private int maSP;
         private string tenSP;
-        private string maLoaiSP;
+        private int maLoaiSP;
         private int soLuong;
         private float donGiaNhap;
         private float donGiaBan;
@@ -21,7 +22,7 @@ namespace Project_QliSieuThi.DTO
 
         public int MaSP { get => maSP; set => maSP = value; }
         public string TenSP { get => tenSP; set => tenSP = value; }
-        public string MaLoaiSP { get => maLoaiSP; set => maLoaiSP = value; }
+        public int MaLoaiSP { get => maLoaiSP; set => maLoaiSP = value; }
         public int SoLuong { get => soLuong; set => soLuong = value; }
         public float DonGiaNhap { get => donGiaNhap; set => donGiaNhap = value; }
         public float DonGiaBan { get => donGiaBan; set => donGiaBan = value; }
@@ -35,7 +36,7 @@ namespace Project_QliSieuThi.DTO
         {
             this.maSP = 0;
             this.tenSP = "";
-            this.maLoaiSP = "";
+            this.maLoaiSP = 0;
             this.soLuong = 0;
             this.donGiaNhap = 0;
             this.donGiaBan = 0;
@@ -49,7 +50,7 @@ namespace Project_QliSieuThi.DTO
         /// <param name="soLuong"></param>
         /// <param name="donGiaNhap"></param>
         /// <param name="donGiaBan"></param>
-        public SanPham(int maSP, string tenSP, string maLoaiSP, int soLuong, int donGiaNhap, int donGiaBan)
+        public SanPham(int maSP, string tenSP, int maLoaiSP, int soLuong, int donGiaNhap, int donGiaBan)
         {
             this.maSP = maSP;
             this.tenSP = tenSP;
@@ -65,12 +66,12 @@ namespace Project_QliSieuThi.DTO
         /// <param name="row"></param>
         public SanPham(DataRow row)
         {
-            this.maSP = (int)row[0];
-            this.tenSP = row[1].ToString();
-            this.maLoaiSP = row[2].ToString();
-            this.soLuong = (int)row[3];
-            this.donGiaNhap = (float)Convert.ToDouble(row[4].ToString());
-            this.donGiaBan = (float)Convert.ToDouble(row[5].ToString());
+            this.maSP = (int)row[1];
+            this.tenSP = row[2].ToString();
+            this.maLoaiSP = (int)row[3];
+            this.soLuong = (int)row[4];
+            this.donGiaNhap = (float)Convert.ToDouble(row[5].ToString());
+            this.donGiaBan = (float)Convert.ToDouble(row[6].ToString());
         }
     }
 }

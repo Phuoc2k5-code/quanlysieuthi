@@ -91,7 +91,6 @@
             this.txt_bctk_TenSanPham = new System.Windows.Forms.TextBox();
             this.rdb_bctk_TenSanPham = new System.Windows.Forms.RadioButton();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.lsv_bctk_DsHoaDon = new System.Windows.Forms.ListView();
             this.tbpTaiKhoan = new System.Windows.Forms.TabPage();
             this.panel4 = new System.Windows.Forms.Panel();
             this.ptb_tk_AnhQLi = new System.Windows.Forms.PictureBox();
@@ -110,6 +109,7 @@
             this.lbl_tk_TenTK = new System.Windows.Forms.Label();
             this.lbl_tk_TenNqLi = new System.Windows.Forms.Label();
             this.lbl_tk_MaNqLi = new System.Windows.Forms.Label();
+            this.lsv_listHoaDon = new System.Windows.Forms.ListView();
             this.tabControl1.SuspendLayout();
             this.tbpQuanLySanPham.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -293,6 +293,7 @@
             this.btn_qlsp_XemChiTiet.TabIndex = 9;
             this.btn_qlsp_XemChiTiet.Text = "Xem chi tiết";
             this.btn_qlsp_XemChiTiet.UseVisualStyleBackColor = true;
+            this.btn_qlsp_XemChiTiet.Click += new System.EventHandler(this.btn_qlsp_XemChiTiet_Click);
             // 
             // panel1
             // 
@@ -772,20 +773,11 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.lsv_bctk_DsHoaDon);
+            this.panel3.Controls.Add(this.lsv_listHoaDon);
             this.panel3.Location = new System.Drawing.Point(3, 3);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(684, 367);
             this.panel3.TabIndex = 0;
-            // 
-            // lsv_bctk_DsHoaDon
-            // 
-            this.lsv_bctk_DsHoaDon.HideSelection = false;
-            this.lsv_bctk_DsHoaDon.Location = new System.Drawing.Point(3, 3);
-            this.lsv_bctk_DsHoaDon.Name = "lsv_bctk_DsHoaDon";
-            this.lsv_bctk_DsHoaDon.Size = new System.Drawing.Size(678, 361);
-            this.lsv_bctk_DsHoaDon.TabIndex = 0;
-            this.lsv_bctk_DsHoaDon.UseCompatibleStateImageBehavior = false;
             // 
             // tbpTaiKhoan
             // 
@@ -965,6 +957,15 @@
             this.lbl_tk_MaNqLi.TabIndex = 1;
             this.lbl_tk_MaNqLi.Text = "Mã quản lí:";
             // 
+            // lsv_listHoaDon
+            // 
+            this.lsv_listHoaDon.HideSelection = false;
+            this.lsv_listHoaDon.Location = new System.Drawing.Point(3, 3);
+            this.lsv_listHoaDon.Name = "lsv_listHoaDon";
+            this.lsv_listHoaDon.Size = new System.Drawing.Size(678, 361);
+            this.lsv_listHoaDon.TabIndex = 0;
+            this.lsv_listHoaDon.UseCompatibleStateImageBehavior = false;
+            // 
             // fManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1058,7 +1059,6 @@
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.ListView lsv_bctk_DsHoaDon;
         private System.Windows.Forms.TextBox txt_bctk_TenSanPham;
         private System.Windows.Forms.RadioButton rdb_bctk_TenSanPham;
         private System.Windows.Forms.RadioButton rdb_bctk_NgayLap;
@@ -1086,5 +1086,6 @@
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.ListView lsv_listHoaDon;
     }
 }

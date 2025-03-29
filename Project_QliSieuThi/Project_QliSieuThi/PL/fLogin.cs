@@ -36,6 +36,11 @@ namespace Project_QliSieuThi
             Application.Exit();
         }
 
+        /// <summary>
+        /// Hàm xử lý sự kiện khi đóng chương trình 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void fLogin_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (MessageBox.Show("Bạn thật sự muốn thoát chương trình? ","Thông báo",MessageBoxButtons.OKCancel,MessageBoxIcon.Question)!=System.Windows.Forms.DialogResult.OK)
@@ -44,6 +49,11 @@ namespace Project_QliSieuThi
             }
         }
 
+        /// <summary>
+        /// Hàm xử lý sự kiện khi nhấn nút Đăng nhập
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btn_lg_Login_Click(object sender, EventArgs e)
         {
             string taiKhoan = txt_lg_TaiKhoan.Text;
@@ -65,6 +75,11 @@ namespace Project_QliSieuThi
                     fManager f = new fManager();
                     this.Hide();
                     f.ShowDialog();
+
+                    //reset lại thông tin tài khoản và mật khẩu
+                    txt_lg_TaiKhoan.Text= "";
+                    txt_lg_MatKhau.Text = "";
+
                     this.Show();
                 }
                 else
@@ -74,6 +89,20 @@ namespace Project_QliSieuThi
             }
            
 
+        }
+
+
+        /// <summary>
+        /// Hàm xử lý sự kiện khi nhấn Enter trong ô mật khẩu
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void txt_lg_MatKhau_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btn_lg_Login.PerformClick();
+            }
         }
     }
 }

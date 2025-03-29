@@ -41,22 +41,25 @@ namespace Project_QliSieuThi
         {
             loadListSanPham();
             loadListNhanVien();
+            loadListHoaDon();
             loadTTQuanLy();
         }
 
         private void loadListSanPham()
         {
-            //lấy danh sách sản phẩm từ database
+            DataProvider data = new DataProvider();
+
+            //lấy danh sách nhân viên từ database
             ManagementLogic logic = new ManagementLogic();
             ListView list = new ListView();
-            List<object> cot = new List<object> {"masp","tensp","tenlsp","soluong" };
-            list = logic.fillListView("sanpham, loaisanpham", cot,"WHERE sanpham.malsp = loaisanpham.malsp");
-            
+            List<object> cot = new List<object> { "masp", "tensp", "tenlsp", "soluong" };
+            list = logic.fillListView("sanpham, loaisanpham", cot, "WHERE sanpham.malsp = loaisanpham.malsp ");
+            Console.WriteLine(list.Items.Count);
+
             //lam sach listview
             lsv_listSanPham.Columns.Clear();
             lsv_listSanPham.Items.Clear();
             lsv_listSanPham.View = View.Details;
-
 
             //add column
             foreach (ColumnHeader column in list.Columns)
@@ -67,21 +70,34 @@ namespace Project_QliSieuThi
             //add item
             foreach (ListViewItem item in list.Items)
             {
-                lsv_listSanPham.Items.Add((ListViewItem)item.Clone());
+                DataRow row = data.executeSelect($"SELECT * FROM sanpham WHERE masp = {item.SubItems[0].Text}").Rows[0];
+                SanPham sp = new SanPham(row);
+
+                ListViewItem item1 = new ListViewItem();
+                item1 = item;
+                item1.Tag = sp;
+                lsv_listSanPham.Items.Add((ListViewItem)item1.Clone());
             }
 
             //auto size column
             lsv_listSanPham.AutoResizeColumns(ColumnHeaderAutoResizeStyle.ColumnContent);
             lsv_listSanPham.AutoResizeColumns(ColumnHeaderAutoResizeStyle.HeaderSize);
         }
+
+        /// <summary>
+        /// Hàm load danh sách nhân viên
+        /// </summary>
         private void loadListNhanVien()
         {
+            DataProvider data = new DataProvider();
+
             //lấy danh sách nhân viên từ database
             ManagementLogic logic = new ManagementLogic();
             ListView list = new ListView();
-            List<object> cot = new List<object> { "manv", "tennv", "tencv"};
-            list = logic.fillListView("nhanvien, congviec", cot,"WHERE nhanvien.macv = congviec.macv ");
+            List<object> cot = new List<object> { "manv", "tennv", "tencv" };
+            list = logic.fillListView("nhanvien, congviec", cot, "WHERE nhanvien.macv = congviec.macv ");
             Console.WriteLine(list.Items.Count);
+
             //lam sach listview
             lsv_listNhanVien.Columns.Clear();
             lsv_listNhanVien.Items.Clear();
@@ -103,6 +119,43 @@ namespace Project_QliSieuThi
             lsv_listNhanVien.AutoResizeColumns(ColumnHeaderAutoResizeStyle.ColumnContent);
             lsv_listNhanVien.AutoResizeColumns(ColumnHeaderAutoResizeStyle.HeaderSize);
         }
+
+        private void loadListHoaDon()
+        {
+            DataProvider data = new DataProvider();
+
+            ManagementLogic logic = new ManagementLogic();
+            ListView list = new ListView();
+            List<object> cot = new List<object> { "mahd","manv","ngaylap","tongtien" };
+
+            list = logic.fillListView("hoadon",cot);
+            Console.WriteLine(list.Items.Count);
+
+            //lam sach listview
+            lsv_listHoaDon.Columns.Clear();
+            lsv_listHoaDon.Items.Clear();
+            lsv_listHoaDon.View = View.Details;
+
+            //add column
+            foreach (ColumnHeader column in list.Columns)
+            {
+                lsv_listHoaDon.Columns.Add(column.Text);
+            }
+
+            //add item
+            foreach (ListViewItem item in list.Items)
+            {
+                lsv_listHoaDon.Items.Add((ListViewItem)item.Clone());
+            }
+
+            //auto size column
+            lsv_listHoaDon.AutoResizeColumns(ColumnHeaderAutoResizeStyle.ColumnContent);
+            lsv_listHoaDon.AutoResizeColumns(ColumnHeaderAutoResizeStyle.HeaderSize);
+        }
+
+        /// <summary>
+        /// Hàm load thông tin quản lý
+        /// </summary>
         private void loadTTQuanLy()
         {
             ManagementLogic logic = new ManagementLogic();
@@ -116,240 +169,262 @@ namespace Project_QliSieuThi
 
         }
 
+        /// <summary>
+        /// Hàm xử lý sự kiện khi click vào nút xem chi tiết nhân viên
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void btn_qlsp_XemChiTiet_Click(object sender, EventArgs e)
+        {
+            if (lsv_listSanPham.SelectedItems.Count > 0)
+            {
+                ListViewItem item = lsv_listSanPham.SelectedItems[0];
+                SanPham sp = (SanPham)item.Tag;
 
-        //public void clean()
-        //{
-        //    lv_qlsp.Items.Clear();
-        //}
-
-        //public void hienthi()
-        //{
-        //    bll.qlsp qlsp = new bll.qlsp();
-        //    qlsp.hienthisp(lv_qlsp);
-        //}
-
-        //private void btn_qlnv_XemChiTiet_Click(object sender, EventArgs e)
-        //{
-
-        //    fViewInfoNhanVien fViewInfoNhanVien = new fViewInfoNhanVien();           
-        //    fViewInfoNhanVien.ShowDialog();
-        //}
-
-        //private void btn_qlsp_XemChiTiet_Click(object sender, EventArgs e)
-        //{
-        //    string masp, tensp, malsp, soluong, dongiaban, dongianhap;
-        //    fViewInfoGoods fViewInfoSanPham = new fViewInfoGoods();
-        //    if (lv_qlsp.SelectedItems.Count>0)
-        //    {
-        //        ListViewItem item = lv_qlsp.SelectedItems[0];
-        //        int tim = Convert.ToInt32(item.SubItems[0].Text);
-
-        //        DataTable listSP = data_provider.qlsanpham.Instance.layttTuMasp(tim);
-
-        //        foreach (DataRow row in listSP.Rows)
-        //        {
-        //            ListViewItem item1 = new ListViewItem(row["masp"].ToString());
-        //            masp = item.Text;
-        //            tensp = item1.SubItems.Add(row["tensp"].ToString()).Text;
-        //            malsp = item1.SubItems.Add(row["malsp"].ToString()).Text;
-        //            soluong = item1.SubItems.Add(row["soluong"].ToString()).Text;
-        //            dongiaban = item1.SubItems.Add(row["dongiaban"].ToString()).Text;
-        //            dongianhap = item1.SubItems.Add(row["dongianhap"].ToString()).Text;
-        //            fViewInfoSanPham.tt(masp, tensp, malsp, soluong, dongiaban, dongianhap);
-        //        }               
-
-        //        fViewInfoSanPham.ShowDialog();
-        //    }
-        //    else
-        //        MessageBox.Show("Chưa chọn hàng cần xem");
-
-        //}
-
-        //private void btn_qlsp_NhapHang_Click(object sender, EventArgs e)
-        //{
-        //    fImportGoods fImportGoods = new fImportGoods();
-        //    this.Hide();
-        //    fImportGoods.ShowDialog();
-
-        //    this.Show();
-        //}
-
-        //private void btn_qlsp_SuaSanPham_Click(object sender, EventArgs e)
-        //{
-        //    string masp, tensp, malsp, soluong, dongiaban, dongianhap;
-
-        //    fGoodsUpdate fGoodsUpdate = new fGoodsUpdate();
-        //    if (lv_qlsp.SelectedItems.Count > 0)
-        //    {
-
-        //        ListViewItem item = lv_qlsp.SelectedItems[0];
-        //        int tim = Convert.ToInt32(item.SubItems[0].Text);
-
-        //        DataTable listSP = data_provider.qlsanpham.Instance.layttTuMasp(tim);
-
-        //        foreach (DataRow row in listSP.Rows)
-        //        {
-        //            ListViewItem item1 = new ListViewItem(row["masp"].ToString());
-        //            masp = item.Text;
-        //            tensp = item1.SubItems.Add(row["tensp"].ToString()).Text;
-        //            malsp = item1.SubItems.Add(row["malsp"].ToString()).Text;
-        //            soluong = item1.SubItems.Add(row["soluong"].ToString()).Text;
-        //            dongiaban = item1.SubItems.Add(row["dongiaban"].ToString()).Text;
-        //            dongianhap = item1.SubItems.Add(row["dongianhap"].ToString()).Text;
-        //            fGoodsUpdate.tt(masp, tensp, malsp, soluong, dongiaban, dongianhap);
-        //        }
-        //        fGoodsUpdate.ShowDialog();
-
-        //        Close();
-        //    }
-        //    else
-        //        MessageBox.Show("Chưa chọn sản phẩm cần sửa");
-
-        //}
-
-        //private void btn_qlnv_SuaNhanVien_Click(object sender, EventArgs e)
-        //{
-        //    fStaffUpdate fStaffUpdate = new fStaffUpdate();
-        //    fStaffUpdate.ShowDialog();
-        //}
-
-        //private void btn_qlsp_LoaiSanPham_Click(object sender, EventArgs e)
-        //{
-
-        //    fTypeGoods fTypeGoods = new fTypeGoods();
-        //    this.Hide();
-        //    fTypeGoods.ShowDialog();
-        //    this.Show();
-        //}
-
-        //private void btn_qlnv_LoaiNhanVien_Click(object sender, EventArgs e)
-        //{
-
-        //    fJobStaff fJobStaff = new fJobStaff();
-        //    this.Hide();
-        //    fJobStaff.ShowDialog();
-        //    this.Show();
-        //}
-
-        //private void btn_qlnv_ThemNhanVien_Click(object sender, EventArgs e)
-        //{
-        //    fAddStaff fAddStaff = new fAddStaff();
-        //    fAddStaff.ShowDialog();
-        //}
-
-        //private void btn_qlsp_XoaHang_Click(object sender, EventArgs e)
-        //{
-        //    if (lv_qlsp.SelectedItems.Count > 0)
-        //    {
-        //        ListViewItem item = lv_qlsp.SelectedItems[0];
-
-        //        bll.qlsp qlsp = new bll.qlsp();
-        //        int masp = Convert.ToInt32(item.SubItems[0].Text);
-        //        int kt = qlsp.dlt(masp);
-        //        if (kt == 1)
-        //        {
-        //            MessageBox.Show("thành công");
-        //            clean();
-        //        }
-        //        else
-        //        {
-        //            MessageBox.Show(" ko thành công");
-        //        }
-        //        qlsp.hienthisp(lv_qlsp);
-        //    }
-        //    else
-        //        MessageBox.Show("Chưa chọn mặt hàng!", "Cảnh báo!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-
-        //}
-
-        //private void btn_qlnv_XoaNhanVien_Click(object sender, EventArgs e)
-        //{
-        //    MessageBox.Show("Chưa chọn nhân viên!", "Cảnh báo!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-        //}
-
-        //private void dataView_qlsp_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        //{
-
-        //}
+                fViewInfoGoods fViewInfoSanPham = new fViewInfoGoods(sp);
+                fViewInfoSanPham.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Chưa chọn hàng cần xem", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
 
 
-        //private void btn_qlsp_TimKiem_Click(object sender, EventArgs e)
-        //{
-        //    bll.qlsp qlsp = new bll.qlsp();
-        //    if (rdb_qlsp_TenSanPham.Checked)
-        //    {
-        //        string tensp = txt_qlsp_TenSanPham.Text;
-        //        if (tensp != "")
-        //        {
 
-        //            int kt = qlsp.layttbangten(tensp);
-        //            if (kt == 1)
-        //            {
-        //                lv_qlsp.Items.Clear();
-        //                DataTable listSP = data_provider.qlsanpham.Instance.laydsbangtensp(tensp);
-        //                foreach (DataRow row in listSP.Rows)
-        //                {
-        //                    ListViewItem item = new ListViewItem(row["masp"].ToString());
-        //                    item.SubItems.Add(row["tensp"].ToString());
-        //                    item.SubItems.Add(row["soluong"].ToString());
-        //                    item.SubItems.Add(row["dongiaban"].ToString());
-        //                    lv_qlsp.Items.Add(item);
-        //                }
-        //            }
-        //            else
-        //                MessageBox.Show("Lỗi ");
-        //        }
-        //        else
-        //            MessageBox.Show("Chưa nhập tên sản phẩm");
-        //    }
-        //    else if (rdb_qlsp_TatCa.Checked)
-        //    {
-        //        lv_qlsp.Items.Clear();
-        //        qlsp.hienthisp(lv_qlsp);
-        //    }
-        //    else if (rdb_qlsp_LoaiSanPham.Checked)
-        //    {
+            //public void clean()
+            //{
+            //    lv_qlsp.Items.Clear();
+            //}
 
-        //        if (cbb_qlsp_LoaiNhanVien.Text != "")
-        //        {
+            //public void hienthi()
+            //{
+            //    bll.qlsp qlsp = new bll.qlsp();
+            //    qlsp.hienthisp(lv_qlsp);
+            //}
 
-        //            int malsp = Convert.ToInt32(cbb_qlsp_LoaiNhanVien.Text);
-        //            int kt = qlsp.layttbangloai(malsp);
-        //            if (kt == 1)
-        //            {
-        //                lv_qlsp.Items.Clear();
-        //                DataTable listSP = data_provider.qlsanpham.Instance.laydsbanglsp(malsp);
-        //                foreach (DataRow row in listSP.Rows)
-        //                {
-        //                    ListViewItem item = new ListViewItem(row["masp"].ToString());
-        //                    item.SubItems.Add(row["tensp"].ToString());
-        //                    item.SubItems.Add(row["soluong"].ToString());
-        //                    item.SubItems.Add(row["dongiaban"].ToString());
-        //                    lv_qlsp.Items.Add(item);
-        //                }
-        //            }
-        //            else
-        //                MessageBox.Show("....");
-        //        }
-        //        else
-        //            MessageBox.Show("Chưa nhập mã loại sản phẩm");
-        //    }
-        //}
+            //private void btn_qlnv_XemChiTiet_Click(object sender, EventArgs e)
+            //{
 
-        //private void cbb_qlsp_LoaiNhanVien_SelectedIndexChanged(object sender, EventArgs e)
-        //{                
+            //    fViewInfoNhanVien fViewInfoNhanVien = new fViewInfoNhanVien();           
+            //    fViewInfoNhanVien.ShowDialog();
+            //}
+
+            //private void btn_qlsp_XemChiTiet_Click(object sender, EventArgs e)
+            //{
+            //    string masp, tensp, malsp, soluong, dongiaban, dongianhap;
+            //    fViewInfoGoods fViewInfoSanPham = new fViewInfoGoods();
+            //    if (lv_qlsp.SelectedItems.Count>0)
+            //    {
+            //        ListViewItem item = lv_qlsp.SelectedItems[0];
+            //        int tim = Convert.ToInt32(item.SubItems[0].Text);
+
+            //        DataTable listSP = data_provider.qlsanpham.Instance.layttTuMasp(tim);
+
+            //        foreach (DataRow row in listSP.Rows)
+            //        {
+            //            ListViewItem item1 = new ListViewItem(row["masp"].ToString());
+            //            masp = item.Text;
+            //            tensp = item1.SubItems.Add(row["tensp"].ToString()).Text;
+            //            malsp = item1.SubItems.Add(row["malsp"].ToString()).Text;
+            //            soluong = item1.SubItems.Add(row["soluong"].ToString()).Text;
+            //            dongiaban = item1.SubItems.Add(row["dongiaban"].ToString()).Text;
+            //            dongianhap = item1.SubItems.Add(row["dongianhap"].ToString()).Text;
+            //            fViewInfoSanPham.tt(masp, tensp, malsp, soluong, dongiaban, dongianhap);
+            //        }               
+
+            //        fViewInfoSanPham.ShowDialog();
+            //    }
+            //    else
+            //        MessageBox.Show("Chưa chọn hàng cần xem");
+
+            //}
+
+            //private void btn_qlsp_NhapHang_Click(object sender, EventArgs e)
+            //{
+            //    fImportGoods fImportGoods = new fImportGoods();
+            //    this.Hide();
+            //    fImportGoods.ShowDialog();
+
+            //    this.Show();
+            //}
+
+            //private void btn_qlsp_SuaSanPham_Click(object sender, EventArgs e)
+            //{
+            //    string masp, tensp, malsp, soluong, dongiaban, dongianhap;
+
+            //    fGoodsUpdate fGoodsUpdate = new fGoodsUpdate();
+            //    if (lv_qlsp.SelectedItems.Count > 0)
+            //    {
+
+            //        ListViewItem item = lv_qlsp.SelectedItems[0];
+            //        int tim = Convert.ToInt32(item.SubItems[0].Text);
+
+            //        DataTable listSP = data_provider.qlsanpham.Instance.layttTuMasp(tim);
+
+            //        foreach (DataRow row in listSP.Rows)
+            //        {
+            //            ListViewItem item1 = new ListViewItem(row["masp"].ToString());
+            //            masp = item.Text;
+            //            tensp = item1.SubItems.Add(row["tensp"].ToString()).Text;
+            //            malsp = item1.SubItems.Add(row["malsp"].ToString()).Text;
+            //            soluong = item1.SubItems.Add(row["soluong"].ToString()).Text;
+            //            dongiaban = item1.SubItems.Add(row["dongiaban"].ToString()).Text;
+            //            dongianhap = item1.SubItems.Add(row["dongianhap"].ToString()).Text;
+            //            fGoodsUpdate.tt(masp, tensp, malsp, soluong, dongiaban, dongianhap);
+            //        }
+            //        fGoodsUpdate.ShowDialog();
+
+            //        Close();
+            //    }
+            //    else
+            //        MessageBox.Show("Chưa chọn sản phẩm cần sửa");
+
+            //}
+
+            //private void btn_qlnv_SuaNhanVien_Click(object sender, EventArgs e)
+            //{
+            //    fStaffUpdate fStaffUpdate = new fStaffUpdate();
+            //    fStaffUpdate.ShowDialog();
+            //}
+
+            //private void btn_qlsp_LoaiSanPham_Click(object sender, EventArgs e)
+            //{
+
+            //    fTypeGoods fTypeGoods = new fTypeGoods();
+            //    this.Hide();
+            //    fTypeGoods.ShowDialog();
+            //    this.Show();
+            //}
+
+            //private void btn_qlnv_LoaiNhanVien_Click(object sender, EventArgs e)
+            //{
+
+            //    fJobStaff fJobStaff = new fJobStaff();
+            //    this.Hide();
+            //    fJobStaff.ShowDialog();
+            //    this.Show();
+            //}
+
+            //private void btn_qlnv_ThemNhanVien_Click(object sender, EventArgs e)
+            //{
+            //    fAddStaff fAddStaff = new fAddStaff();
+            //    fAddStaff.ShowDialog();
+            //}
+
+            //private void btn_qlsp_XoaHang_Click(object sender, EventArgs e)
+            //{
+            //    if (lv_qlsp.SelectedItems.Count > 0)
+            //    {
+            //        ListViewItem item = lv_qlsp.SelectedItems[0];
+
+            //        bll.qlsp qlsp = new bll.qlsp();
+            //        int masp = Convert.ToInt32(item.SubItems[0].Text);
+            //        int kt = qlsp.dlt(masp);
+            //        if (kt == 1)
+            //        {
+            //            MessageBox.Show("thành công");
+            //            clean();
+            //        }
+            //        else
+            //        {
+            //            MessageBox.Show(" ko thành công");
+            //        }
+            //        qlsp.hienthisp(lv_qlsp);
+            //    }
+            //    else
+            //        MessageBox.Show("Chưa chọn mặt hàng!", "Cảnh báo!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+            //}
+
+            //private void btn_qlnv_XoaNhanVien_Click(object sender, EventArgs e)
+            //{
+            //    MessageBox.Show("Chưa chọn nhân viên!", "Cảnh báo!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            //}
+
+            //private void dataView_qlsp_CellContentClick(object sender, DataGridViewCellEventArgs e)
+            //{
+
+            //}
 
 
-        //}
+            //private void btn_qlsp_TimKiem_Click(object sender, EventArgs e)
+            //{
+            //    bll.qlsp qlsp = new bll.qlsp();
+            //    if (rdb_qlsp_TenSanPham.Checked)
+            //    {
+            //        string tensp = txt_qlsp_TenSanPham.Text;
+            //        if (tensp != "")
+            //        {
 
-        //private void txt_bctk_TongChi_TextChanged(object sender, EventArgs e)
-        //{
+            //            int kt = qlsp.layttbangten(tensp);
+            //            if (kt == 1)
+            //            {
+            //                lv_qlsp.Items.Clear();
+            //                DataTable listSP = data_provider.qlsanpham.Instance.laydsbangtensp(tensp);
+            //                foreach (DataRow row in listSP.Rows)
+            //                {
+            //                    ListViewItem item = new ListViewItem(row["masp"].ToString());
+            //                    item.SubItems.Add(row["tensp"].ToString());
+            //                    item.SubItems.Add(row["soluong"].ToString());
+            //                    item.SubItems.Add(row["dongiaban"].ToString());
+            //                    lv_qlsp.Items.Add(item);
+            //                }
+            //            }
+            //            else
+            //                MessageBox.Show("Lỗi ");
+            //        }
+            //        else
+            //            MessageBox.Show("Chưa nhập tên sản phẩm");
+            //    }
+            //    else if (rdb_qlsp_TatCa.Checked)
+            //    {
+            //        lv_qlsp.Items.Clear();
+            //        qlsp.hienthisp(lv_qlsp);
+            //    }
+            //    else if (rdb_qlsp_LoaiSanPham.Checked)
+            //    {
 
-        //}
+            //        if (cbb_qlsp_LoaiNhanVien.Text != "")
+            //        {
 
-        //private void fManager_Load(object sender, EventArgs e)
-        //{
+            //            int malsp = Convert.ToInt32(cbb_qlsp_LoaiNhanVien.Text);
+            //            int kt = qlsp.layttbangloai(malsp);
+            //            if (kt == 1)
+            //            {
+            //                lv_qlsp.Items.Clear();
+            //                DataTable listSP = data_provider.qlsanpham.Instance.laydsbanglsp(malsp);
+            //                foreach (DataRow row in listSP.Rows)
+            //                {
+            //                    ListViewItem item = new ListViewItem(row["masp"].ToString());
+            //                    item.SubItems.Add(row["tensp"].ToString());
+            //                    item.SubItems.Add(row["soluong"].ToString());
+            //                    item.SubItems.Add(row["dongiaban"].ToString());
+            //                    lv_qlsp.Items.Add(item);
+            //                }
+            //            }
+            //            else
+            //                MessageBox.Show("....");
+            //        }
+            //        else
+            //            MessageBox.Show("Chưa nhập mã loại sản phẩm");
+            //    }
+            //}
 
-        //}
+            //private void cbb_qlsp_LoaiNhanVien_SelectedIndexChanged(object sender, EventArgs e)
+            //{                
+
+
+            //}
+
+            //private void txt_bctk_TongChi_TextChanged(object sender, EventArgs e)
+            //{
+
+            //}
+
+            //private void fManager_Load(object sender, EventArgs e)
+            //{
+
+            //}
+        }
     }
 }
