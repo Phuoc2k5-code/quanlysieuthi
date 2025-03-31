@@ -58,10 +58,7 @@ namespace Project_QliSieuThi
         {
             string taiKhoan = txt_lg_TaiKhoan.Text;
             string matKhau = txt_lg_MatKhau.Text;
-
-            //Console.WriteLine(taiKhoan);
-            //Console.WriteLine(matKhau);
-
+                       
             ManagementLogic logic = new ManagementLogic();
 
             if (taiKhoan == "" || matKhau == "")
@@ -87,7 +84,7 @@ namespace Project_QliSieuThi
                     MessageBox.Show("Sai tên tài khoản hoặc mật khẩu!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-           
+            
 
         }
 

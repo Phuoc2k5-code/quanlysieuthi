@@ -9,7 +9,7 @@ using Project_QliSieuThi.DTO;
 
 namespace Project_QliSieuThi.DTO
 {
-    internal class LoaiSanPham
+    public class LoaiSanPham
     {
         private int maLoai;
         private string tenLoai;

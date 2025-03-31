@@ -56,23 +56,23 @@ namespace Project_QliSieuThi.DAL
                 {
                     if (parameters != null)
                     {
-                        //string[] lam = query.Split(' ');//Split: được sử dụng để tách một chuỗi thành các phần tử con
-                        //int i = 0;
-                        //foreach (string s in lam)// vòng lặp qua mảng "lam"
-                        //{
-                        //    if (s.Contains("@"))// contains: kt giá trị có chứa (...)
-                        //    {
-                        //        cmd.Parameters.AddWithValue(s, parameters[i]);// thêm mảng s vào list 
-                        //        i++;
-                        //    }
-                        //}
-
-                        //Hàm này dùng khi câu select có Where
-                        for (int i = 0; i < parameters.Count; i++)
+                        string[] lam = query.Split(' ');//Split: được sử dụng để tách một chuỗi thành các phần tử con
+                        int i = 0;
+                        foreach (string s in lam)// vòng lặp qua mảng "lam"
                         {
-                            cmd.Parameters.AddWithValue($"@param{i}", parameters[i]);
-                            //Hàm này công dụng y như hàm cũ nhưng viết gọn hơn
+                            if (s.Contains("@"))// contains: kt giá trị có chứa (...)
+                            {
+                                cmd.Parameters.AddWithValue(s, parameters[i]);// thêm mảng s vào list 
+                                i++;
+                            }
                         }
+
+                        ////Hàm này dùng khi câu select có Where
+                        //for (int i = 0; i < parameters.Count; i++)
+                        //{
+                        //    cmd.Parameters.AddWithValue($"@param{i}", parameters[i]);
+                        //    //Hàm này công dụng y như hàm cũ nhưng viết gọn hơn
+                        //}
 
 
 
@@ -98,7 +98,7 @@ namespace Project_QliSieuThi.DAL
         public int excuteNonQueryCommand(string query, List<object> parameters = null)
         {
             int lineChanged = 0;
-            string connectionStr = null;
+            //string connectionStr = null;
             using (SqlConnection connection = new SqlConnection(connectionStr))
             {
 
@@ -109,21 +109,21 @@ namespace Project_QliSieuThi.DAL
 
                     if (parameters != null)
                     {
-                        //string[] lam = query.Split(' ');//Split: được sử dụng để tách một chuỗi thành các phần tử con,
-                        //int i = 0;
-                        //foreach (string s in lam)// vòng lặp qua mảng "lam"
-                        //{
-                        //    if (s.Contains("@"))// contains: kt giá trị có chứa (...)
-                        //    {
-                        //        cmd.Parameters.AddWithValue(s, parameters[i]);// thêm mảng s vào list 
-                        //        i++;
-                        //    }
-                        //}
-                        for (int i = 0; i < parameters.Count; i++)
+                        string[] lam = query.Split(' ');//Split: được sử dụng để tách một chuỗi thành các phần tử con,
+                        int i = 0;
+                        foreach (string s in lam)// vòng lặp qua mảng "lam"
                         {
-                            cmd.Parameters.AddWithValue($"@param{i}", parameters[i]);
-                            //Hàm này công dụng y như hàm cũ nhưng viết gọn hơn
+                            if (s.Contains("@"))// contains: kt giá trị có chứa (...)
+                            {
+                                cmd.Parameters.AddWithValue(s, parameters[i]);// thêm mảng s vào list 
+                                i++;
+                            }
                         }
+                        //for (int i = 0; i < parameters.Count; i++)
+                        //{
+                        //    cmd.Parameters.AddWithValue($"@param{i}", parameters[i]);
+                        //    //Hàm này công dụng y như hàm cũ nhưng viết gọn hơn
+                        //}
                     }
 
                     lineChanged = cmd.ExecuteNonQuery();

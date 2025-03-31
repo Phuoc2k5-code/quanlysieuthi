@@ -1,22 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\",
+  "WorkspaceRootPath": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\project_qlisieuthi\\pl\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\project_qlisieuthi\\pl\\fimportgoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\fimportgoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|d:\\github\\quanlysieuthi\\quanlysieuthi\\project_qlisieuthi\\project_qlisieuthi\\dal\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\project_qlisieuthi\\pl\\fimportgoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\fimportgoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|d:\\github\\quanlysieuthi\\t\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\project_qlisieuthi\\project_qlisieuthi\\pl\\fimportgoods.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\fimportgoods.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\project_qlisieuthi\\pl\\fviewinfogoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\fviewinfogoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|d:\\github\\quanlysieuthi\\t\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\project_qlisieuthi\\project_qlisieuthi\\dal\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\dal\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\project_qlisieuthi\\bll\\managementlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\project_qlisieuthi\\pl\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\project_qlisieuthi\\pl\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\project_qlisieuthi\\pl\\fviewinfogoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\fviewinfogoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\project_qlisieuthi\\dto\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\dto\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\project_qlisieuthi\\bll\\managementlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\bll\\managementlogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|d:\\github\\quanlysieuthi\\quanlysieuthi\\project_qlisieuthi\\project_qlisieuthi\\pl\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\project_qlisieuthi\\pl\\ftypegoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\ftypegoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\project_qlisieuthi\\pl\\ftypegoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\ftypegoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\project_qlisieuthi\\pl\\fupdatetypegoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\fupdatetypegoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\project_qlisieuthi\\pl\\fupdatetypegoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\fupdatetypegoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\project_qlisieuthi\\pl\\faddtypegoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\faddtypegoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\project_qlisieuthi\\pl\\faddtypegoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\faddtypegoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,34 +73,20 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 318,
-          "SelectedChildIndex": 5,
+          "DockedWidth": 335,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "DataProvider.cs",
-              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\DAL\\DataProvider.cs",
+              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\DAL\\DataProvider.cs",
               "RelativeDocumentMoniker": "Project_QliSieuThi\\DAL\\DataProvider.cs",
-              "ToolTip": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\DAL\\DataProvider.cs",
+              "ToolTip": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\DAL\\DataProvider.cs",
               "RelativeToolTip": "Project_QliSieuThi\\DAL\\DataProvider.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAwwFIAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAH8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-29T05:57:17.978Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ManagementLogic.cs",
-              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\BLL\\ManagementLogic.cs",
-              "RelativeDocumentMoniker": "Project_QliSieuThi\\BLL\\ManagementLogic.cs",
-              "ToolTip": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\BLL\\ManagementLogic.cs",
-              "RelativeToolTip": "Project_QliSieuThi\\BLL\\ManagementLogic.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAcwEYAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T08:06:09.555Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
@@ -70,28 +104,182 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "fManager.cs",
-              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fManager.cs",
-              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fManager.cs",
-              "ToolTip": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fManager.cs*",
-              "RelativeToolTip": "Project_QliSieuThi\\PL\\fManager.cs*",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAAAIAAAABIAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "fImportGoods.Designer.cs",
+              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fImportGoods.Designer.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fImportGoods.Designer.cs",
+              "ToolTip": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fImportGoods.Designer.cs",
+              "RelativeToolTip": "Project_QliSieuThi\\PL\\fImportGoods.Designer.cs",
+              "ViewState": "AgIAAAMCAAAAAAAAAAAlwA4CAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T10:34:55.517Z",
+              "WhenOpened": "2025-03-31T08:09:22.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "fManager.cs [Design]",
-              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fManager.cs",
-              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fManager.cs",
-              "ToolTip": "D:\\GitHub\\quanlysieuthi\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fManager.cs [Design]*",
-              "RelativeToolTip": "Project_QliSieuThi\\PL\\fManager.cs [Design]*",
+              "Title": "fViewInfoGoods.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fViewInfoGoods.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fViewInfoGoods.cs",
+              "ToolTip": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fViewInfoGoods.cs [Design]",
+              "RelativeToolTip": "Project_QliSieuThi\\PL\\fViewInfoGoods.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T09:04:53.727Z",
+              "WhenOpened": "2025-03-31T07:19:07.147Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "fManager.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fManager.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fManager.cs",
+              "ToolTip": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fManager.cs [Design]",
+              "RelativeToolTip": "Project_QliSieuThi\\PL\\fManager.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T07:00:33.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "fImportGoods.cs",
+              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fImportGoods.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fImportGoods.cs",
+              "ToolTip": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fImportGoods.cs*",
+              "RelativeToolTip": "Project_QliSieuThi\\PL\\fImportGoods.cs*",
+              "ViewState": "AgIAADoAAAAAAAAAAAASwE8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:27:15.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fImportGoods.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fImportGoods.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fImportGoods.cs",
+              "ToolTip": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fImportGoods.cs [Design]*",
+              "RelativeToolTip": "Project_QliSieuThi\\PL\\fImportGoods.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:27:10.015Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "fManager.cs",
+              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fManager.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fManager.cs",
+              "ToolTip": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fManager.cs",
+              "RelativeToolTip": "Project_QliSieuThi\\PL\\fManager.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAAA7wCUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T07:00:36.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\DTO\\NhanVien.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\DTO\\NhanVien.cs",
+              "ToolTip": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\DTO\\NhanVien.cs",
+              "RelativeToolTip": "Project_QliSieuThi\\DTO\\NhanVien.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAIwCMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T07:14:23.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "fViewInfoGoods.cs",
+              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fViewInfoGoods.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fViewInfoGoods.cs",
+              "ToolTip": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fViewInfoGoods.cs",
+              "RelativeToolTip": "Project_QliSieuThi\\PL\\fViewInfoGoods.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvykAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T07:19:08.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "fAddTypeGoods.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fAddTypeGoods.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fAddTypeGoods.cs",
+              "ToolTip": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fAddTypeGoods.cs [Design]",
+              "RelativeToolTip": "Project_QliSieuThi\\PL\\fAddTypeGoods.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:06:49.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "fTypeGoods.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fTypeGoods.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fTypeGoods.cs",
+              "ToolTip": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fTypeGoods.cs [Design]",
+              "RelativeToolTip": "Project_QliSieuThi\\PL\\fTypeGoods.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T05:55:20.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ManagementLogic.cs",
+              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\BLL\\ManagementLogic.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\BLL\\ManagementLogic.cs",
+              "ToolTip": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\BLL\\ManagementLogic.cs",
+              "RelativeToolTip": "Project_QliSieuThi\\BLL\\ManagementLogic.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAADwv0sAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T05:56:37.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "fAddTypeGoods.cs",
+              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fAddTypeGoods.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fAddTypeGoods.cs",
+              "ToolTip": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fAddTypeGoods.cs",
+              "RelativeToolTip": "Project_QliSieuThi\\PL\\fAddTypeGoods.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAASwB4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:07:02.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "fTypeGoods.cs",
+              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fTypeGoods.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fTypeGoods.cs",
+              "ToolTip": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fTypeGoods.cs",
+              "RelativeToolTip": "Project_QliSieuThi\\PL\\fTypeGoods.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAhwG8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T15:27:07.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "fUpdateTypeGoods.cs",
+              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fUpdateTypeGoods.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fUpdateTypeGoods.cs",
+              "ToolTip": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fUpdateTypeGoods.cs",
+              "RelativeToolTip": "Project_QliSieuThi\\PL\\fUpdateTypeGoods.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAhwC4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:11:46.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "fUpdateTypeGoods.cs [Design]",
+              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fUpdateTypeGoods.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fUpdateTypeGoods.cs",
+              "ToolTip": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fUpdateTypeGoods.cs [Design]",
+              "RelativeToolTip": "Project_QliSieuThi\\PL\\fUpdateTypeGoods.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T06:01:52.994Z"
             }
           ]
         }

@@ -69,7 +69,14 @@ namespace Project_QliSieuThi.BLL
          
 
             DataTable result = dataProvider.executeSelect(query);
-            idQuanLy = Convert.ToInt32(result.Rows[0][0].ToString());
+            try
+            {
+                idQuanLy = Convert.ToInt32(result.Rows[0][0].ToString());
+            }
+            catch
+            {
+                return false;
+            }
             if (result.Rows.Count > 0)
             {
                 return true;

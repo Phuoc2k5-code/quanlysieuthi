@@ -91,6 +91,7 @@
             this.txt_bctk_TenSanPham = new System.Windows.Forms.TextBox();
             this.rdb_bctk_TenSanPham = new System.Windows.Forms.RadioButton();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.lsv_listHoaDon = new System.Windows.Forms.ListView();
             this.tbpTaiKhoan = new System.Windows.Forms.TabPage();
             this.panel4 = new System.Windows.Forms.Panel();
             this.ptb_tk_AnhQLi = new System.Windows.Forms.PictureBox();
@@ -109,7 +110,6 @@
             this.lbl_tk_TenTK = new System.Windows.Forms.Label();
             this.lbl_tk_TenNqLi = new System.Windows.Forms.Label();
             this.lbl_tk_MaNqLi = new System.Windows.Forms.Label();
-            this.lsv_listHoaDon = new System.Windows.Forms.ListView();
             this.tabControl1.SuspendLayout();
             this.tbpQuanLySanPham.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -149,7 +149,7 @@
             this.tbpQuanLySanPham.Controls.Add(this.panel1);
             this.tbpQuanLySanPham.Location = new System.Drawing.Point(4, 34);
             this.tbpQuanLySanPham.Name = "tbpQuanLySanPham";
-            this.tbpQuanLySanPham.Padding = new System.Windows.Forms.Padding(3);
+            this.tbpQuanLySanPham.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.tbpQuanLySanPham.Size = new System.Drawing.Size(1077, 571);
             this.tbpQuanLySanPham.TabIndex = 0;
             this.tbpQuanLySanPham.Text = "Quản lý sản phẩm";
@@ -179,6 +179,7 @@
             this.btn_qlsp_TimKiem.TabIndex = 5;
             this.btn_qlsp_TimKiem.Text = "Tìm kiếm";
             this.btn_qlsp_TimKiem.UseVisualStyleBackColor = true;
+            this.btn_qlsp_TimKiem.Click += new System.EventHandler(this.btn_qlsp_TimKiem_Click);
             // 
             // txt_qlsp_TenSanPham
             // 
@@ -253,6 +254,7 @@
             this.btn_qlsp_SuaSanPham.TabIndex = 12;
             this.btn_qlsp_SuaSanPham.Text = "Sửa hàng";
             this.btn_qlsp_SuaSanPham.UseVisualStyleBackColor = true;
+            this.btn_qlsp_SuaSanPham.Click += new System.EventHandler(this.btn_qlsp_SuaSanPham_Click);
             // 
             // btn_qlsp_LoaiSanPham
             // 
@@ -263,6 +265,7 @@
             this.btn_qlsp_LoaiSanPham.TabIndex = 11;
             this.btn_qlsp_LoaiSanPham.Text = "Loại sản phẩm";
             this.btn_qlsp_LoaiSanPham.UseVisualStyleBackColor = true;
+            this.btn_qlsp_LoaiSanPham.Click += new System.EventHandler(this.btn_qlsp_LoaiSanPham_Click);
             // 
             // btn_qlsp_XoaHang
             // 
@@ -273,6 +276,7 @@
             this.btn_qlsp_XoaHang.TabIndex = 10;
             this.btn_qlsp_XoaHang.Text = "Xóa hàng";
             this.btn_qlsp_XoaHang.UseVisualStyleBackColor = true;
+            this.btn_qlsp_XoaHang.Click += new System.EventHandler(this.btn_qlsp_XoaHang_Click);
             // 
             // btn_qlsp_NhapHang
             // 
@@ -283,6 +287,7 @@
             this.btn_qlsp_NhapHang.TabIndex = 8;
             this.btn_qlsp_NhapHang.Text = "Nhập hàng";
             this.btn_qlsp_NhapHang.UseVisualStyleBackColor = true;
+            this.btn_qlsp_NhapHang.Click += new System.EventHandler(this.btn_qlsp_NhapHang_Click);
             // 
             // btn_qlsp_XemChiTiet
             // 
@@ -346,7 +351,7 @@
             this.tbpQuanLyNhanVien.Controls.Add(this.groupBox3);
             this.tbpQuanLyNhanVien.Location = new System.Drawing.Point(4, 34);
             this.tbpQuanLyNhanVien.Name = "tbpQuanLyNhanVien";
-            this.tbpQuanLyNhanVien.Padding = new System.Windows.Forms.Padding(3);
+            this.tbpQuanLyNhanVien.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.tbpQuanLyNhanVien.Size = new System.Drawing.Size(1077, 571);
             this.tbpQuanLyNhanVien.TabIndex = 1;
             this.tbpQuanLyNhanVien.Text = "Quản lý nhân viên";
@@ -779,6 +784,16 @@
             this.panel3.Size = new System.Drawing.Size(684, 367);
             this.panel3.TabIndex = 0;
             // 
+            // lsv_listHoaDon
+            // 
+            this.lsv_listHoaDon.HideSelection = false;
+            this.lsv_listHoaDon.Location = new System.Drawing.Point(3, 3);
+            this.lsv_listHoaDon.Name = "lsv_listHoaDon";
+            this.lsv_listHoaDon.Size = new System.Drawing.Size(678, 361);
+            this.lsv_listHoaDon.TabIndex = 0;
+            this.lsv_listHoaDon.UseCompatibleStateImageBehavior = false;
+            this.lsv_listHoaDon.SelectedIndexChanged += new System.EventHandler(this.lsv_listHoaDon_SelectedIndexChanged);
+            // 
             // tbpTaiKhoan
             // 
             this.tbpTaiKhoan.Controls.Add(this.panel4);
@@ -956,15 +971,6 @@
             this.lbl_tk_MaNqLi.Size = new System.Drawing.Size(108, 25);
             this.lbl_tk_MaNqLi.TabIndex = 1;
             this.lbl_tk_MaNqLi.Text = "Mã quản lí:";
-            // 
-            // lsv_listHoaDon
-            // 
-            this.lsv_listHoaDon.HideSelection = false;
-            this.lsv_listHoaDon.Location = new System.Drawing.Point(3, 3);
-            this.lsv_listHoaDon.Name = "lsv_listHoaDon";
-            this.lsv_listHoaDon.Size = new System.Drawing.Size(678, 361);
-            this.lsv_listHoaDon.TabIndex = 0;
-            this.lsv_listHoaDon.UseCompatibleStateImageBehavior = false;
             // 
             // fManager
             // 

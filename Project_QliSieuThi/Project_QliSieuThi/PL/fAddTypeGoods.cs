@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Project_QliSieuThi.BLL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,5 +19,26 @@ namespace Project_QliSieuThi.PL
             InitializeComponent();
         }
 
+        private void btn_Ok_Click(object sender, EventArgs e)
+        {
+            string tenlsp = txt_LoaiMoi.Text;
+            ManagementLoaiSanPham managementLoaiSanPham = new ManagementLoaiSanPham();
+            int check = managementLoaiSanPham.InsertTypeGoods(tenlsp);
+            if (check == 1)
+            {
+                fTypeGoods fTypeGoods = new fTypeGoods();
+                MessageBox.Show("Them thành công");
+                fTypeGoods.loadListLoaiSanPham();               
+            }
+            else
+                MessageBox.Show("Them thất bại");
+
+            Close();
+        }
+
+        private void fAddTypeGoods_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

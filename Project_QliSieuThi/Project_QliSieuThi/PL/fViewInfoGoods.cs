@@ -42,5 +42,9 @@ namespace Project_QliSieuThi.PL
 
         }
 
+        private void fViewInfoGoods_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

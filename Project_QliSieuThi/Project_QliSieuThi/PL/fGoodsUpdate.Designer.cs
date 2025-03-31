@@ -192,6 +192,7 @@
             this.btn_Ok.TabIndex = 45;
             this.btn_Ok.Text = "Ok";
             this.btn_Ok.UseVisualStyleBackColor = true;
+            this.btn_Ok.Click += new System.EventHandler(this.btn_Ok_Click);
             // 
             // fGoodsUpdate
             // 

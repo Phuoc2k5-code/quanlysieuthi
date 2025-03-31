@@ -39,35 +39,35 @@
             // btn_SuaLoai
             // 
             this.btn_SuaLoai.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btn_SuaLoai.Location = new System.Drawing.Point(434, 145);
-            this.btn_SuaLoai.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_SuaLoai.Location = new System.Drawing.Point(386, 116);
             this.btn_SuaLoai.Name = "btn_SuaLoai";
-            this.btn_SuaLoai.Size = new System.Drawing.Size(140, 46);
+            this.btn_SuaLoai.Size = new System.Drawing.Size(124, 37);
             this.btn_SuaLoai.TabIndex = 11;
             this.btn_SuaLoai.Text = "Sửa loại";
             this.btn_SuaLoai.UseVisualStyleBackColor = true;
+            this.btn_SuaLoai.Click += new System.EventHandler(this.btn_SuaLoai_Click);
             // 
             // btn_XoaLoai
             // 
             this.btn_XoaLoai.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btn_XoaLoai.Location = new System.Drawing.Point(434, 276);
-            this.btn_XoaLoai.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_XoaLoai.Location = new System.Drawing.Point(386, 221);
             this.btn_XoaLoai.Name = "btn_XoaLoai";
-            this.btn_XoaLoai.Size = new System.Drawing.Size(140, 46);
+            this.btn_XoaLoai.Size = new System.Drawing.Size(124, 37);
             this.btn_XoaLoai.TabIndex = 12;
             this.btn_XoaLoai.Text = "Xóa loại";
             this.btn_XoaLoai.UseVisualStyleBackColor = true;
+            this.btn_XoaLoai.Click += new System.EventHandler(this.btn_XoaLoai_Click);
             // 
             // btn_ThemLoai
             // 
             this.btn_ThemLoai.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btn_ThemLoai.Location = new System.Drawing.Point(434, 20);
-            this.btn_ThemLoai.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_ThemLoai.Location = new System.Drawing.Point(386, 16);
             this.btn_ThemLoai.Name = "btn_ThemLoai";
-            this.btn_ThemLoai.Size = new System.Drawing.Size(140, 46);
+            this.btn_ThemLoai.Size = new System.Drawing.Size(124, 37);
             this.btn_ThemLoai.TabIndex = 13;
             this.btn_ThemLoai.Text = "Thêm loại";
             this.btn_ThemLoai.UseVisualStyleBackColor = true;
+            this.btn_ThemLoai.Click += new System.EventHandler(this.btn_ThemLoai_Click);
             // 
             // lv_lsp
             // 
@@ -75,9 +75,10 @@
             this.columnHeader1,
             this.columnHeader2});
             this.lv_lsp.HideSelection = false;
-            this.lv_lsp.Location = new System.Drawing.Point(13, 20);
+            this.lv_lsp.Location = new System.Drawing.Point(12, 16);
+            this.lv_lsp.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.lv_lsp.Name = "lv_lsp";
-            this.lv_lsp.Size = new System.Drawing.Size(358, 617);
+            this.lv_lsp.Size = new System.Drawing.Size(319, 494);
             this.lv_lsp.TabIndex = 14;
             this.lv_lsp.UseCompatibleStateImageBehavior = false;
             this.lv_lsp.View = System.Windows.Forms.View.Details;
@@ -93,17 +94,17 @@
             // 
             // fTypeGoods
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(629, 636);
+            this.ClientSize = new System.Drawing.Size(559, 509);
             this.Controls.Add(this.lv_lsp);
             this.Controls.Add(this.btn_ThemLoai);
             this.Controls.Add(this.btn_XoaLoai);
             this.Controls.Add(this.btn_SuaLoai);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "fTypeGoods";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Type Goods";
+            this.Load += new System.EventHandler(this.fTypeGoods_Load);
             this.ResumeLayout(false);
 
         }

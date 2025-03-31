@@ -46,7 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\ManagementLoaiSanPham.cs" />
     <Compile Include="BLL\ManagementLogic.cs" />
+    <Compile Include="BLL\ManagementSanPham.cs" />
     <Compile Include="DAL\DataProvider.cs" />
     <Compile Include="DTO\CongViec.cs" />
     <Compile Include="DTO\CTHoaDon.cs" />

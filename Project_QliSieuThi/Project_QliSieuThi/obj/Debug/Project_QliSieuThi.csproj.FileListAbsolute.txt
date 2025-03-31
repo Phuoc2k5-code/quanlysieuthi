@@ -113,3 +113,49 @@ D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\
 D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\bin\Debug\Project_QliSieuThi.exe.config
 D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\bin\Debug\Project_QliSieuThi.exe
 D:\GitHub\quanlysieuthi\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\bin\Debug\Project_QliSieuThi.pdb
+D:\học về c#\git\Tôi quá mệt rồiii\Project_QliSieuThi\Project_QliSieuThi\bin\Debug\Project_QliSieuThi.exe.config
+D:\học về c#\git\Tôi quá mệt rồiii\Project_QliSieuThi\Project_QliSieuThi\bin\Debug\Project_QliSieuThi.exe
+D:\học về c#\git\Tôi quá mệt rồiii\Project_QliSieuThi\Project_QliSieuThi\bin\Debug\Project_QliSieuThi.pdb
+D:\học về c#\git\Tôi quá mệt rồiii\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.csproj.AssemblyReference.cache
+D:\học về c#\git\Tôi quá mệt rồiii\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fAddJobStaff.resources
+D:\học về c#\git\Tôi quá mệt rồiii\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fAddStaff.resources
+D:\học về c#\git\Tôi quá mệt rồiii\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fAddTypeGoods.resources
+D:\học về c#\git\Tôi quá mệt rồiii\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fGoodsUpdate.resources
+D:\học về c#\git\Tôi quá mệt rồiii\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fImportGoods.resources
+D:\học về c#\git\Tôi quá mệt rồiii\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fJobStaff.resources
+D:\học về c#\git\Tôi quá mệt rồiii\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.fLogin.resources
+D:\học về c#\git\Tôi quá mệt rồiii\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.fManager.resources
+D:\học về c#\git\Tôi quá mệt rồiii\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fStaffUpdate.resources
+D:\học về c#\git\Tôi quá mệt rồiii\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fTypeGoods.resources
+D:\học về c#\git\Tôi quá mệt rồiii\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fUpdateJobStaff.resources
+D:\học về c#\git\Tôi quá mệt rồiii\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fUpdateTypeGoods.resources
+D:\học về c#\git\Tôi quá mệt rồiii\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.Properties.Resources.resources
+D:\học về c#\git\Tôi quá mệt rồiii\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fViewInfoGoods.resources
+D:\học về c#\git\Tôi quá mệt rồiii\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.fViewInfoNhanVien.resources
+D:\học về c#\git\Tôi quá mệt rồiii\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.csproj.GenerateResource.cache
+D:\học về c#\git\Tôi quá mệt rồiii\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.csproj.CoreCompileInputs.cache
+D:\học về c#\git\Tôi quá mệt rồiii\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.exe
+D:\học về c#\git\Tôi quá mệt rồiii\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.pdb
+D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\bin\Debug\Project_QliSieuThi.exe.config
+D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\bin\Debug\Project_QliSieuThi.exe
+D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\bin\Debug\Project_QliSieuThi.pdb
+D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.csproj.AssemblyReference.cache
+D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fAddJobStaff.resources
+D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fAddStaff.resources
+D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fAddTypeGoods.resources
+D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fGoodsUpdate.resources
+D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fImportGoods.resources
+D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fJobStaff.resources
+D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.fLogin.resources
+D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.fManager.resources
+D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fStaffUpdate.resources
+D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fTypeGoods.resources
+D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fUpdateJobStaff.resources
+D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fUpdateTypeGoods.resources
+D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.Properties.Resources.resources
+D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fViewInfoGoods.resources
+D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.fViewInfoNhanVien.resources
+D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.csproj.GenerateResource.cache
+D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.csproj.CoreCompileInputs.cache
+D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.exe
+D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.pdb
