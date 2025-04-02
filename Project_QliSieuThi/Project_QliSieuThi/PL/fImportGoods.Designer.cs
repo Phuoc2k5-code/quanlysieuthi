@@ -89,6 +89,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.LightCyan;
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(13, 13);
@@ -98,6 +99,7 @@
             // 
             // panel3
             // 
+            this.panel3.BackColor = System.Drawing.Color.LightCyan;
             this.panel3.Controls.Add(this.btn_nhaphang_timkiem);
             this.panel3.Controls.Add(this.btn_nhaphang_them);
             this.panel3.Controls.Add(this.txt_nhaphang_dongia);
@@ -223,6 +225,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.LightCyan;
             this.groupBox1.Controls.Add(this.txt_nhaphang_tenspthem);
             this.groupBox1.Controls.Add(this.cbb_mal);
             this.groupBox1.Controls.Add(this.num_soluong);
@@ -389,6 +392,7 @@
             // 
             // panel5
             // 
+            this.panel5.BackColor = System.Drawing.Color.LightCyan;
             this.panel5.Controls.Add(this.txt_ds_sl);
             this.panel5.Controls.Add(this.btn_nhaphang_dathang);
             this.panel5.Controls.Add(this.panel6);
@@ -527,7 +531,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1110, 629);
+            this.BackColor = System.Drawing.Color.Azure;
+            this.ClientSize = new System.Drawing.Size(1113, 629);
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel1);

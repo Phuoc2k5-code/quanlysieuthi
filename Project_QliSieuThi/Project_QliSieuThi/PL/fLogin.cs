@@ -18,7 +18,7 @@ namespace Project_QliSieuThi
             InitializeComponent();
         }
 
-        private void btnViewPass_Click(object sender, EventArgs e)
+        private void BtnViewPass_Click(object sender, EventArgs e)
         {
             txt_lg_MatKhau.UseSystemPasswordChar = !txt_lg_MatKhau.UseSystemPasswordChar;
             if (txt_lg_MatKhau.UseSystemPasswordChar)

@@ -139,21 +139,22 @@
             this.tabControl1.Location = new System.Drawing.Point(13, 13);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1085, 609);
+            this.tabControl1.Size = new System.Drawing.Size(1105, 609);
             this.tabControl1.TabIndex = 0;
             // 
             // tbpQuanLySanPham
             // 
+            this.tbpQuanLySanPham.BackColor = System.Drawing.Color.LightCyan;
             this.tbpQuanLySanPham.Controls.Add(this.groupBox2);
             this.tbpQuanLySanPham.Controls.Add(this.groupBox1);
             this.tbpQuanLySanPham.Controls.Add(this.panel1);
+            this.tbpQuanLySanPham.ForeColor = System.Drawing.SystemColors.ControlText;
             this.tbpQuanLySanPham.Location = new System.Drawing.Point(4, 34);
             this.tbpQuanLySanPham.Name = "tbpQuanLySanPham";
-            this.tbpQuanLySanPham.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tbpQuanLySanPham.Size = new System.Drawing.Size(1077, 571);
+            this.tbpQuanLySanPham.Padding = new System.Windows.Forms.Padding(3);
+            this.tbpQuanLySanPham.Size = new System.Drawing.Size(1097, 571);
             this.tbpQuanLySanPham.TabIndex = 0;
             this.tbpQuanLySanPham.Text = "Quản lý sản phẩm";
-            this.tbpQuanLySanPham.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
@@ -346,16 +347,16 @@
             // 
             // tbpQuanLyNhanVien
             // 
+            this.tbpQuanLyNhanVien.BackColor = System.Drawing.Color.LightCyan;
             this.tbpQuanLyNhanVien.Controls.Add(this.panel2);
             this.tbpQuanLyNhanVien.Controls.Add(this.groupBox4);
             this.tbpQuanLyNhanVien.Controls.Add(this.groupBox3);
             this.tbpQuanLyNhanVien.Location = new System.Drawing.Point(4, 34);
             this.tbpQuanLyNhanVien.Name = "tbpQuanLyNhanVien";
-            this.tbpQuanLyNhanVien.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tbpQuanLyNhanVien.Size = new System.Drawing.Size(1077, 571);
+            this.tbpQuanLyNhanVien.Padding = new System.Windows.Forms.Padding(3);
+            this.tbpQuanLyNhanVien.Size = new System.Drawing.Size(1097, 571);
             this.tbpQuanLyNhanVien.TabIndex = 1;
             this.tbpQuanLyNhanVien.Text = "Quản lý nhân viên";
-            this.tbpQuanLyNhanVien.UseVisualStyleBackColor = true;
             // 
             // panel2
             // 
@@ -516,16 +517,16 @@
             // 
             // tbpBaoCaoThongKe
             // 
+            this.tbpBaoCaoThongKe.BackColor = System.Drawing.Color.LightCyan;
             this.tbpBaoCaoThongKe.Controls.Add(this.groupBox7);
             this.tbpBaoCaoThongKe.Controls.Add(this.groupBox6);
             this.tbpBaoCaoThongKe.Controls.Add(this.groupBox5);
             this.tbpBaoCaoThongKe.Controls.Add(this.panel3);
             this.tbpBaoCaoThongKe.Location = new System.Drawing.Point(4, 34);
             this.tbpBaoCaoThongKe.Name = "tbpBaoCaoThongKe";
-            this.tbpBaoCaoThongKe.Size = new System.Drawing.Size(1077, 571);
+            this.tbpBaoCaoThongKe.Size = new System.Drawing.Size(1097, 571);
             this.tbpBaoCaoThongKe.TabIndex = 2;
             this.tbpBaoCaoThongKe.Text = "Báo cáo thống kê";
-            this.tbpBaoCaoThongKe.UseVisualStyleBackColor = true;
             // 
             // groupBox7
             // 
@@ -796,16 +797,17 @@
             // 
             // tbpTaiKhoan
             // 
+            this.tbpTaiKhoan.BackColor = System.Drawing.Color.LightCyan;
             this.tbpTaiKhoan.Controls.Add(this.panel4);
             this.tbpTaiKhoan.Location = new System.Drawing.Point(4, 34);
             this.tbpTaiKhoan.Name = "tbpTaiKhoan";
-            this.tbpTaiKhoan.Size = new System.Drawing.Size(1077, 571);
+            this.tbpTaiKhoan.Size = new System.Drawing.Size(1097, 571);
             this.tbpTaiKhoan.TabIndex = 3;
             this.tbpTaiKhoan.Text = "Tài khoản";
-            this.tbpTaiKhoan.UseVisualStyleBackColor = true;
             // 
             // panel4
             // 
+            this.panel4.BackColor = System.Drawing.Color.Azure;
             this.panel4.Controls.Add(this.ptb_tk_AnhQLi);
             this.panel4.Controls.Add(this.btn_tk_SuaTTin);
             this.panel4.Controls.Add(this.lbl_tttk_Mk);
@@ -977,7 +979,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1110, 629);
+            this.BackColor = System.Drawing.Color.Azure;
+            this.ClientSize = new System.Drawing.Size(1153, 629);
             this.Controls.Add(this.tabControl1);
             this.Name = "fManager";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

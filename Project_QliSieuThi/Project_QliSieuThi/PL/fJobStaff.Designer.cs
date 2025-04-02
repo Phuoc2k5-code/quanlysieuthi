@@ -31,8 +31,7 @@
             this.btn_XoaCV = new System.Windows.Forms.Button();
             this.btn_SuaCV = new System.Windows.Forms.Button();
             this.btn_ThemCV = new System.Windows.Forms.Button();
-            this.dgv_LoaiCongViec = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_LoaiCongViec)).BeginInit();
+            this.listView1 = new System.Windows.Forms.ListView();
             this.SuspendLayout();
             // 
             // btn_XoaCV
@@ -67,30 +66,29 @@
             this.btn_ThemCV.UseVisualStyleBackColor = true;
             this.btn_ThemCV.Click += new System.EventHandler(this.btn_ThemCV_Click);
             // 
-            // dgv_LoaiCongViec
+            // listView1
             // 
-            this.dgv_LoaiCongViec.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_LoaiCongViec.Location = new System.Drawing.Point(30, 15);
-            this.dgv_LoaiCongViec.Name = "dgv_LoaiCongViec";
-            this.dgv_LoaiCongViec.RowHeadersWidth = 51;
-            this.dgv_LoaiCongViec.RowTemplate.Height = 24;
-            this.dgv_LoaiCongViec.Size = new System.Drawing.Size(326, 481);
-            this.dgv_LoaiCongViec.TabIndex = 13;
+            this.listView1.HideSelection = false;
+            this.listView1.Location = new System.Drawing.Point(13, 12);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(353, 485);
+            this.listView1.TabIndex = 17;
+            this.listView1.UseCompatibleStateImageBehavior = false;
             // 
             // fJobStaff
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(559, 509);
+            this.Controls.Add(this.listView1);
             this.Controls.Add(this.btn_XoaCV);
             this.Controls.Add(this.btn_SuaCV);
             this.Controls.Add(this.btn_ThemCV);
-            this.Controls.Add(this.dgv_LoaiCongViec);
             this.Name = "fJobStaff";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Job Staff";
             this.Load += new System.EventHandler(this.fJobStaff_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_LoaiCongViec)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -100,6 +98,6 @@
         private System.Windows.Forms.Button btn_XoaCV;
         private System.Windows.Forms.Button btn_SuaCV;
         private System.Windows.Forms.Button btn_ThemCV;
-        private System.Windows.Forms.DataGridView dgv_LoaiCongViec;
+        private System.Windows.Forms.ListView listView1;
     }
 }

@@ -52,40 +52,53 @@
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(13, 13);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(414, 169);
+            this.panel1.Size = new System.Drawing.Size(446, 169);
             this.panel1.TabIndex = 0;
             // 
             // btn_lg_ViewPass
             // 
+            this.btn_lg_ViewPass.BackColor = System.Drawing.Color.White;
             this.btn_lg_ViewPass.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_lg_ViewPass.ForeColor = System.Drawing.Color.Black;
+            this.btn_lg_ViewPass.ImageKey = "Screenshot 2025-04-02 074716.png";
             this.btn_lg_ViewPass.Location = new System.Drawing.Point(7, 127);
             this.btn_lg_ViewPass.Name = "btn_lg_ViewPass";
-            this.btn_lg_ViewPass.Size = new System.Drawing.Size(125, 31);
+            this.btn_lg_ViewPass.Size = new System.Drawing.Size(137, 31);
             this.btn_lg_ViewPass.TabIndex = 3;
             this.btn_lg_ViewPass.Text = "Hiện mật khẩu";
-            this.btn_lg_ViewPass.UseVisualStyleBackColor = true;
-            this.btn_lg_ViewPass.Click += new System.EventHandler(this.btnViewPass_Click);
+            this.btn_lg_ViewPass.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_lg_ViewPass.UseVisualStyleBackColor = false;
+            this.btn_lg_ViewPass.Click += new System.EventHandler(this.BtnViewPass_Click);
             // 
             // btn_lg_Exit
             // 
+            this.btn_lg_Exit.BackColor = System.Drawing.Color.White;
             this.btn_lg_Exit.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btn_lg_Exit.Location = new System.Drawing.Point(310, 127);
+            this.btn_lg_Exit.ForeColor = System.Drawing.Color.Black;
+            this.btn_lg_Exit.ImageKey = "redX.png";
+            this.btn_lg_Exit.Location = new System.Drawing.Point(326, 127);
             this.btn_lg_Exit.Name = "btn_lg_Exit";
-            this.btn_lg_Exit.Size = new System.Drawing.Size(101, 31);
+            this.btn_lg_Exit.Size = new System.Drawing.Size(117, 31);
             this.btn_lg_Exit.TabIndex = 5;
             this.btn_lg_Exit.Text = "Thoát";
-            this.btn_lg_Exit.UseVisualStyleBackColor = true;
+            this.btn_lg_Exit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_lg_Exit.UseVisualStyleBackColor = false;
             this.btn_lg_Exit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // btn_lg_Login
             // 
+            this.btn_lg_Login.BackColor = System.Drawing.Color.White;
             this.btn_lg_Login.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btn_lg_Login.ForeColor = System.Drawing.Color.Black;
+            this.btn_lg_Login.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_lg_Login.ImageIndex = 0;
             this.btn_lg_Login.Location = new System.Drawing.Point(203, 127);
             this.btn_lg_Login.Name = "btn_lg_Login";
-            this.btn_lg_Login.Size = new System.Drawing.Size(101, 31);
+            this.btn_lg_Login.Size = new System.Drawing.Size(117, 31);
             this.btn_lg_Login.TabIndex = 4;
             this.btn_lg_Login.Text = "Đăng nhập";
-            this.btn_lg_Login.UseVisualStyleBackColor = true;
+            this.btn_lg_Login.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_lg_Login.UseVisualStyleBackColor = false;
             this.btn_lg_Login.Click += new System.EventHandler(this.btn_lg_Login_Click);
             // 
             // panel3
@@ -94,7 +107,7 @@
             this.panel3.Controls.Add(this.label2);
             this.panel3.Location = new System.Drawing.Point(3, 60);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(408, 47);
+            this.panel3.Size = new System.Drawing.Size(440, 47);
             this.panel3.TabIndex = 2;
             // 
             // txt_lg_MatKhau
@@ -122,7 +135,7 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(408, 51);
+            this.panel2.Size = new System.Drawing.Size(440, 51);
             this.panel2.TabIndex = 1;
             // 
             // txt_lg_TaiKhoan
@@ -146,11 +159,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(443, 197);
+            this.BackColor = System.Drawing.Color.Azure;
+            this.ClientSize = new System.Drawing.Size(471, 197);
             this.Controls.Add(this.panel1);
             this.Name = "fLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng nhập";
+            this.TransparencyKey = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.fLogin_FormClosing);
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);

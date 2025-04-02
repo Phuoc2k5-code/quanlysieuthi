@@ -50,9 +50,9 @@
             // 
             this.lbl_vinv_GioiTinh.AutoSize = true;
             this.lbl_vinv_GioiTinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lbl_vinv_GioiTinh.Location = new System.Drawing.Point(83, 396);
+            this.lbl_vinv_GioiTinh.Location = new System.Drawing.Point(74, 317);
             this.lbl_vinv_GioiTinh.Name = "lbl_vinv_GioiTinh";
-            this.lbl_vinv_GioiTinh.Size = new System.Drawing.Size(112, 22);
+            this.lbl_vinv_GioiTinh.Size = new System.Drawing.Size(91, 18);
             this.lbl_vinv_GioiTinh.TabIndex = 36;
             this.lbl_vinv_GioiTinh.Tag = "";
             this.lbl_vinv_GioiTinh.Text = "Đơn giá bán:";
@@ -61,9 +61,9 @@
             // 
             this.lbl_vinv_DiaChi.AutoSize = true;
             this.lbl_vinv_DiaChi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lbl_vinv_DiaChi.Location = new System.Drawing.Point(74, 484);
+            this.lbl_vinv_DiaChi.Location = new System.Drawing.Point(66, 387);
             this.lbl_vinv_DiaChi.Name = "lbl_vinv_DiaChi";
-            this.lbl_vinv_DiaChi.Size = new System.Drawing.Size(122, 22);
+            this.lbl_vinv_DiaChi.Size = new System.Drawing.Size(99, 18);
             this.lbl_vinv_DiaChi.TabIndex = 35;
             this.lbl_vinv_DiaChi.Tag = "";
             this.lbl_vinv_DiaChi.Text = "Đơn giá nhập:";
@@ -72,9 +72,9 @@
             // 
             this.lbl_vinv_NgaySinh.AutoSize = true;
             this.lbl_vinv_NgaySinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lbl_vinv_NgaySinh.Location = new System.Drawing.Point(106, 310);
+            this.lbl_vinv_NgaySinh.Location = new System.Drawing.Point(94, 248);
             this.lbl_vinv_NgaySinh.Name = "lbl_vinv_NgaySinh";
-            this.lbl_vinv_NgaySinh.Size = new System.Drawing.Size(86, 22);
+            this.lbl_vinv_NgaySinh.Size = new System.Drawing.Size(71, 18);
             this.lbl_vinv_NgaySinh.TabIndex = 34;
             this.lbl_vinv_NgaySinh.Tag = "";
             this.lbl_vinv_NgaySinh.Text = "Số luọng:";
@@ -83,9 +83,9 @@
             // 
             this.lbl_vinv_MaCV.AutoSize = true;
             this.lbl_vinv_MaCV.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lbl_vinv_MaCV.Location = new System.Drawing.Point(40, 221);
+            this.lbl_vinv_MaCV.Location = new System.Drawing.Point(36, 177);
             this.lbl_vinv_MaCV.Name = "lbl_vinv_MaCV";
-            this.lbl_vinv_MaCV.Size = new System.Drawing.Size(155, 22);
+            this.lbl_vinv_MaCV.Size = new System.Drawing.Size(129, 18);
             this.lbl_vinv_MaCV.TabIndex = 33;
             this.lbl_vinv_MaCV.Tag = "";
             this.lbl_vinv_MaCV.Text = "Mã loại sản phẩm:";
@@ -94,9 +94,9 @@
             // 
             this.lbl_vinv_TenNhanVien.AutoSize = true;
             this.lbl_vinv_TenNhanVien.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lbl_vinv_TenNhanVien.Location = new System.Drawing.Point(62, 139);
+            this.lbl_vinv_TenNhanVien.Location = new System.Drawing.Point(55, 111);
             this.lbl_vinv_TenNhanVien.Name = "lbl_vinv_TenNhanVien";
-            this.lbl_vinv_TenNhanVien.Size = new System.Drawing.Size(133, 22);
+            this.lbl_vinv_TenNhanVien.Size = new System.Drawing.Size(108, 18);
             this.lbl_vinv_TenNhanVien.TabIndex = 32;
             this.lbl_vinv_TenNhanVien.Tag = "";
             this.lbl_vinv_TenNhanVien.Text = "Tên Sản phẩm:";
@@ -105,9 +105,9 @@
             // 
             this.lbl.AutoSize = true;
             this.lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lbl.Location = new System.Drawing.Point(66, 60);
+            this.lbl.Location = new System.Drawing.Point(59, 48);
             this.lbl.Name = "lbl";
-            this.lbl.Size = new System.Drawing.Size(122, 22);
+            this.lbl.Size = new System.Drawing.Size(102, 18);
             this.lbl.TabIndex = 31;
             this.lbl.Tag = "";
             this.lbl.Text = "Mã sản phẩm:";
@@ -115,69 +115,61 @@
             // ptb_AnhSP
             // 
             this.ptb_AnhSP.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ptb_AnhSP.Location = new System.Drawing.Point(472, 59);
-            this.ptb_AnhSP.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ptb_AnhSP.Location = new System.Drawing.Point(420, 47);
             this.ptb_AnhSP.Name = "ptb_AnhSP";
-            this.ptb_AnhSP.Size = new System.Drawing.Size(117, 157);
+            this.ptb_AnhSP.Size = new System.Drawing.Size(104, 126);
             this.ptb_AnhSP.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ptb_AnhSP.TabIndex = 30;
             this.ptb_AnhSP.TabStop = false;
             // 
             // txt_MaSP
             // 
-            this.txt_MaSP.Location = new System.Drawing.Point(223, 59);
-            this.txt_MaSP.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_MaSP.Location = new System.Drawing.Point(198, 47);
             this.txt_MaSP.Name = "txt_MaSP";
-            this.txt_MaSP.Size = new System.Drawing.Size(204, 26);
+            this.txt_MaSP.Size = new System.Drawing.Size(182, 22);
             this.txt_MaSP.TabIndex = 37;
             // 
             // txt_SoLuong
             // 
-            this.txt_SoLuong.Location = new System.Drawing.Point(223, 309);
-            this.txt_SoLuong.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_SoLuong.Location = new System.Drawing.Point(198, 247);
             this.txt_SoLuong.Name = "txt_SoLuong";
-            this.txt_SoLuong.Size = new System.Drawing.Size(204, 26);
+            this.txt_SoLuong.Size = new System.Drawing.Size(182, 22);
             this.txt_SoLuong.TabIndex = 38;
             // 
             // txt_DonGiaBan
             // 
-            this.txt_DonGiaBan.Location = new System.Drawing.Point(223, 395);
-            this.txt_DonGiaBan.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_DonGiaBan.Location = new System.Drawing.Point(198, 316);
             this.txt_DonGiaBan.Name = "txt_DonGiaBan";
-            this.txt_DonGiaBan.Size = new System.Drawing.Size(204, 26);
+            this.txt_DonGiaBan.Size = new System.Drawing.Size(182, 22);
             this.txt_DonGiaBan.TabIndex = 39;
             // 
             // txt_MaLoai
             // 
-            this.txt_MaLoai.Location = new System.Drawing.Point(223, 220);
-            this.txt_MaLoai.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_MaLoai.Location = new System.Drawing.Point(198, 176);
             this.txt_MaLoai.Name = "txt_MaLoai";
-            this.txt_MaLoai.Size = new System.Drawing.Size(204, 26);
+            this.txt_MaLoai.Size = new System.Drawing.Size(182, 22);
             this.txt_MaLoai.TabIndex = 40;
             // 
             // txt_TenSP
             // 
-            this.txt_TenSP.Location = new System.Drawing.Point(223, 138);
-            this.txt_TenSP.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_TenSP.Location = new System.Drawing.Point(198, 110);
             this.txt_TenSP.Name = "txt_TenSP";
-            this.txt_TenSP.Size = new System.Drawing.Size(204, 26);
+            this.txt_TenSP.Size = new System.Drawing.Size(182, 22);
             this.txt_TenSP.TabIndex = 41;
             // 
             // txt_DonGiaNhap
             // 
-            this.txt_DonGiaNhap.Location = new System.Drawing.Point(223, 482);
-            this.txt_DonGiaNhap.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txt_DonGiaNhap.Location = new System.Drawing.Point(198, 386);
             this.txt_DonGiaNhap.Name = "txt_DonGiaNhap";
-            this.txt_DonGiaNhap.Size = new System.Drawing.Size(204, 26);
+            this.txt_DonGiaNhap.Size = new System.Drawing.Size(182, 22);
             this.txt_DonGiaNhap.TabIndex = 42;
             // 
             // btn_TaiAnh
             // 
             this.btn_TaiAnh.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btn_TaiAnh.Location = new System.Drawing.Point(461, 224);
-            this.btn_TaiAnh.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_TaiAnh.Location = new System.Drawing.Point(410, 179);
             this.btn_TaiAnh.Name = "btn_TaiAnh";
-            this.btn_TaiAnh.Size = new System.Drawing.Size(140, 46);
+            this.btn_TaiAnh.Size = new System.Drawing.Size(124, 37);
             this.btn_TaiAnh.TabIndex = 43;
             this.btn_TaiAnh.Text = "Tải ảnh lên";
             this.btn_TaiAnh.UseVisualStyleBackColor = true;
@@ -185,10 +177,9 @@
             // btn_Ok
             // 
             this.btn_Ok.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btn_Ok.Location = new System.Drawing.Point(449, 573);
-            this.btn_Ok.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_Ok.Location = new System.Drawing.Point(399, 458);
             this.btn_Ok.Name = "btn_Ok";
-            this.btn_Ok.Size = new System.Drawing.Size(140, 46);
+            this.btn_Ok.Size = new System.Drawing.Size(124, 37);
             this.btn_Ok.TabIndex = 45;
             this.btn_Ok.Text = "Ok";
             this.btn_Ok.UseVisualStyleBackColor = true;
@@ -196,9 +187,10 @@
             // 
             // fGoodsUpdate
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(629, 632);
+            this.BackColor = System.Drawing.Color.Azure;
+            this.ClientSize = new System.Drawing.Size(559, 506);
             this.Controls.Add(this.btn_Ok);
             this.Controls.Add(this.btn_TaiAnh);
             this.Controls.Add(this.txt_DonGiaNhap);
@@ -214,7 +206,6 @@
             this.Controls.Add(this.lbl_vinv_TenNhanVien);
             this.Controls.Add(this.lbl);
             this.Controls.Add(this.ptb_AnhSP);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "fGoodsUpdate";
             this.Text = "Goods Update";
             ((System.ComponentModel.ISupportInitialize)(this.ptb_AnhSP)).EndInit();
