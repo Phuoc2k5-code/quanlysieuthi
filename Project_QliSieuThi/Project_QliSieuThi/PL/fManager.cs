@@ -14,17 +14,23 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TaskbarClock;
+using System.IO;
 
 namespace Project_QliSieuThi
 {
     public partial class fManager : Form
     {
-
+        //<kietbeve>
+        string thuMucAnh = Path.Combine(Application.StartupPath, "Images");//lay duong dan toi file kietbeve_Images
+        string linkAnh = "";
+        string tenFileAnh = "";
+        //</kietbeve>
         public fManager()
         {
             InitializeComponent();
             ManagementLoaiSanPham managementLoaiSanPham = new ManagementLoaiSanPham();
             //managementLoaiSanPham.layMaSanPham(cbb_qlsp_LoaiNhanVien);
+            rdb_bctk_TatCa.Checked = true;//kietbeve
         }
 
         private void fManager_Load(object sender, EventArgs e)
@@ -35,6 +41,7 @@ namespace Project_QliSieuThi
             loadListNhanVien();
             loadListHoaDon();
             loadTTQuanLy();
+            loadTien();
         }
 
         public void loadListSanPham()
@@ -118,9 +125,12 @@ namespace Project_QliSieuThi
 
             ManagementLogic logic = new ManagementLogic();
             ListView list = new ListView();
-            List<object> cot = new List<object> { "mahd","manv","ngaylap","tongtien" };
+            //List<object> cot = new List<object> { "mahd","manv","ngaylap","tongtien" };
+            //<kietbeve> Dinh dang ngay lap theo dd/mm/yyyy
+            List<object> cot = new List<object> { "mahd", "manv", "format(ngaylap,'dd-MM-yyyy') as 'ngaylap'", "tongtien" };
+            //</kietbeve>
 
-            list = logic.fillListView("hoadon",cot);
+            list = logic.fillListView("hoadon", cot);
             Console.WriteLine(list.Items.Count);
 
             //lam sach listview
@@ -156,7 +166,14 @@ namespace Project_QliSieuThi
             lbl_tttk_TenNqLi.Text = quanLi.TenQL;
             lbl_tttk_TenTK.Text = quanLi.TenTK;
             lbl_tttk_Mk.Text = quanLi.MatKhau;
-            lbl_tttk_NgaySinh.Text = quanLi.NgaySinh;
+            //lbl_tttk_NgaySinh.Text = quanLi.NgaySinh;
+
+            //<kietbeve>
+            DateTime ngaysinh = DateTime.Parse(quanLi.NgaySinh);
+            lbl_tttk_NgaySinh.Text = ngaysinh.Day.ToString() + "/" + ngaysinh.Month.ToString() + "/" + ngaysinh.Year.ToString();
+            ptb_tk_AnhQLi.Image = Image.FromFile(thuMucAnh + "\\" + quanLi.Anh);
+            //<kietbeve>
+
             lbl_tttk_Sdt.Text = quanLi.Sdt;
 
         }
@@ -292,6 +309,93 @@ namespace Project_QliSieuThi
         private void lsv_listHoaDon_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_tk_SuaTTin_Click(object sender, EventArgs e)
+        {
+            fSuaTTQuanLi fQL=new fSuaTTQuanLi();
+            fQL.ShowDialog();
+        }
+
+        private void btn_bctk_TimKiem_Click(object sender, EventArgs e)
+        {
+            //ham nay ko tim theo ten san pham
+            DataProvider data = new DataProvider();
+
+            ManagementLogic logic = new ManagementLogic();
+            ListView list = new ListView();
+            List<object> cot = new List<object> { "mahd", "manv", "format(ngaylap,'dd-MM-yyyy') as 'ngaylap'", "tongtien" };
+            string dieuKien = "";
+            if (rdb_bctk_MaHD.Checked)
+            {
+                dieuKien = $"where mahd='{txt_bctk_MaHD.Text}'";
+            }
+            else if (rdb_bctk_TenNguoiLap.Checked)
+            {
+                dieuKien = $"where manv='{txt_bctk_TenNguoiLap.Text}'";//Tam thoi tim theo manv
+            }
+            else if (rdb_bctk_NgayLap.Checked)
+            {
+                string ngayLap = dtp_bctk_NgayLap.Value.ToString("MM/dd/yyyy");
+                dieuKien = $"where ngaylap='{ngayLap}'";
+            }
+            else if (rdb_bctk_TatCa.Checked)
+            {
+                dieuKien = "";
+            }
+
+
+            list = logic.fillListView("hoadon", cot, dieuKien);
+            Console.WriteLine(list.Items.Count);
+
+            //lam sach listview
+            lsv_listHoaDon.Columns.Clear();
+            lsv_listHoaDon.Items.Clear();
+            lsv_listHoaDon.View = View.Details;
+
+            //add column
+            foreach (ColumnHeader column in list.Columns)
+            {
+                lsv_listHoaDon.Columns.Add(column.Text);
+            }
+
+            //add item
+            foreach (ListViewItem item in list.Items)
+            {
+                lsv_listHoaDon.Items.Add((ListViewItem)item.Clone());
+            }
+
+            //auto size column
+            lsv_listHoaDon.AutoResizeColumns(ColumnHeaderAutoResizeStyle.ColumnContent);
+            lsv_listHoaDon.AutoResizeColumns(ColumnHeaderAutoResizeStyle.HeaderSize);
+        }
+
+        private void btn_bctk_XemHoaDOn_Click(object sender, EventArgs e)
+        {
+            if (lsv_listHoaDon.SelectedItems.Count > 0)
+            {
+                ListViewItem item = lsv_listHoaDon.SelectedItems[0];
+                HoaDon hd=new HoaDon();
+                hd.MaHD=Int32.Parse(item.SubItems[0].Text);
+                hd.MaNV= Int32.Parse(item.SubItems[1].Text);
+                hd.NgayLap = item.SubItems[2].Text;
+                hd.TongTien = float.Parse(item.SubItems[3].Text);
+                fViewHoaDon fViewHD = new fViewHoaDon(hd);
+                //MessageBox.Show(hd.MaHD.ToString());
+                fViewHD.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Chưa chọn hàng cần xem", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+        public void loadTien()
+        {
+            double tongThu = MHoaDon.Instance.tinhTongThu();
+            double tongChi= MHoaDon.Instance.tinhTongChi();
+            txt_bctk_TongThu.Text=tongThu.ToString();
+            txt_bctk_TongChi.Text=tongChi.ToString();
+            txt_bctk_DoanhThu.Text=(tongThu-tongChi).ToString();
         }
     }
 }

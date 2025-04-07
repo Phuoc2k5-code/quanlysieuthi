@@ -6,12 +6,18 @@ using Project_QliSieuThi.DTO;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Drawing;
+using System.IO;
 using System.Windows.Forms;
 
 namespace Project_QliSieuThi.PL
 {
     public partial class fImportGoods : Form
-    {
+    {   //<kietbeve>
+        string thuMucAnh = Path.Combine(Application.StartupPath, "Images");//lay duong dan toi file kietbeve_Images
+        string linkAnh = "";
+        string tenFileAnh = "test.png";//mat dinh la test.png
+        //</kietbeve>
         public fImportGoods()
         {
             InitializeComponent();
@@ -99,8 +105,14 @@ namespace Project_QliSieuThi.PL
                 int soluong = Convert.ToInt32(num_soluong.Text);
                 int dongiaban = Convert.ToInt32(txt_dongiaban.Text);
                 int dongianhap = Convert.ToInt32(txt_dongianhap.Text);
+                //<kietbeve>
+                if (!File.Exists(thuMucAnh + "\\" + tenFileAnh))
+                {
+                    File.Copy(linkAnh, thuMucAnh + "\\" + tenFileAnh, true);//tenlinl_anh_dc_copy,ten file dc luu 
+                }
+                //</kietbeve>
                 ManagementSanPham managementSanPham = new ManagementSanPham();
-                int check = managementSanPham.AddGoods(tensp, malsp, soluong, dongiaban, dongianhap);
+                int check = managementSanPham.AddGoods(tensp, malsp, soluong, dongiaban, dongianhap, tenFileAnh);//kietbeve
                 if (check == 1)
                 {
                     MessageBox.Show("Thêm thành công");
@@ -230,6 +242,24 @@ namespace Project_QliSieuThi.PL
 
         private void fImportGoods_Load(object sender, EventArgs e)
         {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            //string thuMucAnh = Path.Combine(Application.StartupPath, "kietbeve_Images");//lay duong dan toi file kietbeve_Images
+            ofd.ShowDialog();
+            linkAnh = ofd.FileName;
+            tenFileAnh = Path.GetFileName(ofd.FileName);//lay ten file anh
+            //tenFileAnh =quanLi.Anh;
+            //txt_test.Text = tenFileAnh;
+            pic_AnhSanPham.Image =Image.FromFile(ofd.FileName);
+            // Tao thu muc kietbeve_Images neu chua ton tai
+            if (!Directory.Exists(thuMucAnh))//ktra ton tai cua file kietbeve_Images
+            {
+                Directory.CreateDirectory(thuMucAnh);
+            }
 
         }
     }

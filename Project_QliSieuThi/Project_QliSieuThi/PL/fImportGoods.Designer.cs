@@ -59,7 +59,7 @@
             this.lbl_vinv_MaCV = new System.Windows.Forms.Label();
             this.lbl_vinv_TenNhanVien = new System.Windows.Forms.Label();
             this.lbl_vinv_MaNV = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pic_AnhSanPham = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.txt_ds_sl = new System.Windows.Forms.TextBox();
             this.btn_nhaphang_dathang = new System.Windows.Forms.Button();
@@ -82,7 +82,7 @@
             this.panel4.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.num_soluong)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_AnhSanPham)).BeginInit();
             this.panel5.SuspendLayout();
             this.panel6.SuspendLayout();
             this.SuspendLayout();
@@ -240,7 +240,7 @@
             this.groupBox1.Controls.Add(this.lbl_vinv_MaCV);
             this.groupBox1.Controls.Add(this.lbl_vinv_TenNhanVien);
             this.groupBox1.Controls.Add(this.lbl_vinv_MaNV);
-            this.groupBox1.Controls.Add(this.pictureBox1);
+            this.groupBox1.Controls.Add(this.pic_AnhSanPham);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.groupBox1.Location = new System.Drawing.Point(4, 6);
             this.groupBox1.Name = "groupBox1";
@@ -302,6 +302,7 @@
             this.button6.TabIndex = 36;
             this.button6.Text = "Tải ảnh lên";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -380,15 +381,15 @@
             this.lbl_vinv_MaNV.Tag = "";
             this.lbl_vinv_MaNV.Text = "Mã sản phẩm::";
             // 
-            // pictureBox1
+            // pic_AnhSanPham
             // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(40, 37);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 113);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.pic_AnhSanPham.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pic_AnhSanPham.Location = new System.Drawing.Point(40, 37);
+            this.pic_AnhSanPham.Name = "pic_AnhSanPham";
+            this.pic_AnhSanPham.Size = new System.Drawing.Size(100, 113);
+            this.pic_AnhSanPham.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic_AnhSanPham.TabIndex = 0;
+            this.pic_AnhSanPham.TabStop = false;
             // 
             // panel5
             // 
@@ -547,7 +548,7 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.num_soluong)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_AnhSanPham)).EndInit();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             this.panel6.ResumeLayout(false);
@@ -578,7 +579,7 @@
         private System.Windows.Forms.TextBox txt_nhaphang_tendssp;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pic_AnhSanPham;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label lbl_vinv_GioiTinh;

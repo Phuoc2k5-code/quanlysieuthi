@@ -155,13 +155,25 @@ namespace Project_QliSieuThi.BLL
             DataRow row = result.Rows[0];
 
             //Chuyển dữ liệu từ database sang đối tượng
+
+            //QuanLi quanLi = new QuanLi();
+            //quanLi.MaQL = Convert.ToInt32(row[0]);
+            //quanLi.TenQL = row[1].ToString();
+            //quanLi.TenTK = row[2].ToString();
+            //quanLi.MatKhau = row[3].ToString();
+            //quanLi.NgaySinh = row[4].ToString();
+            //quanLi.Sdt = row[5].ToString();
+
+            //<kietbeve>
             QuanLi quanLi = new QuanLi();
-            quanLi.MaQL = Convert.ToInt32(row[0]);
-            quanLi.TenQL = row[1].ToString();
-            quanLi.TenTK = row[2].ToString();
-            quanLi.MatKhau = row[3].ToString();
-            quanLi.NgaySinh = row[4].ToString();
-            quanLi.Sdt = row[5].ToString();
+            quanLi.MaQL = Convert.ToInt32(row["maql"]);
+            quanLi.Anh = row["anh"].ToString();
+            quanLi.TenQL = row["tenql"].ToString();
+            quanLi.TenTK = row["tentk"].ToString();
+            quanLi.MatKhau = row["mk"].ToString();
+            quanLi.NgaySinh = row["ngaysinh"].ToString();
+            quanLi.Sdt = row["sdt"].ToString();
+            //<kietbeve>
 
             return quanLi;
         }

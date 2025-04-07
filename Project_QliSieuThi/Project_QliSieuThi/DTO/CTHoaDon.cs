@@ -9,7 +9,7 @@ using Project_QliSieuThi.DTO;
 
 namespace Project_QliSieuThi.DTO
 {
-    internal class CTHoaDon
+    public class CTHoaDon
     {
         private int maHD;
         private int maSP;

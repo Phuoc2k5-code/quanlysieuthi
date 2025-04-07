@@ -159,3 +159,28 @@ D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_Q
 D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.csproj.CoreCompileInputs.cache
 D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.exe
 D:\GitHub\quanlysieuthi\Tôi quá mệt rồiii (2)\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.pdb
+D:\HocTap\CSharp-WindowsForm\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\bin\Debug\Project_QliSieuThi.exe.config
+D:\HocTap\CSharp-WindowsForm\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\bin\Debug\Project_QliSieuThi.exe
+D:\HocTap\CSharp-WindowsForm\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\bin\Debug\Project_QliSieuThi.pdb
+D:\HocTap\CSharp-WindowsForm\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.csproj.AssemblyReference.cache
+D:\HocTap\CSharp-WindowsForm\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fAddJobStaff.resources
+D:\HocTap\CSharp-WindowsForm\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fAddStaff.resources
+D:\HocTap\CSharp-WindowsForm\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fAddTypeGoods.resources
+D:\HocTap\CSharp-WindowsForm\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fGoodsUpdate.resources
+D:\HocTap\CSharp-WindowsForm\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fImportGoods.resources
+D:\HocTap\CSharp-WindowsForm\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fJobStaff.resources
+D:\HocTap\CSharp-WindowsForm\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.fLogin.resources
+D:\HocTap\CSharp-WindowsForm\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.fManager.resources
+D:\HocTap\CSharp-WindowsForm\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fStaffUpdate.resources
+D:\HocTap\CSharp-WindowsForm\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fTypeGoods.resources
+D:\HocTap\CSharp-WindowsForm\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fUpdateJobStaff.resources
+D:\HocTap\CSharp-WindowsForm\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fUpdateTypeGoods.resources
+D:\HocTap\CSharp-WindowsForm\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.Properties.Resources.resources
+D:\HocTap\CSharp-WindowsForm\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fViewInfoGoods.resources
+D:\HocTap\CSharp-WindowsForm\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.fViewInfoNhanVien.resources
+D:\HocTap\CSharp-WindowsForm\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.csproj.GenerateResource.cache
+D:\HocTap\CSharp-WindowsForm\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.csproj.CoreCompileInputs.cache
+D:\HocTap\CSharp-WindowsForm\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.exe
+D:\HocTap\CSharp-WindowsForm\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.pdb
+D:\HocTap\CSharp-WindowsForm\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fSuaTTQuanLi.resources
+D:\HocTap\CSharp-WindowsForm\quanlysieuthi\Project_QliSieuThi\Project_QliSieuThi\obj\Debug\Project_QliSieuThi.PL.fViewHoaDon.resources

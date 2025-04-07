@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,7 +15,11 @@ namespace Project_QliSieuThi.PL
 {
     public partial class fViewInfoGoods : Form
     {
-
+        //<kietbeve>
+        string thuMucAnh = Path.Combine(Application.StartupPath, "Images");//lay duong dan toi file kietbeve_Images
+        string linkAnh = "";
+        string tenFileAnh = "";
+        //</kietbeve>
         public fViewInfoGoods(SanPham sanPham)
         {
             InitializeComponent();
@@ -38,8 +43,7 @@ namespace Project_QliSieuThi.PL
             lbl_tt_SoLuong.Text = sanPham.SoLuong.ToString();
             lbl_tt_DonGiaNhap.Text = sanPham.DonGiaNhap.ToString();
             lbl_tt_DonGiaBan.Text = sanPham.DonGiaBan.ToString();
-
-
+            ptb_AnhSP.Image = Image.FromFile(thuMucAnh + "\\" + sanPham.Anh);//kietbeve
         }
 
         private void fViewInfoGoods_Load(object sender, EventArgs e)

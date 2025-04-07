@@ -12,11 +12,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TaskbarClock;
+using System.IO;
 
 namespace Project_QliSieuThi.PL
 {
     public partial class fGoodsUpdate : Form
     {
+        //<kietbeve>
+        string thuMucAnh = Path.Combine(Application.StartupPath, "Images");//lay duong dan toi file Images
+        string linkAnh = "";//luu link danh dang mo
+        string tenFileAnh = "";// luu ten file anh dang mo
+        static ManagementLogic logic = new ManagementLogic();
+        QuanLi quanLi = logic.getInfoQuanLi();//lay thong tin quan li
+        //</kietbeve>
         public fGoodsUpdate()
         {
             InitializeComponent();
@@ -34,6 +42,7 @@ namespace Project_QliSieuThi.PL
             txt_SoLuong.Text = sanPham.SoLuong.ToString();
             txt_DonGiaNhap.Text = sanPham.DonGiaNhap.ToString();
             txt_DonGiaBan.Text = sanPham.DonGiaBan.ToString();
+            ptb_AnhSP.Image = Image.FromFile(thuMucAnh + "\\" + sanPham.Anh);
         }
         private void btn_Ok_Click(object sender, EventArgs e)
         {
@@ -44,8 +53,14 @@ namespace Project_QliSieuThi.PL
             int sl = Convert.ToInt32(txt_SoLuong.Text);
             int dongiaban = Convert.ToInt32(txt_DonGiaBan.Text);
             int dongianhap = Convert.ToInt32(txt_DonGiaNhap.Text);
+            //<kietbeve>
+            if (!File.Exists(thuMucAnh + "\\" + tenFileAnh))
+            {
+                File.Copy(linkAnh, thuMucAnh + "\\" + tenFileAnh, true);//tenlinl_anh_dc_copy,ten file dc luu 
+            }
+            //</kietbeve>
             ManagementSanPham managementsanpham = new ManagementSanPham();
-            int check = managementsanpham.UpdateGoods(tensp, malsp, sl, dongiaban, dongianhap, masp);
+            int check = managementsanpham.UpdateGoods(tensp, malsp, sl, dongiaban, dongianhap, masp,tenFileAnh);
             if (check == 1)
             {
                 MessageBox.Show("thành công");               
@@ -58,6 +73,28 @@ namespace Project_QliSieuThi.PL
                 MessageBox.Show(" ko thành công");
             }
             Close();
+        }
+
+        private void btn_TaiAnh_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog ofd = new OpenFileDialog();
+            //string thuMucAnh = Path.Combine(Application.StartupPath, "kietbeve_Images");//lay duong dan toi file kietbeve_Images
+            ofd.ShowDialog();
+            linkAnh = ofd.FileName;
+            tenFileAnh = Path.GetFileName(ofd.FileName);//lay ten file anh
+            //tenFileAnh =quanLi.Anh;
+            //txt_test.Text = tenFileAnh;
+            ptb_AnhSP.Image = Image.FromFile(ofd.FileName);
+            // Tao thu muc kietbeve_Images neu chua ton tai
+            if (!Directory.Exists(thuMucAnh))//ktra ton tai cua file kietbeve_Images
+            {
+                Directory.CreateDirectory(thuMucAnh);
+            }
+        }
+
+        private void fGoodsUpdate_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

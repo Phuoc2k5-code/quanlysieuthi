@@ -10,7 +10,7 @@ using Project_QliSieuThi.DTO;
 namespace Project_QliSieuThi.DTO
 {
  
-    internal class NhanVien
+    public class NhanVien
     {
         private int maNV;
         private string tenNV;

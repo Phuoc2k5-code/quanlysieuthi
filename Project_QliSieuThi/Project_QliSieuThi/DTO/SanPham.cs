@@ -18,7 +18,7 @@ namespace Project_QliSieuThi.DTO
         private int soLuong;
         private float donGiaNhap;
         private float donGiaBan;
-        //private string anh;
+        private string anh;//kietbeve
 
         public int MaSP { get => maSP; set => maSP = value; }
         public string TenSP { get => tenSP; set => tenSP = value; }
@@ -26,6 +26,8 @@ namespace Project_QliSieuThi.DTO
         public int SoLuong { get => soLuong; set => soLuong = value; }
         public float DonGiaNhap { get => donGiaNhap; set => donGiaNhap = value; }
         public float DonGiaBan { get => donGiaBan; set => donGiaBan = value; }
+        public string Anh { get => anh; set => anh = value; }//kietbeve
+
         //public string HinhAnh { get => hinhAnh; set => hinhAnh = value; }
         //public string GhiChu { get => ghiChu; set => ghiChu = value; }
 
@@ -40,6 +42,7 @@ namespace Project_QliSieuThi.DTO
             this.soLuong = 0;
             this.donGiaNhap = 0;
             this.donGiaBan = 0;
+            this.anh = "";//kietbeve
         }
         /// <summary>
         /// Ham khởi tạo với tham số là các thuộc tính của lớp
@@ -58,6 +61,7 @@ namespace Project_QliSieuThi.DTO
             this.soLuong = soLuong;
             this.donGiaNhap = donGiaNhap;
             this.donGiaBan = donGiaBan;
+            this.anh = "";//kietbeve
         }
 
         /// <summary>
@@ -66,12 +70,22 @@ namespace Project_QliSieuThi.DTO
         /// <param name="row"></param>
         public SanPham(DataRow row)
         {
-            this.maSP = (int)row[1];
-            this.tenSP = row[2].ToString();
-            this.maLoaiSP = (int)row[3];
-            this.soLuong = (int)row[4];
-            this.donGiaNhap = (float)Convert.ToDouble(row[5].ToString());
-            this.donGiaBan = (float)Convert.ToDouble(row[6].ToString());
+            //this.maSP = (int)row[1];
+            //this.tenSP = row[2].ToString();
+            //this.maLoaiSP = (int)row[3];
+            //this.soLuong = (int)row[4];
+            //this.donGiaNhap = (float)Convert.ToDouble(row[5].ToString());
+            //this.donGiaBan = (float)Convert.ToDouble(row[6].ToString());
+
+            //<kietbeve>
+            this.maSP = (int)row["masp"];
+            this.tenSP = row["tensp"].ToString();
+            this.maLoaiSP = (int)row["malsp"];
+            this.soLuong = (int)row["soluong"];
+            this.donGiaNhap = (float)Convert.ToDouble(row["dongianhap"].ToString());
+            this.donGiaBan = (float)Convert.ToDouble(row["dongiaban"].ToString());
+            this.anh = row["anh"].ToString();//kietbeve
+            //</kietbeve>
         }
     }
 }

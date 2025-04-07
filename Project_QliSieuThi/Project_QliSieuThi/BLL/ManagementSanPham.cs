@@ -66,10 +66,10 @@ namespace Project_QliSieuThi.BLL
             return dataProvider.excuteNonQueryCommand(query, parameters);
         }
 
-        public int UpdateGoods(string tensp, int malsp, int soluong, int dongiaban, int dongianhap, int masp)
+        public int UpdateGoods(string tensp, int malsp, int soluong, int dongiaban, int dongianhap, int masp,string anh)//kietbeve
         {
             DataProvider dataProvider = new DataProvider();
-            string query = "UPDATE sanpham SET tensp = @tensp ,malsp = @malsp ,soluong = @soluong ,dongiaban = @dongiaban ,dongianhap = @dongianhap WHERE masp = @masp";
+            string query = "UPDATE sanpham SET tensp = @tensp ,malsp = @malsp ,soluong = @soluong ,dongiaban = @dongiaban ,dongianhap = @dongianhap ,anh = @anh WHERE masp = @masp";//kietbeve
             List<object> parameters = new List<object>();
 
             parameters.Add(tensp);
@@ -77,22 +77,22 @@ namespace Project_QliSieuThi.BLL
             parameters.Add(soluong);
             parameters.Add(dongiaban);
             parameters.Add(dongianhap);
+            parameters.Add(anh);//kietbeve
             parameters.Add(masp);
-
             return dataProvider.excuteNonQueryCommand(query, parameters);
         }
 
-        public int AddGoods(string tensp, int malsp, int soluong, int dongiaban, int dongianhap)
+        public int AddGoods(string tensp, int malsp, int soluong, int dongiaban, int dongianhap,string anh)//kietbeve da them anh
         {
             DataProvider dataProvider = new DataProvider();
             List<object> parameters = new List<object>();
-            string query = "insert into sanpham (tensp, malsp, soluong, dongiaban, dongianhap) values ( @tensp , @malsp , @soluong , @dongiaban , @dongianhap )";
+            string query = "insert into sanpham (tensp, malsp, soluong, dongiaban, dongianhap,anh) values ( @tensp , @malsp , @soluong , @dongiaban , @dongianhap , @anh )";
             parameters.Add(tensp);
             parameters.Add(malsp);
             parameters.Add(soluong);
             parameters.Add(dongiaban);
             parameters.Add(dongianhap);
-
+            parameters.Add(anh);
             return dataProvider.excuteNonQueryCommand(query, parameters);
         }
 

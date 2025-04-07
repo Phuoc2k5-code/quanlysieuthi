@@ -173,6 +173,7 @@
             this.btn_TaiAnh.TabIndex = 43;
             this.btn_TaiAnh.Text = "Tải ảnh lên";
             this.btn_TaiAnh.UseVisualStyleBackColor = true;
+            this.btn_TaiAnh.Click += new System.EventHandler(this.btn_TaiAnh_Click);
             // 
             // btn_Ok
             // 
@@ -208,6 +209,7 @@
             this.Controls.Add(this.ptb_AnhSP);
             this.Name = "fGoodsUpdate";
             this.Text = "Goods Update";
+            this.Load += new System.EventHandler(this.fGoodsUpdate_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ptb_AnhSP)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

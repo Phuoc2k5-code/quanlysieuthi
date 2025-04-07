@@ -1,10 +1,59 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\",
+  "WorkspaceRootPath": "D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\Project_QliSieuThi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|d:\\github\\quanlysieuthi\\t\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\project_qlisieuthi\\project_qlisieuthi\\pl\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|d:\\hoctap\\csharp-windowsform\\quanlysieuthi\\project_qlisieuthi\\project_qlisieuthi\\pl\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|d:\\hoctap\\csharp-windowsform\\quanlysieuthi\\project_qlisieuthi\\project_qlisieuthi\\pl\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\fmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|d:\\hoctap\\csharp-windowsform\\quanlysieuthi\\project_qlisieuthi\\project_qlisieuthi\\bll\\mhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\bll\\mhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\QliSieuThi_db.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|d:\\hoctap\\csharp-windowsform\\quanlysieuthi\\project_qlisieuthi\\project_qlisieuthi\\pl\\fviewhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\fviewhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|d:\\hoctap\\csharp-windowsform\\quanlysieuthi\\project_qlisieuthi\\project_qlisieuthi\\bll\\managementsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\bll\\managementsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|d:\\hoctap\\csharp-windowsform\\quanlysieuthi\\project_qlisieuthi\\project_qlisieuthi\\bll\\mquanli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\bll\\mquanli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|d:\\hoctap\\csharp-windowsform\\quanlysieuthi\\project_qlisieuthi\\project_qlisieuthi\\pl\\fviewhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\fviewhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|d:\\hoctap\\csharp-windowsform\\quanlysieuthi\\project_qlisieuthi\\project_qlisieuthi\\dto\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\dto\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|d:\\hoctap\\csharp-windowsform\\quanlysieuthi\\project_qlisieuthi\\project_qlisieuthi\\pl\\fviewinfogoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\fviewinfogoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|d:\\hoctap\\csharp-windowsform\\quanlysieuthi\\project_qlisieuthi\\project_qlisieuthi\\pl\\fviewinfogoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\fviewinfogoods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\Project_QliSieuThi\\project_qlisieuthi\\pl\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA9B9673-C261-479C-98BC-CEAE0E23C887}|Project_QliSieuThi\\Project_QliSieuThi.csproj|solutionrelative:project_qlisieuthi\\pl\\flogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\QliSieuThi_db.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\QliSieuThi_db.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,37 +63,159 @@
       "DocumentGroups": [
         {
           "DockedWidth": 335,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "fLogin.cs",
-              "DocumentMoniker": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fLogin.cs",
+              "DocumentMoniker": "D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fLogin.cs",
               "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fLogin.cs",
-              "ToolTip": "D:\\GitHub\\quanlysieuthi\\T\u00F4i qu\u00E1 m\u1EC7t r\u1ED3iii (2)\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fLogin.cs",
+              "ToolTip": "D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fLogin.cs",
               "RelativeToolTip": "Project_QliSieuThi\\PL\\fLogin.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAIA0wBIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAA1wBIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-02T00:21:47.621Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QliSieuThi_db.sql ",
+              "DocumentMoniker": "D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\QliSieuThi_db.sql",
+              "RelativeDocumentMoniker": "..\\QliSieuThi_db.sql",
+              "ToolTip": "QliSieuThi_db.sql ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-07T08:02:34.683Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MQuanLi.cs",
+              "DocumentMoniker": "D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\BLL\\MQuanLi.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\BLL\\MQuanLi.cs",
+              "ToolTip": "D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\BLL\\MQuanLi.cs",
+              "RelativeToolTip": "Project_QliSieuThi\\BLL\\MQuanLi.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:00:36.459Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MHoaDon.cs",
+              "DocumentMoniker": "D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\BLL\\MHoaDon.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\BLL\\MHoaDon.cs",
+              "ToolTip": "D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\BLL\\MHoaDon.cs",
+              "RelativeToolTip": "Project_QliSieuThi\\BLL\\MHoaDon.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAwCsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T08:00:23.033Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "fViewInfoGoods.cs",
+              "DocumentMoniker": "D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fViewInfoGoods.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fViewInfoGoods.cs",
+              "ToolTip": "D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fViewInfoGoods.cs",
+              "RelativeToolTip": "Project_QliSieuThi\\PL\\fViewInfoGoods.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA8wCUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T07:28:39.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "fViewInfoGoods.cs [Design]",
+              "DocumentMoniker": "D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fViewInfoGoods.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fViewInfoGoods.cs",
+              "ToolTip": "D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fViewInfoGoods.cs [Design]",
+              "RelativeToolTip": "Project_QliSieuThi\\PL\\fViewInfoGoods.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T07:28:37.866Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "fViewHoaDon.cs",
+              "DocumentMoniker": "D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fViewHoaDon.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fViewHoaDon.cs",
+              "ToolTip": "D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fViewHoaDon.cs",
+              "RelativeToolTip": "Project_QliSieuThi\\PL\\fViewHoaDon.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAWwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T07:15:33.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HoaDon.cs",
+              "DocumentMoniker": "D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\DTO\\HoaDon.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\DTO\\HoaDon.cs",
+              "ToolTip": "D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\DTO\\HoaDon.cs",
+              "RelativeToolTip": "Project_QliSieuThi\\DTO\\HoaDon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T07:11:32.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "fManager.cs",
+              "DocumentMoniker": "D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fManager.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fManager.cs",
+              "ToolTip": "D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fManager.cs",
+              "RelativeToolTip": "Project_QliSieuThi\\PL\\fManager.cs",
+              "ViewState": "AgIAAIQBAAAAAAAAAAAAAI0BAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T07:10:23.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fManager.cs [Design]",
+              "DocumentMoniker": "D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fManager.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fManager.cs",
+              "ToolTip": "D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fManager.cs [Design]",
+              "RelativeToolTip": "Project_QliSieuThi\\PL\\fManager.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T07:10:17.145Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "fViewHoaDon.cs [Design]",
+              "DocumentMoniker": "D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fViewHoaDon.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\PL\\fViewHoaDon.cs",
+              "ToolTip": "D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\PL\\fViewHoaDon.cs [Design]",
+              "RelativeToolTip": "Project_QliSieuThi\\PL\\fViewHoaDon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T07:09:28.039Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManagementSanPham.cs",
+              "DocumentMoniker": "D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\BLL\\ManagementSanPham.cs",
+              "RelativeDocumentMoniker": "Project_QliSieuThi\\BLL\\ManagementSanPham.cs",
+              "ToolTip": "D:\\HocTap\\CSharp-WindowsForm\\quanlysieuthi\\Project_QliSieuThi\\Project_QliSieuThi\\BLL\\ManagementSanPham.cs",
+              "RelativeToolTip": "Project_QliSieuThi\\BLL\\ManagementSanPham.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T14:39:02.015Z",
+              "EditorCaption": ""
             }
           ]
         }

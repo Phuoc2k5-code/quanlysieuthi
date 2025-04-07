@@ -9,7 +9,7 @@ using Project_QliSieuThi.DTO;
 
 namespace Project_QliSieuThi.DTO
 {
-    internal class CongViec
+    public class CongViec
     {
         private int maCV;
         private string tenCV;

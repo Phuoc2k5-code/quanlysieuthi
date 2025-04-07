@@ -49,6 +49,8 @@
     <Compile Include="BLL\ManagementLoaiSanPham.cs" />
     <Compile Include="BLL\ManagementLogic.cs" />
     <Compile Include="BLL\ManagementSanPham.cs" />
+    <Compile Include="BLL\MHoaDon.cs" />
+    <Compile Include="BLL\MQuanLi.cs" />
     <Compile Include="DAL\DataProvider.cs" />
     <Compile Include="DTO\CongViec.cs" />
     <Compile Include="DTO\CTHoaDon.cs" />
@@ -104,6 +106,18 @@
     </Compile>
     <Compile Include="PL\fManager.Designer.cs">
       <DependentUpon>fManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\fSuaTTQuanLi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\fSuaTTQuanLi.Designer.cs">
+      <DependentUpon>fSuaTTQuanLi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\fViewHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\fViewHoaDon.Designer.cs">
+      <DependentUpon>fViewHoaDon.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -170,6 +184,9 @@
     <EmbeddedResource Include="PL\fStaffUpdate.resx">
       <DependentUpon>fStaffUpdate.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PL\fSuaTTQuanLi.resx">
+      <DependentUpon>fSuaTTQuanLi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PL\fTypeGoods.resx">
       <DependentUpon>fTypeGoods.cs</DependentUpon>
     </EmbeddedResource>
@@ -178,6 +195,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PL\fUpdateTypeGoods.resx">
       <DependentUpon>fUpdateTypeGoods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\fViewHoaDon.resx">
+      <DependentUpon>fViewHoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

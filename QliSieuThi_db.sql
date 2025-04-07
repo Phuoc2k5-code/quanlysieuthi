@@ -174,6 +174,14 @@ insert into cthd (mahd, masp, soluong, dongia, thanhtien) values (2,1,1,50000, 5
 insert into cthd (mahd, masp, soluong, dongia, thanhtien) values (2,2,1,30000, 30000)
 insert into cthd (mahd, masp, soluong, dongia, thanhtien) values (3,1,2,10000, 20000)
 
+select * from quanli
+select * from cthd
+select sum(thanhtien) as'tongthu'
+from cthd
+
+select sum(soluong*dongianhap) as 'tongchi' from sanpham
+
+
 
 
 

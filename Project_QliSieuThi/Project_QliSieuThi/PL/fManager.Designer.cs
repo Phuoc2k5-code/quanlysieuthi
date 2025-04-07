@@ -69,8 +69,8 @@
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.btn_bctk_XemHoaDOn = new System.Windows.Forms.Button();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.btn_bctk_DoanhThu = new System.Windows.Forms.TextBox();
-            this.btn_bctk_TongChi = new System.Windows.Forms.TextBox();
+            this.txt_bctk_DoanhThu = new System.Windows.Forms.TextBox();
+            this.txt_bctk_TongThu = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -110,6 +110,10 @@
             this.lbl_tk_TenTK = new System.Windows.Forms.Label();
             this.lbl_tk_TenNqLi = new System.Windows.Forms.Label();
             this.lbl_tk_MaNqLi = new System.Windows.Forms.Label();
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.tongtien = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tabControl1.SuspendLayout();
             this.tbpQuanLySanPham.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -547,11 +551,12 @@
             this.btn_bctk_XemHoaDOn.TabIndex = 17;
             this.btn_bctk_XemHoaDOn.Text = "Xem hóa đơn";
             this.btn_bctk_XemHoaDOn.UseVisualStyleBackColor = true;
+            this.btn_bctk_XemHoaDOn.Click += new System.EventHandler(this.btn_bctk_XemHoaDOn_Click);
             // 
             // groupBox6
             // 
-            this.groupBox6.Controls.Add(this.btn_bctk_DoanhThu);
-            this.groupBox6.Controls.Add(this.btn_bctk_TongChi);
+            this.groupBox6.Controls.Add(this.txt_bctk_DoanhThu);
+            this.groupBox6.Controls.Add(this.txt_bctk_TongThu);
             this.groupBox6.Controls.Add(this.label5);
             this.groupBox6.Controls.Add(this.label4);
             this.groupBox6.Controls.Add(this.label3);
@@ -567,21 +572,21 @@
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Báo cáo ";
             // 
-            // btn_bctk_DoanhThu
+            // txt_bctk_DoanhThu
             // 
-            this.btn_bctk_DoanhThu.Location = new System.Drawing.Point(143, 312);
-            this.btn_bctk_DoanhThu.Name = "btn_bctk_DoanhThu";
-            this.btn_bctk_DoanhThu.ReadOnly = true;
-            this.btn_bctk_DoanhThu.Size = new System.Drawing.Size(181, 30);
-            this.btn_bctk_DoanhThu.TabIndex = 9;
+            this.txt_bctk_DoanhThu.Location = new System.Drawing.Point(143, 312);
+            this.txt_bctk_DoanhThu.Name = "txt_bctk_DoanhThu";
+            this.txt_bctk_DoanhThu.ReadOnly = true;
+            this.txt_bctk_DoanhThu.Size = new System.Drawing.Size(181, 30);
+            this.txt_bctk_DoanhThu.TabIndex = 9;
             // 
-            // btn_bctk_TongChi
+            // txt_bctk_TongThu
             // 
-            this.btn_bctk_TongChi.Location = new System.Drawing.Point(143, 263);
-            this.btn_bctk_TongChi.Name = "btn_bctk_TongChi";
-            this.btn_bctk_TongChi.ReadOnly = true;
-            this.btn_bctk_TongChi.Size = new System.Drawing.Size(181, 30);
-            this.btn_bctk_TongChi.TabIndex = 8;
+            this.txt_bctk_TongThu.Location = new System.Drawing.Point(143, 263);
+            this.txt_bctk_TongThu.Name = "txt_bctk_TongThu";
+            this.txt_bctk_TongThu.ReadOnly = true;
+            this.txt_bctk_TongThu.Size = new System.Drawing.Size(181, 30);
+            this.txt_bctk_TongThu.TabIndex = 8;
             // 
             // label5
             // 
@@ -680,7 +685,9 @@
             // 
             // dtp_bctk_NgayLap
             // 
+            this.dtp_bctk_NgayLap.CustomFormat = "dd/MM/yyyy";
             this.dtp_bctk_NgayLap.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.dtp_bctk_NgayLap.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtp_bctk_NgayLap.Location = new System.Drawing.Point(155, 127);
             this.dtp_bctk_NgayLap.Name = "dtp_bctk_NgayLap";
             this.dtp_bctk_NgayLap.Size = new System.Drawing.Size(234, 24);
@@ -695,6 +702,7 @@
             this.btn_bctk_TimKiem.TabIndex = 14;
             this.btn_bctk_TimKiem.Text = "Tìm kiếm";
             this.btn_bctk_TimKiem.UseVisualStyleBackColor = true;
+            this.btn_bctk_TimKiem.Click += new System.EventHandler(this.btn_bctk_TimKiem_Click);
             // 
             // rdb_bctk_TatCa
             // 
@@ -787,6 +795,11 @@
             // 
             // lsv_listHoaDon
             // 
+            this.lsv_listHoaDon.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader5,
+            this.columnHeader6,
+            this.columnHeader7,
+            this.tongtien});
             this.lsv_listHoaDon.HideSelection = false;
             this.lsv_listHoaDon.Location = new System.Drawing.Point(3, 3);
             this.lsv_listHoaDon.Name = "lsv_listHoaDon";
@@ -847,6 +860,7 @@
             this.btn_tk_SuaTTin.TabIndex = 17;
             this.btn_tk_SuaTTin.Text = "Sửa thông tin";
             this.btn_tk_SuaTTin.UseVisualStyleBackColor = true;
+            this.btn_tk_SuaTTin.Click += new System.EventHandler(this.btn_tk_SuaTTin_Click);
             // 
             // lbl_tttk_Mk
             // 
@@ -974,6 +988,18 @@
             this.lbl_tk_MaNqLi.TabIndex = 1;
             this.lbl_tk_MaNqLi.Text = "Mã quản lí:";
             // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "mahd";
+            // 
+            // columnHeader6
+            // 
+            this.columnHeader6.Text = "manv";
+            // 
+            // columnHeader7
+            // 
+            this.columnHeader7.Text = "ngaylap";
+            // 
             // fManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1087,8 +1113,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btn_bctk_XemHoaDOn;
-        private System.Windows.Forms.TextBox btn_bctk_DoanhThu;
-        private System.Windows.Forms.TextBox btn_bctk_TongChi;
+        private System.Windows.Forms.TextBox txt_bctk_DoanhThu;
+        private System.Windows.Forms.TextBox txt_bctk_TongThu;
         private System.Windows.Forms.Button btn_qlsp_SuaSanPham;
         private System.Windows.Forms.ListView lsv_listSanPham;
         private System.Windows.Forms.ColumnHeader columnHeader1;
@@ -1096,5 +1122,9 @@
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.ListView lsv_listHoaDon;
+        private System.Windows.Forms.ColumnHeader columnHeader5;
+        private System.Windows.Forms.ColumnHeader columnHeader6;
+        private System.Windows.Forms.ColumnHeader columnHeader7;
+        private System.Windows.Forms.ColumnHeader tongtien;
     }
 }
