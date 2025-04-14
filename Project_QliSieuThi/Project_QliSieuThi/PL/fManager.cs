@@ -36,7 +36,7 @@ namespace Project_QliSieuThi
         private void fManager_Load(object sender, EventArgs e)
         {
             ManagementLoaiSanPham loaiSanPham = new ManagementLoaiSanPham();
-            loaiSanPham.layMaSanPham(cbb_qlsp_LoaiNhanVien);
+            loaiSanPham.layTenLSP(cbb_qlsp_LoaiNhanVien);
             loadListSanPham();
             loadListNhanVien();
             loadListHoaDon();
@@ -171,7 +171,7 @@ namespace Project_QliSieuThi
             //<kietbeve>
             DateTime ngaysinh = DateTime.Parse(quanLi.NgaySinh);
             lbl_tttk_NgaySinh.Text = ngaysinh.Day.ToString() + "/" + ngaysinh.Month.ToString() + "/" + ngaysinh.Year.ToString();
-            ptb_tk_AnhQLi.Image = Image.FromFile(thuMucAnh + "\\" + quanLi.Anh);
+            //ptb_tk_AnhQLi.Image = Image.FromFile(thuMucAnh + "\\" + quanLi.Anh);
             //<kietbeve>
 
             lbl_tttk_Sdt.Text = quanLi.Sdt;
@@ -288,9 +288,9 @@ namespace Project_QliSieuThi
 
                 if (cbb_qlsp_LoaiNhanVien.Text != "")
                 {
-                    int malsp = Convert.ToInt32(cbb_qlsp_LoaiNhanVien.Text);
+                    string tenlsp = cbb_qlsp_LoaiNhanVien.Text;
                         lsv_listSanPham.Items.Clear();
-                        DataTable listSP = managementSanPham.layDanhSachBangLSP(malsp);
+                        DataTable listSP = managementSanPham.layDanhSachBangLSP(tenlsp);
                         foreach (DataRow row in listSP.Rows)
                         {
                             ListViewItem item = new ListViewItem(row["masp"].ToString());

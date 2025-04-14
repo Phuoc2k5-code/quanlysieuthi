@@ -66,8 +66,21 @@ namespace Project_QliSieuThi.BLL
             parameters.Add(malsp);
             return dataProvider.excuteNonQueryCommand(query, parameters);
         }
-        public void layMaSanPham(ComboBox combobox)
+        public void layTenLSP(ComboBox combobox)
         {            
+            DataTable listLSP = layDanhSach();
+            string tenlsp;
+            foreach (DataRow lsp in listLSP.Rows)
+            {
+                ListViewItem item = new ListViewItem(lsp[1].ToString());
+                tenlsp = item.Text;
+                combobox.Items.Add(tenlsp);
+
+            }
+        }
+
+        public void laymaLSP(ComboBox combobox)
+        {
             DataTable listLSP = layDanhSach();
             string malsp;
             foreach (DataRow lsp in listLSP.Rows)

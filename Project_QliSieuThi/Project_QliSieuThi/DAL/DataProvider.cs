@@ -20,8 +20,8 @@ namespace Project_QliSieuThi.DAL
     {
         private static DataProvider instance;// Đảm bảo lớp DataProvider chỉ có một thể hiện duy nhất
         //public static string connectionStr = "Data Source=MSI\\SQLGIAKIET;Initial Catalog=QliSieuThi_db;Integrated Security=True;";
-        public static string connectionStr = "Data Source=LAPTOP-75IHBFET\\TUANKIET;Initial Catalog=kietsieuthi;Integrated Security=True";//<kietbeve>
-
+        //public static string connectionStr = "Data Source=LAPTOP-75IHBFET\\TUANKIET;Initial Catalog=kietsieuthi;Integrated Security=True";//<kietbeve>
+        public static string connectionStr = "Data Source=LAPTOP-LKVH2QD8\\SQLEXPRESS;Initial Catalog=QliSieuThi_db;Integrated Security=True;";
 
         /// <summary>
         ///Thiết lập geter và setter cho instance

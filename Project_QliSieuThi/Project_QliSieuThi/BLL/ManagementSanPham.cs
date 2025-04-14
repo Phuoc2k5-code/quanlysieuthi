@@ -46,9 +46,9 @@ namespace Project_QliSieuThi.BLL
             return table;
         }
 
-        public DataTable layDanhSachBangLSP(int malsp)
+        public DataTable layDanhSachBangLSP(string tenlsp)
         {
-            string query = $"select * from sanpham  where malsp = '{@malsp}' ";
+            string query = $"select * from sanpham, loaisanpham  where sanpham.malsp = loaisanpham.malsp and tenlsp = N'{@tenlsp}' ";
             DataProvider dataProvider = new DataProvider();
             DataTable table = dataProvider.executeSelect(query);
 

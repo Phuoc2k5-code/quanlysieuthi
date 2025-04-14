@@ -23,7 +23,7 @@ namespace Project_QliSieuThi.PL
             InitializeComponent();
             loadListSanPham();
             ManagementLoaiSanPham managementLoaiSanPham = new ManagementLoaiSanPham();
-            managementLoaiSanPham.layMaSanPham(cbb_mal);
+            managementLoaiSanPham.laymaLSP(cbb_mal);
         }
         private int sl_bandau = 0;
         private int sum = 0;
